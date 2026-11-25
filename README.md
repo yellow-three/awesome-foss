@@ -2,7 +2,7 @@
 
 > Ücretli veya kapalı kaynak uygulamaların yerine kullanılabilecek açık kaynak alternatifler; alana, işletim sistemine ve lisansa göre düzenlenmiş.
 
-**641 araç · 17 kategori · 594 OSI lisanslı**
+**642 araç · 17 kategori · 595 OSI lisanslı**
 
 **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
@@ -30,7 +30,7 @@
 | [Geliştirici Araçları](categories/gelistirici-araclari.md) | 74 |
 | [AI Ajanları: Skill, MCP ve Eklentiler](categories/ai-ajan-araclari.md) | 71 |
 | [AI ve Yerel Modeller](categories/ai-ve-yerel-modeller.md) | 25 |
-| [Self-hosted ve Sunucu](categories/self-hosted-ve-sunucu.md) | 68 |
+| [Self-hosted ve Sunucu](categories/self-hosted-ve-sunucu.md) | 69 |
 | [Kişisel ve Ev](categories/kisisel-ve-ev.md) | 34 |
 | [Linux ve Terminal](categories/linux-ve-terminal.md) | 40 |
 | [Windows](categories/windows.md) | 30 |
@@ -47,7 +47,7 @@
 | [Android](platforms/android.md) | 82 |
 | [iOS](platforms/ios.md) | 44 |
 | [Web](platforms/web.md) | 76 |
-| [Self-hosted (sunucu)](platforms/selfhosted.md) | 197 |
+| [Self-hosted (sunucu)](platforms/selfhosted.md) | 198 |
 | [Komut satırı (CLI)](platforms/cli.md) | 73 |
 | [Eklenti, paket ve repolar](platforms/extensions.md) | 61 |
 
@@ -55,7 +55,7 @@
 
 | Lisans türü | Araç sayısı | Açıklama |
 | --- | --- | --- |
-| [OSI onaylı açık kaynak](licenses/osi.md) | 594 | MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. |
+| [OSI onaylı açık kaynak](licenses/osi.md) | 595 | MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. |
 | [Open-core](licenses/open-core.md) | 26 | Çekirdeği OSI onaylı lisanslı, bazı klasör veya dosyaları (enterprise/premium) ticari lisanslı projeler. Self-hosted topluluk sürümü serbestçe kullanılabilir. |
 | [Diğer açık lisanslar](licenses/other.md) | 4 | OSI listesinde olmayan ama serbest kullanıma izin veren lisanslar (CC0, Creative Commons, TrueCrypt License vb.). |
 | [Kısıtlı lisans](licenses/restricted.md) | 17 | Source-available veya fair-code (BSL, FSL, Sustainable Use, Elastic vb.). Kodu okuyabilir ve kendin barındırabilirsin ama ticari kullanım sınırlı olabilir. |

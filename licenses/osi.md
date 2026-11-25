@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 594 araç.
+MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 595 araç.
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
@@ -482,6 +482,7 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 594 araç.
 | [Signal](https://github.com/signalapp) | WhatsApp | [İletişim](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0</sub> | Masaüstü, Mobil | Uçtan uca şifreli. |
 | [SimpleX Chat](https://github.com/simplex-chat/simplex-chat) | WhatsApp / Telegram | [İletişim](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0</sub> | Mobil, Masaüstü | Kullanıcı kimliği olmayan şifreli mesajlaşma. |
 | [Sioyek](https://github.com/ahrm/sioyek) | Adobe Reader (makale okuma) | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-3.0</sub> | Masaüstü | Akademik makale ve kitaplar için PDF okuyucu. |
+| [SiteWatcher](https://github.com/NikKurkov/sitewatcher) | UptimeRobot | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>MIT</sub> | Sunucu, Docker | Web sitesi erişilebilirliğini, yanıt sürelerini, TLS sertifikalarını ve alan adı sürelerini izler. |
 | [SiYuan](https://github.com/siyuan-note/siyuan) | Obsidian Sync / Roam | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Mobil | Blok tabanlı, kendi sunucunda barındırılabiliyor. |
 | [SkillSpector](https://github.com/NVIDIA/SkillSpector) | Ticari güvenlik tarayıcıları | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | CLI | Ajan skill'lerinde zararlı desen ve güvenlik açığı tarama. |
 | [SnappyMail](https://github.com/the-djmaze/snappymail) | Gmail web arayüzü | [İletişim](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu | Hızlı ve hafif web e-posta istemcisi. |

@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-197 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
+198 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
@@ -165,6 +165,7 @@
 | [SeaweedFS](https://github.com/seaweedfs/seaweedfs) | AWS S3 | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Ölçeklenebilir dosya ve nesne depolama. |
 | [Shlink](https://github.com/shlinkio/shlink) | Bitly | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>MIT</sub> | Sunucu | Kısa link ve tıklama istatistiği (PHP). |
 | [SigNoz](https://github.com/SigNoz/signoz) | Datadog APM | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | 🧩 Open-core<br><sub>MIT</sub> | Sunucu | OpenTelemetry tabanlı log, metrik, trace. |
+| [SiteWatcher](https://github.com/NikKurkov/sitewatcher) | UptimeRobot | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>MIT</sub> | Sunucu, Docker | Web sitesi erişilebilirliğini, yanıt sürelerini, TLS sertifikalarını ve alan adı sürelerini izler. |
 | [SnappyMail](https://github.com/the-djmaze/snappymail) | Gmail web arayüzü | [İletişim](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu | Hızlı ve hafif web e-posta istemcisi. |
 | [Snipe-IT](https://github.com/grokability/snipe-it) | Varlık takibi | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Sunucu | Cihaz ve lisans envanteri. |
 | [solidtime](https://github.com/solidtime-io/solidtime) | Toggl Track | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Sunucu | Proje ve müşteri bazlı zaman takibi. |
