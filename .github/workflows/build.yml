@@ -17,5 +17,11 @@ jobs:
         run: node scripts/build.mjs
       - name: Üretilen dosyalar güncel mi?
         run: |
-          git diff --exit-code -- README.md categories platforms licenses lists \
-            || (echo "data/apps.json değişti ama 'node scripts/build.mjs' çalıştırılmamış." && exit 1)
+          # git status yeni (untracked) ve silinen dosyaları da gösterir; git diff göstermez.
+          changes="$(git status --porcelain -- README.md categories platforms licenses lists)"
+          if [ -n "$changes" ]; then
+            echo "$changes"
+            git diff -- README.md categories platforms licenses lists
+            echo "::error::data/ değişti ama 'node scripts/build.mjs' çalıştırılmamış."
+            exit 1
+          fi

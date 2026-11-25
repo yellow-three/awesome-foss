@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-12 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
+12 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
 
 | Alternatif | Yerine geçtiği | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- |
@@ -17,4 +17,4 @@
 | [Organic Maps](https://organicmaps.app) | Google Maps (çevrimdışı) | OSI<br><sub>Apache-2.0</sub> | Android, iOS | Çevrimdışı harita, kamp ve yürüyüş için. |
 | [OsmAnd](https://github.com/osmandapp/OsmAnd) | Google Maps (detaylı) | OSI<br><sub>GPL-3.0</sub> | Android, iOS | Topoğrafya ve rota kaydı. |
 | [RustDesk](https://github.com/rustdesk/rustdesk) | TeamViewer / AnyDesk | OSI<br><sub>AGPL-3.0</sub> | Tümü | Uzak masaüstü, kendi sunucunla. |
-| [Sunshine + Moonlight](https://github.com/LizardByte/Sunshine) | Parsec | OSI<br><sub>GPL-3.0</sub> | Tümü | Oyun akışı, düşük gecikme. |
+| [Sunshine + Moonlight](https://github.com/SunshineStream/Sunshine) | Parsec | OSI<br><sub>GPL-3.0</sub> | Tümü | Oyun akışı, düşük gecikme. |

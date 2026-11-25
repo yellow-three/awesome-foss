@@ -2,18 +2,18 @@
 
 [← Ana sayfa](../README.md)
 
-49 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
+49 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
 
 | Alternatif | Yerine geçtiği | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- |
 | [act](https://github.com/nektos/act) | GitHub Actions (yerel test) | OSI<br><sub>MIT</sub> | CLI | Actions iş akışlarını yerelde çalıştırma. |
 | [Aider](https://github.com/Aider-AI/aider) | Copilot Chat | OSI<br><sub>Apache-2.0</sub> | CLI | Git ile entegre AI eşli programlama. |
 | [Appwrite](https://github.com/appwrite/appwrite) | Firebase | OSI<br><sub>BSD-3</sub> | Sunucu | Auth, veritabanı, fonksiyonlar. |
-| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | OSI · 🔥 Trend<br><sub>Açık kaynak</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
+| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | OSI · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
 | [Beekeeper Studio CE](https://github.com/beekeeper-studio/beekeeper-studio) | TablePlus | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Sade ve hızlı SQL istemcisi. |
 | [Bruno](https://github.com/usebruno/bruno) | Postman | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Koleksiyonlar git'te düz dosya olarak duruyor. |
 | [ChartDB](https://github.com/chartdb/chartdb) | dbdiagram.io | OSI<br><sub>AGPL-3.0</sub> | Web | Var olan veritabanından tek sorguyla diyagram. |
-| [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Masaüstü otomasyonu | OSI · 🔥 Trend<br><sub>Açık kaynak</sub> | CLI | Uygulamaları ajanların kullanabileceği CLI'lara çeviriyor. |
+| [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Masaüstü otomasyonu | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | CLI | Uygulamaları ajanların kullanabileceği CLI'lara çeviriyor. |
 | [Cline](https://github.com/cline/cline) | Cursor (ajan) | OSI<br><sub>Apache-2.0</sub> | VS Code | Editör içi kodlama ajanı. |
 | [Continue](https://github.com/continuedev/continue) | GitHub Copilot | OSI<br><sub>Apache-2.0</sub> | VS Code, JetBrains | Yerel modelle kod tamamlama. |
 | [DBeaver CE](https://github.com/dbeaver/dbeaver) | TablePlus / DataGrip | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS | Neredeyse her veritabanına bağlanıyor. |
@@ -29,9 +29,9 @@
 | [k9s](https://github.com/derailed/k9s) | Lens | OSI<br><sub>Apache-2.0</sub> | CLI | Kubernetes için terminal arayüzü. |
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | Docker Desktop (TUI) | OSI<br><sub>MIT</sub> | CLI | Konteynerleri terminalden yönetme. |
 | [Mailpit](https://github.com/axllent/mailpit) | Mailtrap | OSI<br><sub>MIT</sub> | CLI, Docker | Yerelde e-posta yakalama. |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | Ajan skill'leri | OSI · 🔥 Trend<br><sub>Açık kaynak</sub> | Repo | Küçük, birleştirilebilir ajan skill'leri. |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | Ajan skill'leri | OSI · 🔥 Trend<br><sub>MIT</sub> | Repo | Küçük, birleştirilebilir ajan skill'leri. |
 | [Meilisearch](https://github.com/meilisearch/meilisearch) | Algolia | OSI<br><sub>MIT</sub> | Sunucu | Laravel Scout ile doğrudan çalışıyor. |
-| [modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance-src) | Web best-practice rehberleri | OSI · 🔥 Trend<br><sub>Açık kaynak</sub> | Repo | Kodlama ajanlarına güncel web pratiklerini öğreten Chrome rehberi. |
+| [modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance-src) | Web best-practice rehberleri | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Repo | Kodlama ajanlarına güncel web pratiklerini öğreten Chrome rehberi. |
 | [Neovim / Helix](https://github.com/helix-editor/helix) | PhpStorm (terminal) | OSI<br><sub>Apache / MPL</sub> | CLI | Modal editörler, Helix ayarsız çalışıyor. |
 | [NocoBase](https://github.com/nocobase/nocobase) | Retool / Airtable | OSI<br><sub>AGPL-3.0</sub> | Web | Eklenti tabanlı no-code platform. |
 | [OpenCode](https://github.com/anomalyco/opencode) | Claude Code / Cursor | OSI<br><sub>MIT</sub> | CLI | Terminal kodlama ajanı. |
@@ -39,7 +39,7 @@
 | [PocketBase](https://github.com/pocketbase/pocketbase) | Firebase | OSI<br><sub>MIT</sub> | Sunucu | Tek dosyada backend (SQLite). |
 | [Podman Desktop](https://github.com/podman-desktop/podman-desktop) | Docker Desktop | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS | Lerd ile aynı Podman tabanı. |
 | [Renovate](https://github.com/renovatebot/renovate) | Dependabot | OSI<br><sub>AGPL-3.0</sub> | CLI, Sunucu | Composer/npm bağımlılık güncelleme PR'ları. |
-| [Strapi](https://github.com/strapi/strapi) | Contentful | OSI<br><sub>MIT (çekirdek)</sub> | Sunucu | Headless CMS. |
+| [Strapi](https://github.com/strapi/strapi) | Contentful | 🧩 Open-core<br><sub>MIT</sub> | Sunucu | Headless CMS. |
 | [Supabase](https://github.com/supabase/supabase) | Firebase | OSI<br><sub>Apache-2.0</sub> | Sunucu | Postgres + auth + storage + realtime. |
 | [superpowers](https://github.com/obra/superpowers) | Ajan iş akışı | OSI · 🔥 Trend<br><sub>MIT</sub> | Repo | Kodlama ajanları için TDD, plan ve debug skill'leri. |
 | [Tabby](https://github.com/Eugeny/tabby) | Termius | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | SSH profilleri ve serial bağlantı. |

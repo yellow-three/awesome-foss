@@ -2,11 +2,11 @@
 
 [← Ana sayfa](../README.md)
 
-15 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
+15 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
 
 | Alternatif | Yerine geçtiği | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- |
-| [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | Midjourney | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Yerel görsel üretimi, düğüm tabanlı. |
+| [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Midjourney | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Yerel görsel üretimi, düğüm tabanlı. |
 | [darktable](https://github.com/darktable-org/darktable) | Lightroom | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | RAW geliştirme. |
 | [digiKam](https://www.digikam.org) | Lightroom Classic (katalog) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Büyük foto kütüphanesi yönetimi. |
 | [FreeCAD](https://github.com/FreeCAD/FreeCAD) | Fusion 360 / SolidWorks | OSI<br><sub>LGPL-2.1</sub> | Linux, Windows, macOS | Parametrik 3D CAD, 1.0 sürümüyle olgunlaştı. |

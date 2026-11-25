@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-24 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
+24 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
 
 | Alternatif | Yerine geçtiği | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- |
@@ -26,7 +26,7 @@
 | [ouch](https://github.com/ouch-org/ouch) | tar/unzip bayrakları | OSI<br><sub>MIT</sub> | CLI | Tek komutla arşiv açma ve sıkıştırma. |
 | [ripgrep + fd](https://github.com/BurntSushi/ripgrep) | grep / find | OSI<br><sub>MIT / Unlicense</sub> | CLI | Çok daha hızlı arama. |
 | [Starship + fzf](https://github.com/starship/starship) | Oh My Zsh | OSI<br><sub>ISC / MIT</sub> | CLI | Hızlı prompt ve bulanık arama. |
-| [tldr](https://github.com/tldr-pages/tldr) | man | OSI<br><sub>CC-BY</sub> | CLI | Komutların kısa örnekli özeti. |
+| [tldr](https://github.com/tldr-pages/tldr) | man | 📄 Diğer açık<br><sub>CC-BY-4.0</sub> | CLI | Komutların kısa örnekli özeti. |
 | [Ventoy](https://github.com/ventoy/Ventoy) | Ventoy (önyükleme) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows | Tek USB'ye birden fazla ISO. |
 | [yazi](https://github.com/sxyazi/yazi) | Dolphin (terminal) | OSI<br><sub>MIT</sub> | CLI | Önizlemeli hızlı dosya yöneticisi. |
 | [zoxide](https://github.com/ajeetdsouza/zoxide) | cd | OSI<br><sub>MIT</sub> | CLI | Sık gidilen klasöre kısmi isimle atlama. |

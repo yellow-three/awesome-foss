@@ -2,18 +2,18 @@
 
 [← Ana sayfa](../README.md)
 
-35 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
+35 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
 | [act](https://github.com/nektos/act) | GitHub Actions (yerel test) | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | CLI | Actions iş akışlarını yerelde çalıştırma. |
 | [Aider](https://github.com/Aider-AI/aider) | Copilot Chat | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | CLI | Git ile entegre AI eşli programlama. |
 | [atuin](https://github.com/atuinsh/atuin) | Ctrl+R | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | Aranabilir ve senkronlanan shell geçmişi. |
-| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>Açık kaynak</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
+| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
 | [bat](https://github.com/sharkdp/bat) | cat / less | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT / Apache</sub> | CLI | Söz dizimi renklendirmeli cat. |
 | [BorgBackup](https://github.com/borgbackup/borg) | Time Machine | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>BSD-3</sub> | CLI | Sıkıştırmalı ve şifreli yedek. |
 | [btop](https://github.com/aristocratos/btop) | htop | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>Apache-2.0</sub> | CLI | Sistem kaynakları izleme. |
-| [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Masaüstü otomasyonu | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>Açık kaynak</sub> | CLI | Uygulamaları ajanların kullanabileceği CLI'lara çeviriyor. |
+| [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Masaüstü otomasyonu | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | CLI | Uygulamaları ajanların kullanabileceği CLI'lara çeviriyor. |
 | [dust](https://github.com/bootandy/dust) | du / ncdu | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>Apache-2.0</sub> | CLI | Disk kullanımını görsel ağaçla gösterme. |
 | [eza](https://github.com/eza-community/eza) | ls | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>EUPL-1.2</sub> | CLI | Simgeli ve git durumlu ls. |
 | [frp](https://github.com/fatedier/frp) | ngrok | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | CLI | Yerel servisi kendi VPS'in üzerinden dışarı açma. |
@@ -34,7 +34,7 @@
 | [Restic](https://github.com/restic/restic) | Backblaze / Time Machine | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>BSD-2</sub> | CLI | Şifreli ve tekrarlayan veriyi bir kez saklayan yedekleme. |
 | [ripgrep + fd](https://github.com/BurntSushi/ripgrep) | grep / find | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT / Unlicense</sub> | CLI | Çok daha hızlı arama. |
 | [Starship + fzf](https://github.com/starship/starship) | Oh My Zsh | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>ISC / MIT</sub> | CLI | Hızlı prompt ve bulanık arama. |
-| [tldr](https://github.com/tldr-pages/tldr) | man | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>CC-BY</sub> | CLI | Komutların kısa örnekli özeti. |
+| [tldr](https://github.com/tldr-pages/tldr) | man | [Linux ve Terminal](../categories/linux-ve-terminal.md) | 📄 Diğer açık<br><sub>CC-BY-4.0</sub> | CLI | Komutların kısa örnekli özeti. |
 | [Trivy](https://github.com/aquasecurity/trivy) | Snyk | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>Apache-2.0</sub> | CLI | Konteyner ve bağımlılık açığı taraması. |
 | [Whisper (faster-whisper)](https://github.com/SYSTRAN/faster-whisper) | Otter.ai / Rev | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>MIT</sub> | CLI | Yerel konuşmayı yazıya çevirme ve altyazı. |
 | [yazi](https://github.com/sxyazi/yazi) | Dolphin (terminal) | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | Önizlemeli hızlı dosya yöneticisi. |

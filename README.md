@@ -2,9 +2,9 @@
 
 > Ücretli veya kapalı kaynak uygulamaların yerine kullanılabilecek açık kaynak alternatifler; alana, işletim sistemine ve lisansa göre düzenlenmiş.
 
-**299 araç · 15 kategori · 285 OSI lisanslı** · Son güncelleme: 2026-11-24
+**299 araç · 15 kategori · 267 OSI lisanslı**
 
-**Etiketler:** OSI = OSI onaylı açık kaynak · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
+**Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
 
 ## İçindekiler
 
@@ -53,8 +53,10 @@
 
 | Lisans türü | Araç sayısı | Açıklama |
 | --- | --- | --- |
-| [OSI onaylı açık kaynak](licenses/osi.md) | 285 | MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. |
-| [Kısıtlı lisans](licenses/restricted.md) | 14 | Source-available veya fair-code (BSL, FSL, Sustainable Use, Elastic vb.). Kodu okuyabilir ve kendin barındırabilirsin ama ticari kullanım sınırlı olabilir. |
+| [OSI onaylı açık kaynak](licenses/osi.md) | 267 | MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. |
+| [Open-core](licenses/open-core.md) | 17 | Çekirdeği OSI onaylı lisanslı, bazı klasör veya dosyaları (enterprise/premium) ticari lisanslı projeler. Self-hosted topluluk sürümü serbestçe kullanılabilir. |
+| [Diğer açık lisanslar](licenses/other.md) | 3 | OSI listesinde olmayan ama serbest kullanıma izin veren lisanslar (Creative Commons, TrueCrypt License vb.). |
+| [Kısıtlı lisans](licenses/restricted.md) | 12 | Source-available veya fair-code (BSL, FSL, Sustainable Use, Elastic vb.). Kodu okuyabilir ve kendin barındırabilirsin ama ticari kullanım sınırlı olabilir. |
 
 ## Özel listeler
 
@@ -68,8 +70,8 @@
 | [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | Self-hosted · ~280k ⭐ | Kendi sunucunda barındırılabilen 1000'den fazla uygulama, lisans ve dil etiketli. Bu alandaki ana kaynak. |
 | [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) | SaaS alternatifleri · ~18.5k ⭐ | Bilinen SaaS ürünlerine açık kaynak girişim alternatifleri. Şirket odaklı. |
 | [btw-so/open-source-alternatives](https://github.com/btw-so/open-source-alternatives) | SaaS alternatifleri · ~9k ⭐ | Gündelik SaaS ürünlerinin açık kaynak karşılıkları. |
-| [definitive-opensource](https://github.com/mustbeperfect/definitive-opensource) | Masaüstü + self-hosted | Sadece doğrudan kullanılan uygulamalar. Platform (Cross, Mobile, SelfHost) ve özellik (CLI+, TUI) etiketleri var; Awesome List yapına iyi bir örnek. |
-| [OpenAlternative](https://github.com/piotrkulpinski/openalternative) | Topluluk dizini | openalternative.co sitesinin kaynak kodu, kategorili ve aranabilir. |
+| [definitive-opensource](https://github.com/mustbeperfect/definitive-opensource) | Masaüstü + self-hosted | Sadece doğrudan kullanılan uygulamalar. Platform (Cross, Mobile, SelfHost) ve özellik (CLI+, TUI) etiketleri var. |
+| [OpenAlternative](https://github.com/piotrkulpinski/open-source-alternatives) | Topluluk dizini | openalternative.co sitesinin kaynak kodu, kategorili ve aranabilir. |
 | [awesome-open-source-alternatives](https://github.com/diegoleme/awesome-open-source-alternatives) | Genel alternatifler | Bilinen uygulamalara alternatiflerin kısa listesi. Seyrek güncelleniyor. |
 | [awesome-privacy](https://github.com/pluja/awesome-privacy) | Gizlilik | Gizliliğe saygılı servis ve uygulamalar, Google'dan kurtulma rehberi. |
 | [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) | Terminal · ~20k ⭐ | Kategorili komut satırı uygulamaları. |

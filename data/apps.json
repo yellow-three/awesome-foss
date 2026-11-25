@@ -73,8 +73,8 @@
     "replaces": "Notion + Miro",
     "name": "AFFiNE",
     "url": "https://github.com/toeverything/AFFiNE",
-    "license_type": "restricted",
-    "license": "Karma",
+    "license_type": "open-core",
+    "license": "MIT + EE (backend)",
     "platforms": [
       "Linux",
       "Windows",
@@ -192,7 +192,7 @@
     "category_slug": "ofis-ve-uretkenlik",
     "replaces": "Confluence",
     "name": "Wiki.js",
-    "url": "https://github.com/requarks/wiki.js",
+    "url": "https://github.com/requarks/wiki",
     "license_type": "osi",
     "license": "AGPL-3.0",
     "platforms": [
@@ -299,7 +299,7 @@
     "name": "Planka",
     "url": "https://github.com/plankanban/planka",
     "license_type": "restricted",
-    "license": "Fair Use (v2)",
+    "license": "PLANKA Community License",
     "platforms": [
       "Web"
     ],
@@ -360,10 +360,10 @@
     "category": "Ofis ve Üretkenlik",
     "category_slug": "ofis-ve-uretkenlik",
     "replaces": "Calendly",
-    "name": "Cal.com",
-    "url": "https://github.com/calcom/cal.com",
+    "name": "Cal.diy (eski Cal.com reposu)",
+    "url": "https://github.com/calcom/cal.diy",
     "license_type": "osi",
-    "license": "AGPL-3.0",
+    "license": "MIT",
     "platforms": [
       "Web"
     ],
@@ -392,8 +392,8 @@
     "replaces": "Typeform / Google Forms",
     "name": "Formbricks",
     "url": "https://github.com/formbricks/formbricks",
-    "license_type": "osi",
-    "license": "AGPL-3.0 (çekirdek)",
+    "license_type": "open-core",
+    "license": "AGPL-3.0",
     "platforms": [
       "Web"
     ],
@@ -421,9 +421,9 @@
     "category_slug": "ofis-ve-uretkenlik",
     "replaces": "Airtable",
     "name": "Baserow",
-    "url": "https://github.com/bram2w/baserow",
-    "license_type": "osi",
-    "license": "MIT (çekirdek)",
+    "url": "https://github.com/baserow/baserow",
+    "license_type": "open-core",
+    "license": "MIT",
     "platforms": [
       "Web"
     ],
@@ -452,8 +452,8 @@
     "replaces": "Adobe Acrobat",
     "name": "Stirling-PDF",
     "url": "https://github.com/Stirling-Tools/Stirling-PDF",
-    "license_type": "osi",
-    "license": "MIT (çekirdek)",
+    "license_type": "open-core",
+    "license": "MIT",
     "platforms": [
       "Web"
     ],
@@ -629,7 +629,7 @@
     "category_slug": "ofis-ve-uretkenlik",
     "replaces": "LinkedIn CV / Canva CV",
     "name": "Reactive Resume",
-    "url": "https://github.com/AmruthPillai/Reactive-Resume",
+    "url": "https://github.com/reactive-resume/reactive-resume",
     "license_type": "osi",
     "license": "MIT",
     "platforms": [
@@ -727,8 +727,8 @@
     "replaces": "Slack",
     "name": "Rocket.Chat",
     "url": "https://github.com/RocketChat/Rocket.Chat",
-    "license_type": "osi",
-    "license": "MIT (çekirdek)",
+    "license_type": "open-core",
+    "license": "MIT",
     "platforms": [
       "Web",
       "Masaüstü",
@@ -793,8 +793,8 @@
     "replaces": "Intercom / Zendesk",
     "name": "Chatwoot",
     "url": "https://github.com/chatwoot/chatwoot",
-    "license_type": "osi",
-    "license": "MIT (çekirdek)",
+    "license_type": "open-core",
+    "license": "MIT",
     "platforms": [
       "Web"
     ],
@@ -854,7 +854,7 @@
     "name": "Mixpost",
     "url": "https://github.com/inovector/mixpost",
     "license_type": "osi",
-    "license": "MIT (Lite)",
+    "license": "MIT",
     "platforms": [
       "Web"
     ],
@@ -899,8 +899,8 @@
     "replaces": "1Password / LastPass",
     "name": "Bitwarden",
     "url": "https://github.com/bitwarden",
-    "license_type": "osi",
-    "license": "GPL/AGPL (çoğu)",
+    "license_type": "open-core",
+    "license": "GPL/AGPL + Bitwarden License",
     "platforms": [
       "Tümü"
     ],
@@ -960,7 +960,7 @@
     "category_slug": "guvenlik-ve-gizlilik",
     "replaces": "Authy / Google Authenticator",
     "name": "Ente Auth",
-    "url": "https://github.com/ente-io/ente",
+    "url": "https://github.com/ente/ente",
     "license_type": "osi",
     "license": "AGPL-3.0",
     "platforms": [
@@ -1006,7 +1006,7 @@
     "replaces": "BitLocker (taşınabilir)",
     "name": "VeraCrypt",
     "url": "https://github.com/veracrypt/VeraCrypt",
-    "license_type": "osi",
+    "license_type": "other",
     "license": "Apache-2.0 / TrueCrypt",
     "platforms": [
       "Linux",
@@ -1038,8 +1038,8 @@
     "replaces": "Auth0",
     "name": "Authentik",
     "url": "https://github.com/goauthentik/authentik",
-    "license_type": "osi",
-    "license": "MIT (çekirdek)",
+    "license_type": "open-core",
+    "license": "MIT",
     "platforms": [
       "Sunucu"
     ],
@@ -1083,8 +1083,8 @@
     "replaces": "Doppler / Vault",
     "name": "Infisical",
     "url": "https://github.com/Infisical/infisical",
-    "license_type": "osi",
-    "license": "MIT (çekirdek)",
+    "license_type": "open-core",
+    "license": "MIT",
     "platforms": [
       "Sunucu"
     ],
@@ -1239,8 +1239,8 @@
     "replaces": "Cloudflare Tunnel",
     "name": "Pangolin",
     "url": "https://github.com/fosrl/pangolin",
-    "license_type": "osi",
-    "license": "AGPL-3.0",
+    "license_type": "open-core",
+    "license": "AGPL-3.0 + Fossorial Commercial",
     "platforms": [
       "Sunucu"
     ],
@@ -1485,7 +1485,7 @@
     "category_slug": "medya-sunucu",
     "replaces": "Google Photos",
     "name": "Ente Photos",
-    "url": "https://github.com/ente-io/ente",
+    "url": "https://github.com/ente/ente",
     "license_type": "osi",
     "license": "AGPL-3.0",
     "platforms": [
@@ -1787,7 +1787,7 @@
     "category_slug": "tasarim-ve-grafik",
     "replaces": "Midjourney",
     "name": "ComfyUI",
-    "url": "https://github.com/comfyanonymous/ComfyUI",
+    "url": "https://github.com/Comfy-Org/ComfyUI",
     "license_type": "osi",
     "license": "GPL-3.0",
     "platforms": [
@@ -2164,7 +2164,7 @@
     "name": "Voicebox",
     "url": "https://github.com/jamiepine/voicebox",
     "license_type": "osi",
-    "license": "Açık kaynak",
+    "license": "MIT",
     "platforms": [
       "Linux",
       "Windows",
@@ -2851,7 +2851,7 @@
     "name": "AWS Emulator",
     "url": "https://github.com/aws/aws-emulator",
     "license_type": "osi",
-    "license": "Açık kaynak",
+    "license": "CC0-1.0",
     "platforms": [
       "CLI",
       "Docker"
@@ -2971,8 +2971,8 @@
     "replaces": "Contentful",
     "name": "Strapi",
     "url": "https://github.com/strapi/strapi",
-    "license_type": "osi",
-    "license": "MIT (çekirdek)",
+    "license_type": "open-core",
+    "license": "MIT",
     "platforms": [
       "Sunucu"
     ],
@@ -3047,7 +3047,7 @@
     "name": "modern-web-guidance",
     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
     "license_type": "osi",
-    "license": "Açık kaynak",
+    "license": "Apache-2.0",
     "platforms": [
       "Repo"
     ],
@@ -3077,7 +3077,7 @@
     "name": "mattpocock/skills",
     "url": "https://github.com/mattpocock/skills",
     "license_type": "osi",
-    "license": "Açık kaynak",
+    "license": "MIT",
     "platforms": [
       "Repo"
     ],
@@ -3092,7 +3092,7 @@
     "name": "CLI-Anything",
     "url": "https://github.com/HKUDS/CLI-Anything",
     "license_type": "osi",
-    "license": "Açık kaynak",
+    "license": "Apache-2.0",
     "platforms": [
       "CLI"
     ],
@@ -3152,7 +3152,7 @@
     "category_slug": "ai-ve-yerel-modeller",
     "replaces": "ChatGPT arayüzü",
     "name": "LibreChat",
-    "url": "https://github.com/danny-avila/LibreChat",
+    "url": "https://github.com/LibreChat-AI/LibreChat",
     "license_type": "osi",
     "license": "MIT",
     "platforms": [
@@ -3169,7 +3169,7 @@
     "name": "Jan",
     "url": "https://github.com/janhq/jan",
     "license_type": "osi",
-    "license": "Açık kaynak",
+    "license": "Apache-2.0",
     "platforms": [
       "Linux",
       "Windows",
@@ -3201,8 +3201,8 @@
     "category": "AI ve Yerel Modeller",
     "category_slug": "ai-ve-yerel-modeller",
     "replaces": "Perplexity",
-    "name": "Perplexica",
-    "url": "https://github.com/ItzCrazyKns/Perplexica",
+    "name": "Vane (eski adı Perplexica)",
+    "url": "https://github.com/ItzCrazyKns/Vane",
     "license_type": "osi",
     "license": "MIT",
     "platforms": [
@@ -3248,8 +3248,8 @@
     "replaces": "OpenRouter (self-host)",
     "name": "LiteLLM",
     "url": "https://github.com/BerriAI/litellm",
-    "license_type": "osi",
-    "license": "MIT (çekirdek)",
+    "license_type": "open-core",
+    "license": "MIT",
     "platforms": [
       "Sunucu"
     ],
@@ -3293,8 +3293,8 @@
     "replaces": "Vercel / Heroku",
     "name": "Dokploy",
     "url": "https://github.com/Dokploy/dokploy",
-    "license_type": "restricted",
-    "license": "Apache + ek şart",
+    "license_type": "open-core",
+    "license": "Apache-2.0 + proprietary",
     "platforms": [
       "Sunucu"
     ],
@@ -3473,8 +3473,8 @@
     "replaces": "Zapier / Make",
     "name": "Activepieces",
     "url": "https://github.com/activepieces/activepieces",
-    "license_type": "osi",
-    "license": "MIT (çekirdek)",
+    "license_type": "open-core",
+    "license": "MIT",
     "platforms": [
       "Sunucu"
     ],
@@ -3578,8 +3578,8 @@
     "replaces": "Datadog APM",
     "name": "SigNoz",
     "url": "https://github.com/SigNoz/signoz",
-    "license_type": "osi",
-    "license": "MIT (çekirdek)",
+    "license_type": "open-core",
+    "license": "MIT",
     "platforms": [
       "Sunucu"
     ],
@@ -3638,8 +3638,8 @@
     "replaces": "Mixpanel / Hotjar",
     "name": "PostHog",
     "url": "https://github.com/PostHog/posthog",
-    "license_type": "osi",
-    "license": "MIT (çekirdek)",
+    "license_type": "open-core",
+    "license": "MIT",
     "platforms": [
       "Sunucu"
     ],
@@ -3698,8 +3698,8 @@
     "replaces": "Salesforce / HubSpot CRM",
     "name": "Twenty",
     "url": "https://github.com/twentyhq/twenty",
-    "license_type": "osi",
-    "license": "AGPL-3.0",
+    "license_type": "open-core",
+    "license": "AGPL-3.0 + Enterprise",
     "platforms": [
       "Sunucu"
     ],
@@ -3788,8 +3788,8 @@
     "replaces": "Katalog",
     "name": "awesome-selfhosted",
     "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "license_type": "osi",
-    "license": "CC-BY-SA",
+    "license_type": "other",
+    "license": "CC-BY-SA-3.0",
     "platforms": [
       "Repo"
     ],
@@ -3970,7 +3970,7 @@
     "category_slug": "kisisel-ve-ev",
     "replaces": "Parsec",
     "name": "Sunshine + Moonlight",
-    "url": "https://github.com/LizardByte/Sunshine",
+    "url": "https://github.com/SunshineStream/Sunshine",
     "license_type": "osi",
     "license": "GPL-3.0",
     "platforms": [
@@ -4183,8 +4183,8 @@
     "replaces": "man",
     "name": "tldr",
     "url": "https://github.com/tldr-pages/tldr",
-    "license_type": "osi",
-    "license": "CC-BY",
+    "license_type": "other",
+    "license": "CC-BY-4.0",
     "platforms": [
       "CLI"
     ],
@@ -4433,7 +4433,7 @@
     "category_slug": "windows",
     "replaces": "Ninite",
     "name": "UniGetUI",
-    "url": "https://github.com/marticliment/UniGetUI",
+    "url": "https://github.com/Devolutions/UniGetUI",
     "license_type": "osi",
     "license": "MIT",
     "platforms": [
@@ -4646,7 +4646,7 @@
     "category_slug": "android",
     "replaces": "Gboard",
     "name": "HeliBoard",
-    "url": "https://github.com/Helium314/HeliBoard",
+    "url": "https://github.com/HeliBorg/HeliBoard",
     "license_type": "osi",
     "license": "GPL-3.0",
     "platforms": [

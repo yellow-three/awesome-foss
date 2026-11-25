@@ -2,12 +2,11 @@
 
 [← Ana sayfa](../README.md)
 
-MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 285 araç.
+MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 267 araç.
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
 | [act](https://github.com/nektos/act) | GitHub Actions (yerel test) | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | CLI | Actions iş akışlarını yerelde çalıştırma. |
-| [Activepieces](https://github.com/activepieces/activepieces) | Zapier / Make | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>MIT (çekirdek)</sub> | Sunucu | Otomasyon akışları. |
 | [Actual Budget](https://github.com/actualbudget/actual) | YNAB | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>MIT</sub> | Web, Masaüstü | Zarf usulü bütçe. |
 | [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) | NextDNS / Pi-hole | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>GPL-3.0</sub> | Sunucu | Ağ genelinde reklam engelleme. |
 | [Aegis](https://github.com/beemdevelopment/Aegis) | Google Authenticator | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>GPL-3.0</sub> | Android | Yerel ve şifreli 2FA. |
@@ -21,15 +20,11 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 285 araç.
 | [atuin](https://github.com/atuinsh/atuin) | Ctrl+R | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | Aranabilir ve senkronlanan shell geçmişi. |
 | [Audacity](https://github.com/audacity/audacity) | Adobe Audition | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Ses düzenleme. |
 | [Audiobookshelf](https://github.com/advplyr/audiobookshelf) | Audible | [Medya Sunucu](../categories/medya-sunucu.md) | OSI<br><sub>GPL-3.0</sub> | Sunucu, Mobil | Sesli kitap ve podcast sunucusu. |
-| [Authentik](https://github.com/goauthentik/authentik) | Auth0 | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>MIT (çekirdek)</sub> | Sunucu | Self-hosted servisler için tek giriş. |
-| [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | Katalog | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>CC-BY-SA</sub> | Repo | 1000'den fazla self-hosted uygulamanın kataloğu. |
-| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>Açık kaynak</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
-| [Baserow](https://github.com/bram2w/baserow) | Airtable | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>MIT (çekirdek)</sub> | Web | Veritabanını tablo arayüzüyle kullanma. |
+| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
 | [bat](https://github.com/sharkdp/bat) | cat / less | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT / Apache</sub> | CLI | Söz dizimi renklendirmeli cat. |
 | [Beekeeper Studio CE](https://github.com/beekeeper-studio/beekeeper-studio) | TablePlus | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Sade ve hızlı SQL istemcisi. |
 | [Beszel](https://github.com/henrygd/beszel) | Datadog (basit) | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Sunucu | Hafif sunucu ve Docker izleme. |
 | [Bevy](https://github.com/bevyengine/bevy) | Unity (kodla) | [Oyun Geliştirme](../categories/oyun-gelistirme.md) | OSI<br><sub>MIT / Apache</sub> | Linux, Windows, macOS | Rust ECS oyun motoru. |
-| [Bitwarden](https://github.com/bitwarden) | 1Password / LastPass | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>GPL/AGPL (çoğu)</sub> | Tümü | Parola yöneticisi. |
 | [Blender](https://www.blender.org) | Maya / Cinema 4D | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | 3D modelleme, animasyon, render, kurgu. |
 | [Blockbench](https://github.com/JannisX11/blockbench) | Maya (low-poly) | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS, Web | Low-poly ve voxel model, oyun asset'leri için. |
 | [BookStack](https://github.com/BookStackApp/BookStack) | Confluence | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI · 🟥 Laravel<br><sub>MIT</sub> | Web | Kitap, bölüm ve sayfa yapısında wiki. |
@@ -39,18 +34,17 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 285 araç.
 | [btop](https://github.com/aristocratos/btop) | htop | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>Apache-2.0</sub> | CLI | Sistem kaynakları izleme. |
 | [Cachet](https://github.com/cachethq/cachet) | Statuspage | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>BSD-3</sub> | Sunucu | Durum sayfası. |
 | [Caddy](https://github.com/caddyserver/caddy) | Cloudflare (proxy) | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Otomatik HTTPS'li web sunucusu. |
-| [Cal.com](https://github.com/calcom/cal.com) | Calendly | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Web | Toplantı randevusu planlama. |
+| [Cal.diy (eski Cal.com reposu)](https://github.com/calcom/cal.diy) | Calendly | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>MIT</sub> | Web | Toplantı randevusu planlama. |
 | [Calibre](https://github.com/kovidgoyal/calibre) | Kindle uygulaması | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | E-kitap kütüphanesi ve format dönüştürme. |
 | [CapRover](https://github.com/caprover/caprover) | Heroku | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Tek tıkla uygulama kurulumu. |
 | [CasaOS](https://github.com/IceWhaleTech/CasaOS) | Synology DSM | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>Apache-2.0</sub> | Linux | Ev sunucusu için uygulama mağazası arayüzü. |
 | [changedetection.io](https://github.com/dgtlmoon/changedetection.io) | Visualping | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Sayfa değişince bildirim (fiyat, duyuru, sonuç). |
 | [ChartDB](https://github.com/chartdb/chartdb) | dbdiagram.io | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>AGPL-3.0</sub> | Web | Var olan veritabanından tek sorguyla diyagram. |
-| [Chatwoot](https://github.com/chatwoot/chatwoot) | Intercom / Zendesk | [İletişim](../categories/iletisim.md) | OSI<br><sub>MIT (çekirdek)</sub> | Web | Müşteri destek kutusu ve canlı sohbet. |
-| [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Masaüstü otomasyonu | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>Açık kaynak</sub> | CLI | Uygulamaları ajanların kullanabileceği CLI'lara çeviriyor. |
+| [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Masaüstü otomasyonu | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | CLI | Uygulamaları ajanların kullanabileceği CLI'lara çeviriyor. |
 | [Cline](https://github.com/cline/cline) | Cursor (ajan) | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | VS Code | Editör içi kodlama ajanı. |
 | [Collabora Online](https://www.collaboraonline.com) | Google Docs (sunucu) | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>MPL-2.0</sub> | Web | LibreOffice tabanlı, Nextcloud ile birlikte kullanılıyor. |
 | [Colyseus](https://github.com/colyseus/colyseus) | Photon / PlayFab | [Oyun Geliştirme](../categories/oyun-gelistirme.md) | OSI<br><sub>MIT</sub> | Sunucu | Node.js çok oyunculu oyun sunucusu, oda ve durum senkronu. |
-| [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | Midjourney | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Yerel görsel üretimi, düğüm tabanlı. |
+| [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Midjourney | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Yerel görsel üretimi, düğüm tabanlı. |
 | [Continue](https://github.com/continuedev/continue) | GitHub Copilot | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | VS Code, JetBrains | Yerel modelle kod tamamlama. |
 | [Coolify](https://github.com/coollabsio/coolify) | Laravel Forge / Ploi | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>Apache-2.0</sub> | Sunucu | Git push ile deploy, SSL, veritabanı. |
 | [CopyQ](https://github.com/hluk/CopyQ) | Pano yöneticileri | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Gelişmiş pano geçmişi. |
@@ -66,8 +60,8 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 285 araç.
 | [Duplicati](https://github.com/duplicati/duplicati) | Acronis | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Web arayüzlü yedekleme. |
 | [dust](https://github.com/bootandy/dust) | du / ncdu | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>Apache-2.0</sub> | CLI | Disk kullanımını görsel ağaçla gösterme. |
 | [EarTrumpet](https://github.com/File-New-Project/EarTrumpet) | Ses mikseri | [Windows](../categories/windows.md) | OSI<br><sub>MIT</sub> | Windows | Uygulama başına ses kontrolü. |
-| [Ente Auth](https://github.com/ente-io/ente) | Authy / Google Authenticator | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>AGPL-3.0</sub> | Tümü | 2FA kodları, şifreli bulut yedek. |
-| [Ente Photos](https://github.com/ente-io/ente) | Google Photos | [Medya Sunucu](../categories/medya-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Tümü | Uçtan uca şifreli foto yedekleme. |
+| [Ente Auth](https://github.com/ente/ente) | Authy / Google Authenticator | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>AGPL-3.0</sub> | Tümü | 2FA kodları, şifreli bulut yedek. |
+| [Ente Photos](https://github.com/ente/ente) | Google Photos | [Medya Sunucu](../categories/medya-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Tümü | Uçtan uca şifreli foto yedekleme. |
 | [ERPNext](https://github.com/frappe/erpnext) | SAP / NetSuite | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>GPL-3.0</sub> | Sunucu | ERP. |
 | [Espanso](https://github.com/espanso/espanso) | TextExpander | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Kısaltmayı metne genişletme. |
 | [Excalidraw](https://github.com/excalidraw/excalidraw) | Miro (çizim) | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>MIT</sub> | Web | El çizimi tarzı whiteboard. |
@@ -81,7 +75,6 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 285 araç.
 | [Flatseal](https://github.com/tchx84/Flatseal) | Flatpak izinleri | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>GPL-3.0</sub> | Linux | Flatpak uygulama izinlerini yönetme. |
 | [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) | Alfred / Raycast | [Windows](../categories/windows.md) | OSI<br><sub>MIT</sub> | Windows | Klavye ile uygulama ve dosya başlatıcı. |
 | [Forgejo](https://codeberg.org/forgejo/forgejo) | GitHub | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>GPL-3.0</sub> | Sunucu | Gitea'nın topluluk fork'u. |
-| [Formbricks](https://github.com/formbricks/formbricks) | Typeform / Google Forms | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0 (çekirdek)</sub> | Web | Anket ve form. |
 | [Fossify](https://github.com/FossifyOrg) | Google Galeri / Takvim / Dosyalar | [Android](../categories/android.md) | OSI<br><sub>GPL-3.0</sub> | Android | Reklamsız temel uygulama paketi. |
 | [FreeCAD](https://github.com/FreeCAD/FreeCAD) | Fusion 360 / SolidWorks | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>LGPL-2.1</sub> | Linux, Windows, macOS | Parametrik 3D CAD, 1.0 sürümüyle olgunlaştı. |
 | [FreeTube](https://github.com/FreeTubeApp/FreeTube) | YouTube (masaüstü) | [Android](../categories/android.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS | Gizlilik odaklı YouTube istemcisi. |
@@ -103,7 +96,7 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 285 araç.
 | [HandBrake](https://github.com/HandBrake/HandBrake) | Video dönüştürücüler | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Video sıkıştırma ve dönüştürme. |
 | [Handy](https://github.com/cjpais/Handy) | Wispr Flow | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Linux, Windows, macOS | Kısayolla yerel dikte, her uygulamada. |
 | [Headscale](https://github.com/juanfont/headscale) | Tailscale | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>BSD-3</sub> | Sunucu | Tailscale kontrol sunucusunu kendin çalıştırıyorsun. |
-| [HeliBoard](https://github.com/Helium314/HeliBoard) | Gboard | [Android](../categories/android.md) | OSI<br><sub>GPL-3.0</sub> | Android | İnternete bağlanmayan klavye. |
+| [HeliBoard](https://github.com/HeliBorg/HeliBoard) | Gboard | [Android](../categories/android.md) | OSI<br><sub>GPL-3.0</sub> | Android | İnternete bağlanmayan klavye. |
 | [Heroic Games Launcher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) | Steam (diğer mağazalar) | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Epic, GOG ve Amazon oyunları için başlatıcı. |
 | [HestiaCP](https://github.com/hestiacp/hestiacp) | cPanel / Plesk | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>GPL-3.0</sub> | Ubuntu/Debian | Nginx/Apache, PHP-FPM, mail, DNS. |
 | [Home Assistant](https://github.com/home-assistant/core) | Google Home / SmartThings | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Akıllı ev otomasyonu. |
@@ -112,9 +105,8 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 285 araç.
 | [Huly](https://github.com/hcengineering/platform) | Linear + Slack + Notion | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>EPL-2.0</sub> | Web | Hepsi bir arada ekip platformu. |
 | [ImageGlass](https://github.com/d2phap/ImageGlass) | Windows Fotoğraflar | [Windows](../categories/windows.md) | OSI<br><sub>GPL-3.0</sub> | Windows | Hızlı görsel görüntüleyici. |
 | [Immich](https://github.com/immich-app/immich) | Google Photos | [Medya Sunucu](../categories/medya-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu, Mobil | Yüz tanıma, otomatik mobil yedek. |
-| [Infisical](https://github.com/Infisical/infisical) | Doppler / Vault | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>MIT (çekirdek)</sub> | Sunucu | .env ve gizli anahtar yönetimi. |
 | [Inkscape](https://inkscape.org) | Illustrator | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Vektör çizim. |
-| [Jan](https://github.com/janhq/jan) | ChatGPT masaüstü / LM Studio | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>Açık kaynak</sub> | Linux, Windows, macOS | Çevrimdışı çalışan masaüstü AI. |
+| [Jan](https://github.com/janhq/jan) | ChatGPT masaüstü / LM Studio | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS | Çevrimdışı çalışan masaüstü AI. |
 | [Jellyfin](https://github.com/jellyfin/jellyfin) | Plex | [Medya Sunucu](../categories/medya-sunucu.md) | OSI<br><sub>GPL-2.0</sub> | Sunucu + istemciler | Film ve dizi sunucusu. |
 | [Jitsi Meet](https://github.com/jitsi/jitsi-meet) | Zoom / Meet | [İletişim](../categories/iletisim.md) | OSI<br><sub>Apache-2.0</sub> | Web, Mobil | Hesapsız görüntülü görüşme. |
 | [Joplin](https://github.com/laurent22/joplin) | Evernote | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Mobil | Uçtan uca şifreli senkronizasyon. |
@@ -139,12 +131,11 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 285 araç.
 | [lazygit](https://github.com/jesseduffield/lazygit) | git CLI / GitKraken | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | Terminalde görsel git. |
 | [Leantime](https://github.com/Leantime/leantime) | Monday / Asana | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Web | DEHB dostu proje yönetimi. |
 | [LibreCAD](https://github.com/LibreCAD/LibreCAD) | AutoCAD (2D) | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | 2D teknik çizim. |
-| [LibreChat](https://github.com/danny-avila/LibreChat) | ChatGPT arayüzü | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT</sub> | Web | Çoklu sağlayıcı, ajanlar, MCP. |
+| [LibreChat](https://github.com/LibreChat-AI/LibreChat) | ChatGPT arayüzü | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT</sub> | Web | Çoklu sağlayıcı, ajanlar, MCP. |
 | [LibreOffice](https://www.libreoffice.org) | Microsoft 365 | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>MPL-2.0</sub> | Linux, Windows, macOS | Writer, Calc, Impress ve Draw içeren tam bir ofis paketi. |
 | [LibreSprite](https://github.com/LibreSprite/LibreSprite) | Aseprite | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Aseprite'ın eski açık kaynak fork'u. |
 | [LinkStack](https://github.com/LinkStackOrg/LinkStack) | Linktree | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Sunucu | Biyografi link sayfası. |
 | [Listmonk](https://github.com/knadh/listmonk) | Mailchimp | [İletişim](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0</sub> | Web | Bülten ve mail listesi. |
-| [LiteLLM](https://github.com/BerriAI/litellm) | OpenRouter (self-host) | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT (çekirdek)</sub> | Sunucu | 100'den fazla modeli tek OpenAI uyumlu API'de toplama. |
 | [LMMS](https://github.com/LMMS/lmms) | FL Studio | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Beat ve müzik üretimi. |
 | [LocalSend](https://github.com/localsend/localsend) | AirDrop | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>MIT</sub> | Tümü | Yerel ağda dosya gönderme. |
 | [Logseq](https://github.com/logseq/logseq) | Roam Research | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Mobil | Outliner yapısında, markdown dosyalarla çalışıyor. |
@@ -156,7 +147,7 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 285 araç.
 | [Matomo](https://github.com/matomo-org/matomo) | Google Analytics | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>GPL-3.0</sub> | Sunucu | GA'ya en yakın özellik seti (PHP). |
 | [Matrix + Element](https://github.com/element-hq/element-web) | Discord / WhatsApp | [İletişim](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0</sub> | Web, Masaüstü, Mobil | Dağıtık ve şifreli mesajlaşma. |
 | [Mattermost](https://github.com/mattermost/mattermost) | Slack | [İletişim](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0 / Apache</sub> | Web, Masaüstü, Mobil | Ekip sohbeti. |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | Ajan skill'leri | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>Açık kaynak</sub> | Repo | Küçük, birleştirilebilir ajan skill'leri. |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | Ajan skill'leri | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Repo | Küçük, birleştirilebilir ajan skill'leri. |
 | [Mautic](https://github.com/mautic/mautic) | HubSpot Marketing | [İletişim](../categories/iletisim.md) | OSI<br><sub>GPL-3.0</sub> | Web | Pazarlama otomasyonu (PHP/Symfony). |
 | [Mealie](https://github.com/mealie-recipes/mealie) | Tarif uygulamaları | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu | Tarif, haftalık menü, alışveriş listesi. |
 | [Meilisearch](https://github.com/meilisearch/meilisearch) | Algolia | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Sunucu | Laravel Scout ile doğrudan çalışıyor. |
@@ -164,8 +155,8 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 285 araç.
 | [Mermaid](https://github.com/mermaid-js/mermaid) | Lucidchart (kodla) | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>MIT</sub> | Web | Metinden diyagram üretme. |
 | [Mihon](https://github.com/mihonapp/mihon) | Manga uygulamaları | [Android](../categories/android.md) | OSI<br><sub>Apache-2.0</sub> | Android | Tachiyomi'nin devamı. |
 | [mise](https://github.com/jdx/mise) | nvm / pyenv / asdf | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | PHP/Node/Python sürümlerini proje bazında yönetme. |
-| [Mixpost](https://github.com/inovector/mixpost) | Buffer | [İletişim](../categories/iletisim.md) | OSI · 🟥 Laravel<br><sub>MIT (Lite)</sub> | Web | Sosyal medya planlama. |
-| [modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance-src) | Web best-practice rehberleri | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>Açık kaynak</sub> | Repo | Kodlama ajanlarına güncel web pratiklerini öğreten Chrome rehberi. |
+| [Mixpost](https://github.com/inovector/mixpost) | Buffer | [İletişim](../categories/iletisim.md) | OSI · 🟥 Laravel<br><sub>MIT</sub> | Web | Sosyal medya planlama. |
+| [modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance-src) | Web best-practice rehberleri | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Repo | Kodlama ajanlarına güncel web pratiklerini öğreten Chrome rehberi. |
 | [Monica](https://github.com/monicahq/monica) | Kişisel CRM | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Sunucu | Kişiler, doğum günleri, notlar. |
 | [mpv / VLC](https://mpv.io) | Kodi dışı oynatıcılar | [Medya Sunucu](../categories/medya-sunucu.md) | OSI<br><sub>GPL / LGPL</sub> | Tümü | Her formatı oynatan hafif oynatıcı. |
 | [MuseScore](https://github.com/musescore/MuseScore) | Sibelius / Finale | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Nota yazımı. |
@@ -195,10 +186,8 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 285 araç.
 | [OsmAnd](https://github.com/osmandapp/OsmAnd) | Google Maps (detaylı) | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-3.0</sub> | Android, iOS | Topoğrafya ve rota kaydı. |
 | [ouch](https://github.com/ouch-org/ouch) | tar/unzip bayrakları | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | Tek komutla arşiv açma ve sıkıştırma. |
 | [PairDrop](https://github.com/schlagmichdoch/PairDrop) | AirDrop (tarayıcı) | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>GPL-3.0</sub> | Web | Kurulumsuz, tarayıcıdan dosya paylaşımı. |
-| [Pangolin](https://github.com/fosrl/pangolin) | Cloudflare Tunnel | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI · 🔥 Trend<br><sub>AGPL-3.0</sub> | Sunucu | Kendi VPS'inle tünelli reverse proxy. |
 | [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | Belge arşivleme | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-3.0</sub> | Web | Taranmış belgeleri OCR'lıyor ve aranabilir arşive çeviriyor. |
 | [Penpot](https://github.com/penpot/penpot) | Figma | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>MPL-2.0</sub> | Web | SVG tabanlı arayüz tasarımı, kendi sunucunda barındırılabiliyor. |
-| [Perplexica](https://github.com/ItzCrazyKns/Perplexica) | Perplexity | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT</sub> | Sunucu | AI destekli arama motoru. |
 | [Phaser](https://github.com/phaserjs/phaser) | Construct / GameMaker (web) | [Oyun Geliştirme](../categories/oyun-gelistirme.md) | OSI<br><sub>MIT</sub> | Web | HTML5 2D oyun framework'ü, kart ve taş oyunları için uygun. |
 | [PhotoPrism](https://github.com/photoprism/photoprism) | Google Photos | [Medya Sunucu](../categories/medya-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu | AI etiketlemeli foto arşivi. |
 | [Pixelfed](https://github.com/pixelfed/pixelfed) | Instagram | [İletişim](../categories/iletisim.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Web, Mobil | Fediverse fotoğraf paylaşımı. |
@@ -208,7 +197,6 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 285 araç.
 | [PocketBase](https://github.com/pocketbase/pocketbase) | Firebase | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Sunucu | Tek dosyada backend (SQLite). |
 | [Podman Desktop](https://github.com/podman-desktop/podman-desktop) | Docker Desktop | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS | Lerd ile aynı Podman tabanı. |
 | [Portainer CE](https://github.com/portainer/portainer) | Docker Desktop (sunucu) | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>zlib</sub> | Sunucu | Konteyner yönetimi için web arayüz. |
-| [PostHog](https://github.com/PostHog/posthog) | Mixpanel / Hotjar | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>MIT (çekirdek)</sub> | Sunucu | Ürün analitiği, oturum kaydı, A/B test. |
 | [Postiz](https://github.com/gitroomhq/postiz-app) | Buffer / Hootsuite | [İletişim](../categories/iletisim.md) | OSI · 🔥 Trend<br><sub>AGPL-3.0</sub> | Web | Sosyal medya planlama. |
 | [PowerToys](https://github.com/microsoft/PowerToys) | Windows'un eksikleri | [Windows](../categories/windows.md) | OSI<br><sub>MIT</sub> | Windows | FancyZones, Command Palette, renk seçici, toplu yeniden adlandırma. |
 | [Proxmox VE](https://www.proxmox.com) | VMware / Hyper-V | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Bare metal | Sanallaştırma ve LXC. |
@@ -216,11 +204,10 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 285 araç.
 | [Rallly](https://github.com/lukevella/rallly) | Doodle | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Web | Ortak uygun zamanı oylama. |
 | [RawTherapee](https://github.com/RawTherapee/RawTherapee) | Lightroom | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | RAW işleme. |
 | [Rclone](https://github.com/rclone/rclone) | MultCloud | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>MIT</sub> | CLI | 70'ten fazla bulut sağlayıcıyı tek araçla yönetme. |
-| [Reactive Resume](https://github.com/AmruthPillai/Reactive-Resume) | LinkedIn CV / Canva CV | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>MIT</sub> | Web | Şablonlu CV, PDF çıktı. |
+| [Reactive Resume](https://github.com/reactive-resume/reactive-resume) | LinkedIn CV / Canva CV | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>MIT</sub> | Web | Şablonlu CV, PDF çıktı. |
 | [Renovate](https://github.com/renovatebot/renovate) | Dependabot | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>AGPL-3.0</sub> | CLI, Sunucu | Composer/npm bağımlılık güncelleme PR'ları. |
 | [Restic](https://github.com/restic/restic) | Backblaze / Time Machine | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>BSD-2</sub> | CLI | Şifreli ve tekrarlayan veriyi bir kez saklayan yedekleme. |
 | [ripgrep + fd](https://github.com/BurntSushi/ripgrep) | grep / find | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT / Unlicense</sub> | CLI | Çok daha hızlı arama. |
-| [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) | Slack | [İletişim](../categories/iletisim.md) | OSI<br><sub>MIT (çekirdek)</sub> | Web, Masaüstü, Mobil | Ekip sohbeti, omnichannel. |
 | [Rufus](https://github.com/pbatard/rufus) | USB yazdırma araçları | [Windows](../categories/windows.md) | OSI<br><sub>GPL-3.0</sub> | Windows | Önyüklenebilir USB oluşturma. |
 | [RustDesk](https://github.com/rustdesk/rustdesk) | TeamViewer / AnyDesk | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>AGPL-3.0</sub> | Tümü | Uzak masaüstü, kendi sunucunla. |
 | [Sandboxie Plus](https://github.com/sandboxie-plus/Sandboxie) | Sanal makine (izolasyon) | [Windows](../categories/windows.md) | OSI<br><sub>GPL-3.0</sub> | Windows | Uygulamaları kum havuzunda çalıştırma. |
@@ -233,14 +220,11 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 285 araç.
 | [Shlink](https://github.com/shlinkio/shlink) | Bitly | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>MIT</sub> | Sunucu | Kısa link ve tıklama istatistiği (PHP). |
 | [Shotcut](https://github.com/mltframework/shotcut) | CapCut / iMovie | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Basit ve hızlı kurgu. |
 | [Signal](https://github.com/signalapp) | WhatsApp | [İletişim](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0</sub> | Masaüstü, Mobil | Uçtan uca şifreli. |
-| [SigNoz](https://github.com/SigNoz/signoz) | Datadog APM | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>MIT (çekirdek)</sub> | Sunucu | OpenTelemetry tabanlı log, metrik, trace. |
 | [SiYuan](https://github.com/siyuan-note/siyuan) | Obsidian Sync / Roam | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Mobil | Blok tabanlı, kendi sunucunda barındırılabiliyor. |
 | [Snipe-IT](https://github.com/grokability/snipe-it) | Varlık takibi | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Sunucu | Cihaz ve lisans envanteri. |
 | [Stalwart](https://github.com/stalwartlabs/stalwart) | Google Workspace Mail | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu | Rust ile yazılmış hepsi bir arada mail sunucusu. |
 | [Starship + fzf](https://github.com/starship/starship) | Oh My Zsh | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>ISC / MIT</sub> | CLI | Hızlı prompt ve bulanık arama. |
-| [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | Adobe Acrobat | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>MIT (çekirdek)</sub> | Web | PDF birleştirme, bölme, OCR, imzalama. |
-| [Strapi](https://github.com/strapi/strapi) | Contentful | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT (çekirdek)</sub> | Sunucu | Headless CMS. |
-| [Sunshine + Moonlight](https://github.com/LizardByte/Sunshine) | Parsec | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-3.0</sub> | Tümü | Oyun akışı, düşük gecikme. |
+| [Sunshine + Moonlight](https://github.com/SunshineStream/Sunshine) | Parsec | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-3.0</sub> | Tümü | Oyun akışı, düşük gecikme. |
 | [Supabase](https://github.com/supabase/supabase) | Firebase | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Postgres + auth + storage + realtime. |
 | [superpowers](https://github.com/obra/superpowers) | Ajan iş akışı | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Repo | Kodlama ajanları için TDD, plan ve debug skill'leri. |
 | [Syncthing](https://github.com/syncthing/syncthing) | Dropbox (sadece senkron) | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>MPL-2.0</sub> | Tümü | Sunucusuz, cihazdan cihaza senkron. |
@@ -251,32 +235,30 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 285 araç.
 | [Thunderbird](https://www.thunderbird.net) | Outlook | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>MPL-2.0</sub> | Linux, Windows, macOS, Android | Çoklu hesap, takvim, kişiler. |
 | [Thunderbird for Android](https://github.com/thunderbird/thunderbird-android) | Gmail | [Android](../categories/android.md) | OSI<br><sub>Apache-2.0</sub> | Android | K-9 Mail'in devamı. |
 | [Tiled](https://github.com/mapeditor/tiled) | Level editörleri | [Oyun Geliştirme](../categories/oyun-gelistirme.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Tile tabanlı harita editörü. |
-| [tldr](https://github.com/tldr-pages/tldr) | man | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>CC-BY</sub> | CLI | Komutların kısa örnekli özeti. |
 | [ToolJet](https://github.com/ToolJet/ToolJet) | Retool | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>AGPL-3.0</sub> | Web | İç araç ve admin paneli oluşturucu. |
 | [Traefik](https://github.com/traefik/traefik) | Cloudflare (proxy) | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>MIT</sub> | Sunucu | Konteynerleri otomatik algılayan reverse proxy. |
 | [Trivy](https://github.com/aquasecurity/trivy) | Snyk | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>Apache-2.0</sub> | CLI | Konteyner ve bağımlılık açığı taraması. |
-| [Twenty](https://github.com/twentyhq/twenty) | Salesforce / HubSpot CRM | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🔥 Trend<br><sub>AGPL-3.0</sub> | Sunucu | Modern CRM. |
 | [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray) | Monitör parlaklık yazılımları | [Windows](../categories/windows.md) | OSI<br><sub>MIT</sub> | Windows | Harici monitör parlaklığı (DDC/CI). |
 | [Typesense](https://github.com/typesense/typesense) | Algolia | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>GPL-3.0</sub> | Sunucu | Typo toleranslı arama, Scout desteği var. |
 | [uBlock Origin](https://github.com/gorhill/uBlock) | AdBlock Plus | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>GPL-3.0</sub> | Tarayıcı eklentisi | Reklam ve izleyici engelleme. |
 | [Umami](https://github.com/umami-software/umami) | Google Analytics | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>MIT</sub> | Sunucu | Çerezsiz analitik. |
-| [UniGetUI](https://github.com/marticliment/UniGetUI) | Ninite | [Windows](../categories/windows.md) | OSI<br><sub>MIT</sub> | Windows | winget, scoop ve choco için tek arayüz. |
+| [UniGetUI](https://github.com/Devolutions/UniGetUI) | Ninite | [Windows](../categories/windows.md) | OSI<br><sub>MIT</sub> | Windows | winget, scoop ve choco için tek arayüz. |
 | [Univer](https://github.com/dream-num/univer) | Excel (gömülü) | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Web | Uygulamalara gömülebilir tablo/belge motoru. |
 | [Upscayl](https://github.com/upscayl/upscayl) | Topaz Gigapixel | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS | AI ile görsel büyütme. |
 | [Uptime Kuma](https://github.com/louislam/uptime-kuma) | UptimeRobot | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>MIT</sub> | Sunucu | Erişilebilirlik izleme ve durum sayfası. |
 | [Valkey](https://github.com/valkey-io/valkey) | Redis | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>BSD-3</sub> | Sunucu | Redis lisans değişikliği sonrası Linux Foundation fork'u. |
+| [Vane (eski adı Perplexica)](https://github.com/ItzCrazyKns/Vane) | Perplexity | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT</sub> | Sunucu | AI destekli arama motoru. |
 | [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Bitwarden sunucusu | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu | Hafif Bitwarden uyumlu sunucu. |
 | [Ventoy](https://github.com/ventoy/Ventoy) | Ventoy (önyükleme) | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows | Tek USB'ye birden fazla ISO. |
-| [VeraCrypt](https://github.com/veracrypt/VeraCrypt) | BitLocker (taşınabilir) | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>Apache-2.0 / TrueCrypt</sub> | Linux, Windows, macOS | Şifreli disk ve konteyner. |
 | [Vikunja](https://github.com/go-vikunja/vikunja) | Todoist | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Web, Mobil | Liste, kanban, gantt görünümleri. |
-| [Voicebox](https://github.com/jamiepine/voicebox) | ElevenLabs | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trend<br><sub>Açık kaynak</sub> | Linux, Windows, macOS | Yerel ses klonlama ve TTS stüdyosu. |
+| [Voicebox](https://github.com/jamiepine/voicebox) | ElevenLabs | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Linux, Windows, macOS | Yerel ses klonlama ve TTS stüdyosu. |
 | [VSCodium](https://github.com/VSCodium/vscodium) | VS Code (telemetrili) | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Telemetrisi kaldırılmış VS Code. |
 | [Wails](https://github.com/wailsapp/wails) | Electron | [Oyun Geliştirme](../categories/oyun-gelistirme.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Go + web arayüz ile masaüstü uygulama. |
 | [Wave Terminal](https://github.com/wavetermdev/waveterm) | Warp (AI) | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS | Terminal + dosya önizleme + AI. |
 | [WeKan](https://github.com/wekan/wekan) | Trello | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>MIT</sub> | Web | Kanban panosu. |
 | [WezTerm](https://github.com/wezterm/wezterm) | Warp | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Lua ile ayarlanan terminal. |
 | [Whisper (faster-whisper)](https://github.com/SYSTRAN/faster-whisper) | Otter.ai / Rev | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>MIT</sub> | CLI | Yerel konuşmayı yazıya çevirme ve altyazı. |
-| [Wiki.js](https://github.com/requarks/wiki.js) | Confluence | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Web | Git ile senkron, markdown tabanlı. |
+| [Wiki.js](https://github.com/requarks/wiki) | Confluence | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Web | Git ile senkron, markdown tabanlı. |
 | [Windhawk](https://github.com/ramensoftware/windhawk) | Windows mod araçları | [Windows](../categories/windows.md) | OSI<br><sub>GPL-3.0</sub> | Windows | Görev çubuğu ve sistem davranışı modları. |
 | [Wireshark](https://www.wireshark.org) | Paketli analiz araçları | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Ağ trafiği analizi. |
 | [Woodpecker CI](https://github.com/woodpecker-ci/woodpecker) | GitHub Actions / CircleCI | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Hafif CI/CD. |

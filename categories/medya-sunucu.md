@@ -2,12 +2,12 @@
 
 [← Ana sayfa](../README.md)
 
-12 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
+12 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
 
 | Alternatif | Yerine geçtiği | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- |
 | [Audiobookshelf](https://github.com/advplyr/audiobookshelf) | Audible | OSI<br><sub>GPL-3.0</sub> | Sunucu, Mobil | Sesli kitap ve podcast sunucusu. |
-| [Ente Photos](https://github.com/ente-io/ente) | Google Photos | OSI<br><sub>AGPL-3.0</sub> | Tümü | Uçtan uca şifreli foto yedekleme. |
+| [Ente Photos](https://github.com/ente/ente) | Google Photos | OSI<br><sub>AGPL-3.0</sub> | Tümü | Uçtan uca şifreli foto yedekleme. |
 | [Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3) | IDM | OSI · 🔥 Trend<br><sub>GPL-3.0</sub> | Windows, Linux | Çok parçalı hızlı indirme yöneticisi. |
 | [Immich](https://github.com/immich-app/immich) | Google Photos | OSI<br><sub>AGPL-3.0</sub> | Sunucu, Mobil | Yüz tanıma, otomatik mobil yedek. |
 | [Jellyfin](https://github.com/jellyfin/jellyfin) | Plex | OSI<br><sub>GPL-2.0</sub> | Sunucu + istemciler | Film ve dizi sunucusu. |

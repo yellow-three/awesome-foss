@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-18 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
+18 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
 
 | Alternatif | Yerine geçtiği | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- |
@@ -22,5 +22,5 @@
 | [OpenToonz](https://github.com/opentoonz/opentoonz) | Toon Boom | OSI<br><sub>BSD-3</sub> | Linux, Windows, macOS | 2D animasyon (Studio Ghibli'nin kullandığı Toonz'un açık sürümü). |
 | [Shotcut](https://github.com/mltframework/shotcut) | CapCut / iMovie | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Basit ve hızlı kurgu. |
 | [Synfig](https://github.com/synfig/synfig) | Animate CC | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Vektör 2D animasyon. |
-| [Voicebox](https://github.com/jamiepine/voicebox) | ElevenLabs | OSI · 🔥 Trend<br><sub>Açık kaynak</sub> | Linux, Windows, macOS | Yerel ses klonlama ve TTS stüdyosu. |
+| [Voicebox](https://github.com/jamiepine/voicebox) | ElevenLabs | OSI · 🔥 Trend<br><sub>MIT</sub> | Linux, Windows, macOS | Yerel ses klonlama ve TTS stüdyosu. |
 | [Whisper (faster-whisper)](https://github.com/SYSTRAN/faster-whisper) | Otter.ai / Rev | OSI<br><sub>MIT</sub> | CLI | Yerel konuşmayı yazıya çevirme ve altyazı. |

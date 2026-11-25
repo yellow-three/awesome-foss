@@ -14,7 +14,7 @@ Kaynak kodu Laravel olan, kendin barındırabileceğin ve inceleyip katkı vereb
 | [Invoice Ninja](https://github.com/invoiceninja/invoiceninja) | FreshBooks | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | ⚠️ Kısıtlı · 🟥 Laravel<br><sub>Elastic License</sub> | Sunucu | Fatura ve teklif. |
 | [Koel](https://github.com/koel/koel) | Spotify (kendi arşivin) | [Medya Sunucu](../categories/medya-sunucu.md) | OSI · 🟥 Laravel<br><sub>MIT</sub> | Sunucu | Web müzik çalar. |
 | [LinkStack](https://github.com/LinkStackOrg/LinkStack) | Linktree | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Sunucu | Biyografi link sayfası. |
-| [Mixpost](https://github.com/inovector/mixpost) | Buffer | [İletişim](../categories/iletisim.md) | OSI · 🟥 Laravel<br><sub>MIT (Lite)</sub> | Web | Sosyal medya planlama. |
+| [Mixpost](https://github.com/inovector/mixpost) | Buffer | [İletişim](../categories/iletisim.md) | OSI · 🟥 Laravel<br><sub>MIT</sub> | Web | Sosyal medya planlama. |
 | [Monica](https://github.com/monicahq/monica) | Kişisel CRM | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Sunucu | Kişiler, doğum günleri, notlar. |
 | [Pixelfed](https://github.com/pixelfed/pixelfed) | Instagram | [İletişim](../categories/iletisim.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Web, Mobil | Fediverse fotoğraf paylaşımı. |
 | [Snipe-IT](https://github.com/grokability/snipe-it) | Varlık takibi | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Sunucu | Cihaz ve lisans envanteri. |

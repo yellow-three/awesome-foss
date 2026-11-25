@@ -37,13 +37,13 @@
         "name": "definitive-opensource"
       }
     ],
-    "description": "Sadece doğrudan kullanılan uygulamalar. Platform (Cross, Mobile, SelfHost) ve özellik (CLI+, TUI) etiketleri var; Awesome List yapına iyi bir örnek."
+    "description": "Sadece doğrudan kullanılan uygulamalar. Platform (Cross, Mobile, SelfHost) ve özellik (CLI+, TUI) etiketleri var."
   },
   {
     "tag": "Topluluk dizini",
     "links": [
       {
-        "url": "https://github.com/piotrkulpinski/openalternative",
+        "url": "https://github.com/piotrkulpinski/open-source-alternatives",
         "name": "OpenAlternative"
       }
     ],

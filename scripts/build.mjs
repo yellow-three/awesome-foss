@@ -8,7 +8,6 @@ import { fileURLToPath } from "node:url";
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const apps = JSON.parse(readFileSync(join(root, "data/apps.json"), "utf8"));
 const related = JSON.parse(readFileSync(join(root, "data/related-lists.json"), "utf8"));
-const UPDATED = new Date().toISOString().slice(0, 10);
 
 // Which OS buckets each raw platform value belongs to.
 const PLATFORM_MAP = {
@@ -30,12 +29,42 @@ const PLATFORMS = {
 };
 const LICENSES = {
   osi: { title: "OSI onaylı açık kaynak", desc: "MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar." },
+  "open-core": { title: "Open-core", desc: "Çekirdeği OSI onaylı lisanslı, bazı klasör veya dosyaları (enterprise/premium) ticari lisanslı projeler. Self-hosted topluluk sürümü serbestçe kullanılabilir." },
+  other: { title: "Diğer açık lisanslar", desc: "OSI listesinde olmayan ama serbest kullanıma izin veren lisanslar (Creative Commons, TrueCrypt License vb.)." },
   restricted: { title: "Kısıtlı lisans", desc: "Source-available veya fair-code (BSL, FSL, Sustainable Use, Elastic vb.). Kodu okuyabilir ve kendin barındırabilirsin ama ticari kullanım sınırlı olabilir." },
 };
 
+const BADGES = { osi: "OSI", "open-core": "🧩 Open-core", other: "📄 Diğer açık", restricted: "⚠️ Kısıtlı" };
+const REQUIRED = ["category", "category_slug", "replaces", "name", "url", "license_type", "license", "platforms", "description", "laravel", "trending"];
+
+// Fail fast: a typo in apps.json must break the build, not silently drop an app from a list.
+function validate(list) {
+  const errors = [];
+  const seen = new Set();
+  const slugOf = new Map();
+  for (const [i, a] of list.entries()) {
+    const id = `#${i} ${a.name ?? "(adsız)"}`;
+    for (const k of REQUIRED) if (!(k in a)) errors.push(`${id}: '${k}' alanı eksik`);
+    if (!(a.license_type in BADGES)) errors.push(`${id}: geçersiz license_type '${a.license_type}' (${Object.keys(BADGES).join(", ")})`);
+    if (!Array.isArray(a.platforms) || !a.platforms.length) errors.push(`${id}: platforms boş`);
+    else for (const p of a.platforms) if (!(p in PLATFORM_MAP)) errors.push(`${id}: '${p}' PLATFORM_MAP'te yok`);
+    if (typeof a.url !== "string" || !a.url.startsWith("https://")) errors.push(`${id}: url https:// ile başlamalı`);
+    const key = String(a.name).toLowerCase();
+    if (seen.has(key)) errors.push(`${id}: aynı isim iki kez var`);
+    seen.add(key);
+    if (slugOf.has(a.category) && slugOf.get(a.category) !== a.category_slug) errors.push(`${id}: '${a.category}' için farklı category_slug`);
+    slugOf.set(a.category, a.category_slug);
+  }
+  if (errors.length) {
+    console.error(`data/apps.json geçersiz:\n- ${errors.join("\n- ")}`);
+    process.exit(1);
+  }
+}
+validate(apps);
+
 const bucketsOf = a => [...new Set(a.platforms.flatMap(p => PLATFORM_MAP[p] ?? []))];
 const badges = a => [
-  a.license_type === "osi" ? "OSI" : "⚠️ Kısıtlı",
+  BADGES[a.license_type],
   a.laravel ? "🟥 Laravel" : null,
   a.trending ? "🔥 Trend" : null,
 ].filter(Boolean).join(" · ");
@@ -59,7 +88,7 @@ function table(list, { withCategory = false } = {}) {
   return `${head}\n${rows.join("\n")}`;
 }
 
-const LEGEND = "**Etiketler:** OSI = OSI onaylı açık kaynak · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen";
+const LEGEND = "**Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen";
 const backLink = "[← Ana sayfa](../README.md)";
 
 function write(rel, content) {
@@ -69,7 +98,7 @@ function write(rel, content) {
 }
 
 // Clean generated folders so removed categories don't linger.
-for (const d of ["categories", "platforms", "licenses"]) rmSync(join(root, d), { recursive: true, force: true });
+for (const d of ["categories", "platforms", "licenses", "lists"]) rmSync(join(root, d), { recursive: true, force: true });
 
 // ---- categories/<slug>.md
 const categories = [...new Map(apps.map(a => [a.category_slug, a.category])).entries()];
@@ -146,7 +175,7 @@ write("README.md", `# Awesome FOSS Alternatives [![Awesome](https://awesome.re/b
 
 > Ücretli veya kapalı kaynak uygulamaların yerine kullanılabilecek açık kaynak alternatifler; alana, işletim sistemine ve lisansa göre düzenlenmiş.
 
-**${apps.length} araç · ${categories.length} kategori · ${osi} OSI lisanslı** · Son güncelleme: ${UPDATED}
+**${apps.length} araç · ${categories.length} kategori · ${osi} OSI lisanslı**
 
 ${LEGEND}
 
