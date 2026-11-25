@@ -17,7 +17,7 @@
 | [AureusERP](https://github.com/aureuserp/aureuserp) | SAP Business One | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel · 🔥 Trend<br><sub>MIT</sub> | Sunucu | Filament tabanlı modüler ERP. |
 | [Authelia](https://github.com/authelia/authelia) | Cloudflare Access | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Reverse proxy önünde SSO ve 2FA. |
 | [Authentik](https://github.com/goauthentik/authentik) | Auth0 | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | 🧩 Open-core<br><sub>MIT</sub> | Sunucu | Self-hosted servisler için tek giriş. |
-| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
+| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | 📄 Diğer açık · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
 | [Baby Buddy](https://github.com/babybuddy/babybuddy) | Huckleberry | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>BSD-2</sub> | Sunucu | Bebek uyku, beslenme ve bez takibi. |
 | [Backrest](https://github.com/garethgeorge/backrest) | Backblaze uygulaması | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>GPL-3.0</sub> | Sunucu | Restic için web arayüzü ve zamanlayıcı. |
 | [Bagisto](https://github.com/bagisto/bagisto) | Shopify | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>MIT</sub> | Sunucu | E-ticaret platformu. |

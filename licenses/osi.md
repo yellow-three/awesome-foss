@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 527 araç.
+MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 526 araç.
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
@@ -31,7 +31,6 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 527 araç.
 | [Authelia](https://github.com/authelia/authelia) | Cloudflare Access | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Reverse proxy önünde SSO ve 2FA. |
 | [AutoHotkey](https://github.com/AutoHotkey/AutoHotkey) | Keyboard Maestro | [Windows](../categories/windows.md) | OSI<br><sub>GPL-2.0</sub> | Windows | Klavye kısayolu ve otomasyon betikleri. |
 | [Auxio](https://github.com/OxygenCobalt/Auxio) | Poweramp | [Android](../categories/android.md) | OSI<br><sub>GPL-3.0</sub> | Android | Yerel müzik oynatıcı. |
-| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
 | [Baby Buddy](https://github.com/babybuddy/babybuddy) | Huckleberry | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>BSD-2</sub> | Sunucu | Bebek uyku, beslenme ve bez takibi. |
 | [Babylon.js](https://github.com/BabylonJS/Babylon.js) | Unity WebGL | [Oyun Geliştirme](../categories/oyun-gelistirme.md) | OSI<br><sub>Apache-2.0</sub> | Web | Tarayıcı için 3D motor. |
 | [Backrest](https://github.com/garethgeorge/backrest) | Backblaze uygulaması | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>GPL-3.0</sub> | Sunucu | Restic için web arayüzü ve zamanlayıcı. |
