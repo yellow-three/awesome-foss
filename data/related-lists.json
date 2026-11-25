@@ -1,156 +1,187 @@
 [
   {
     "tag": "Self-hosted · ~280k ⭐",
+    "tag_en": "Self-hosted · ~280k ⭐",
     "links": [
       {
         "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
         "name": "awesome-selfhosted"
       }
     ],
-    "description": "Kendi sunucunda barındırılabilen 1000'den fazla uygulama, lisans ve dil etiketli. Bu alandaki ana kaynak."
+    "description": "Kendi sunucunda barındırılabilen 1000'den fazla uygulama, lisans ve dil etiketli. Bu alandaki ana kaynak.",
+    "description_en": "1000+ apps you can host on your own server, tagged by license and language. The main resource in this space."
   },
   {
     "tag": "SaaS alternatifleri · ~18.5k ⭐",
+    "tag_en": "SaaS alternatives · ~18.5k ⭐",
     "links": [
       {
         "url": "https://github.com/RunaCapital/awesome-oss-alternatives",
         "name": "RunaCapital/awesome-oss-alternatives"
       }
     ],
-    "description": "Bilinen SaaS ürünlerine açık kaynak girişim alternatifleri. Şirket odaklı."
+    "description": "Bilinen SaaS ürünlerine açık kaynak girişim alternatifleri. Şirket odaklı.",
+    "description_en": "Open source startup alternatives to well-known SaaS products. Company-focused."
   },
   {
     "tag": "SaaS alternatifleri · ~9k ⭐",
+    "tag_en": "SaaS alternatives · ~9k ⭐",
     "links": [
       {
         "url": "https://github.com/btw-so/open-source-alternatives",
         "name": "btw-so/open-source-alternatives"
       }
     ],
-    "description": "Gündelik SaaS ürünlerinin açık kaynak karşılıkları."
+    "description": "Gündelik SaaS ürünlerinin açık kaynak karşılıkları.",
+    "description_en": "Open source counterparts of everyday SaaS products."
   },
   {
     "tag": "Masaüstü + self-hosted",
+    "tag_en": "Desktop + self-hosted",
     "links": [
       {
         "url": "https://github.com/mustbeperfect/definitive-opensource",
         "name": "definitive-opensource"
       }
     ],
-    "description": "Sadece doğrudan kullanılan uygulamalar. Platform (Cross, Mobile, SelfHost) ve özellik (CLI+, TUI) etiketleri var."
+    "description": "Sadece doğrudan kullanılan uygulamalar. Platform (Cross, Mobile, SelfHost) ve özellik (CLI+, TUI) etiketleri var.",
+    "description_en": "Only apps you use directly. Tagged by platform (Cross, Mobile, SelfHost) and feature (CLI+, TUI)."
   },
   {
     "tag": "Topluluk dizini",
+    "tag_en": "Community directory",
     "links": [
       {
         "url": "https://github.com/piotrkulpinski/open-source-alternatives",
         "name": "OpenAlternative"
       }
     ],
-    "description": "openalternative.co sitesinin kaynak kodu, kategorili ve aranabilir."
+    "description": "openalternative.co sitesinin kaynak kodu, kategorili ve aranabilir.",
+    "description_en": "Source code of the openalternative.co site, categorized and searchable."
   },
   {
     "tag": "Genel alternatifler",
+    "tag_en": "General alternatives",
     "links": [
       {
         "url": "https://github.com/diegoleme/awesome-open-source-alternatives",
         "name": "awesome-open-source-alternatives"
       }
     ],
-    "description": "Bilinen uygulamalara alternatiflerin kısa listesi. Seyrek güncelleniyor."
+    "description": "Bilinen uygulamalara alternatiflerin kısa listesi. Seyrek güncelleniyor.",
+    "description_en": "A short list of alternatives to well-known apps. Rarely updated."
   },
   {
     "tag": "Gizlilik",
+    "tag_en": "Privacy",
     "links": [
       {
         "url": "https://github.com/pluja/awesome-privacy",
         "name": "awesome-privacy"
       }
     ],
-    "description": "Gizliliğe saygılı servis ve uygulamalar, Google'dan kurtulma rehberi."
+    "description": "Gizliliğe saygılı servis ve uygulamalar, Google'dan kurtulma rehberi.",
+    "description_en": "Privacy-respecting services and apps, with a guide to leaving Google."
   },
   {
     "tag": "Terminal · ~20k ⭐",
+    "tag_en": "Terminal · ~20k ⭐",
     "links": [
       {
         "url": "https://github.com/agarrharr/awesome-cli-apps",
         "name": "awesome-cli-apps"
       }
     ],
-    "description": "Kategorili komut satırı uygulamaları."
+    "description": "Kategorili komut satırı uygulamaları.",
+    "description_en": "Command line apps by category."
   },
   {
     "tag": "Terminal",
+    "tag_en": "Terminal",
     "links": [
       {
         "url": "https://github.com/ibraheemdev/modern-unix",
         "name": "modern-unix"
       }
     ],
-    "description": "Klasik Unix komutlarının modern karşılıkları (bat, eza, fd…)."
+    "description": "Klasik Unix komutlarının modern karşılıkları (bat, eza, fd…).",
+    "description_en": "Modern replacements for classic Unix commands (bat, eza, fd…)."
   },
   {
     "tag": "Sistem yönetimi · ~35k ⭐",
+    "tag_en": "System administration · ~35k ⭐",
     "links": [
       {
         "url": "https://github.com/awesome-foss/awesome-sysadmin",
         "name": "awesome-sysadmin"
       }
     ],
-    "description": "Açık kaynak sysadmin ve DevOps araçları."
+    "description": "Açık kaynak sysadmin ve DevOps araçları.",
+    "description_en": "Open source sysadmin and DevOps tools."
   },
   {
     "tag": "Linux",
+    "tag_en": "Linux",
     "links": [
       {
         "url": "https://github.com/luong-komorebi/Awesome-Linux-Software",
         "name": "Awesome-Linux-Software"
       }
     ],
-    "description": "Linux masaüstü uygulamaları, kategorilere göre."
+    "description": "Linux masaüstü uygulamaları, kategorilere göre.",
+    "description_en": "Linux desktop apps by category."
   },
   {
     "tag": "Android",
+    "tag_en": "Android",
     "links": [
       {
         "url": "https://github.com/offa/android-foss",
         "name": "android-foss"
       }
     ],
-    "description": "Açık kaynak Android uygulamaları."
+    "description": "Açık kaynak Android uygulamaları.",
+    "description_en": "Open source Android apps."
   },
   {
     "tag": "iOS · ~52k ⭐",
+    "tag_en": "iOS · ~52k ⭐",
     "links": [
       {
         "url": "https://github.com/dkhamsing/open-source-ios-apps",
         "name": "open-source-ios-apps"
       }
     ],
-    "description": "Açık kaynak iOS uygulamaları, kaynak kodlarıyla."
+    "description": "Açık kaynak iOS uygulamaları, kaynak kodlarıyla.",
+    "description_en": "Open source iOS apps with their source code."
   },
   {
     "tag": "Keşif",
+    "tag_en": "Discovery",
     "links": [
       {
         "url": "https://github.com/Furthir/awesome-useful-projects",
         "name": "awesome-useful-projects"
       }
     ],
-    "description": "Diğer faydalı listelere ve projelere bağlantılar."
+    "description": "Diğer faydalı listelere ve projelere bağlantılar.",
+    "description_en": "Links to other useful lists and projects."
   },
   {
     "tag": "Keşif",
+    "tag_en": "Discovery",
     "links": [
       {
         "url": "https://github.com/521xueweihan/HelloGitHub",
         "name": "HelloGitHub"
       }
     ],
-    "description": "Her ay ilginç ve başlangıç dostu açık kaynak projeler."
+    "description": "Her ay ilginç ve başlangıç dostu açık kaynak projeler.",
+    "description_en": "Interesting, beginner-friendly open source projects every month."
   },
   {
     "tag": "Listelerin listesi",
+    "tag_en": "List of lists",
     "links": [
       {
         "url": "https://github.com/sindresorhus/awesome",
@@ -161,16 +192,19 @@
         "name": "jnv/lists"
       }
     ],
-    "description": "Tüm awesome listelerinin ana dizinleri."
+    "description": "Tüm awesome listelerinin ana dizinleri.",
+    "description_en": "The main indexes of all awesome lists."
   },
   {
     "tag": "Laravel",
+    "tag_en": "Laravel",
     "links": [
       {
         "url": "https://github.com/chiraggude/awesome-laravel",
         "name": "awesome-laravel"
       }
     ],
-    "description": "Laravel paketleri, araçları ve kaynakları."
+    "description": "Laravel paketleri, araçları ve kaynakları.",
+    "description_en": "Laravel packages, tools and resources."
   }
 ]

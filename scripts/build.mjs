@@ -1,9 +1,11 @@
 #!/usr/bin/env node
-// Builds every markdown list from data/apps.json and data/related-lists.json.
+// Builds every markdown list from data/apps.json and data/related-lists.json,
+// once per language in scripts/i18n.mjs (Turkish at the repo root, English under en/).
 // Usage: node scripts/build.mjs
 import { readFileSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { LOCALES, CATEGORY_SLUGS_EN } from "./i18n.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const apps = JSON.parse(readFileSync(join(root, "data/apps.json"), "utf8"));
@@ -24,74 +26,49 @@ const PLATFORM_MAP = {
   "MCP sunucusu": ["extensions"], "Obsidian eklentisi": ["extensions"],
   "Thunderbird eklentisi": ["extensions"], "Zotero eklentisi": ["extensions"],
 };
-const PLATFORMS = {
-  linux: "Linux", windows: "Windows", macos: "macOS", android: "Android", ios: "iOS",
-  web: "Web", selfhosted: "Self-hosted (sunucu)", cli: "Komut satırı (CLI)",
-  extensions: "Eklenti, paket ve repolar",
-};
-const LICENSES = {
-  osi: { title: "OSI onaylı açık kaynak", desc: "MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar." },
-  "open-core": { title: "Open-core", desc: "Çekirdeği OSI onaylı lisanslı, bazı klasör veya dosyaları (enterprise/premium) ticari lisanslı projeler. Self-hosted topluluk sürümü serbestçe kullanılabilir." },
-  other: { title: "Diğer açık lisanslar", desc: "OSI listesinde olmayan ama serbest kullanıma izin veren lisanslar (CC0, Creative Commons, TrueCrypt License vb.)." },
-  restricted: { title: "Kısıtlı lisans", desc: "Source-available veya fair-code (BSL, FSL, Sustainable Use, Elastic vb.). Kodu okuyabilir ve kendin barındırabilirsin ama ticari kullanım sınırlı olabilir." },
-};
-
-const BADGES = { osi: "OSI", "open-core": "🧩 Open-core", other: "📄 Diğer açık", restricted: "⚠️ Kısıtlı" };
-const REQUIRED = ["category", "category_slug", "replaces", "name", "url", "license_type", "license", "platforms", "description", "laravel", "trending"];
+const LICENSE_TYPES = ["osi", "open-core", "other", "restricted"];
+const REQUIRED = ["category", "category_slug", "replaces", "name", "url", "license_type", "license", "platforms", "description", "description_en", "laravel", "trending"];
+const OPTIONAL_TEXT = ["name_en", "replaces_en", "license_en"];
 
 // Fail fast: a typo in apps.json must break the build, not silently drop an app from a list.
-function validate(list) {
+function validate(list, relatedLists) {
   const errors = [];
   const seen = new Set();
   const slugOf = new Map();
+  const nonEmpty = v => typeof v === "string" && v.trim() !== "";
   for (const [i, a] of list.entries()) {
     const id = `#${i} ${a.name ?? "(adsız)"}`;
     for (const k of REQUIRED) if (!(k in a)) errors.push(`${id}: '${k}' alanı eksik`);
-    if (!(a.license_type in BADGES)) errors.push(`${id}: geçersiz license_type '${a.license_type}' (${Object.keys(BADGES).join(", ")})`);
+    for (const k of ["description", "description_en"]) if (k in a && !nonEmpty(a[k])) errors.push(`${id}: '${k}' boş`);
+    for (const k of OPTIONAL_TEXT) if (k in a && !nonEmpty(a[k])) errors.push(`${id}: '${k}' varsa boş olamaz`);
+    if (!LICENSE_TYPES.includes(a.license_type)) errors.push(`${id}: geçersiz license_type '${a.license_type}' (${LICENSE_TYPES.join(", ")})`);
     if (!Array.isArray(a.platforms) || !a.platforms.length) errors.push(`${id}: platforms boş`);
     else for (const p of a.platforms) if (!(p in PLATFORM_MAP)) errors.push(`${id}: '${p}' PLATFORM_MAP'te yok`);
     if (typeof a.url !== "string" || !a.url.startsWith("https://")) errors.push(`${id}: url https:// ile başlamalı`);
+    if (!CATEGORY_SLUGS_EN.includes(a.category_slug)) errors.push(`${id}: '${a.category_slug}' için scripts/i18n.mjs içinde İngilizce kategori adı yok`);
     const key = String(a.name).toLowerCase();
     if (seen.has(key)) errors.push(`${id}: aynı isim iki kez var`);
     seen.add(key);
     if (slugOf.has(a.category) && slugOf.get(a.category) !== a.category_slug) errors.push(`${id}: '${a.category}' için farklı category_slug`);
     slugOf.set(a.category, a.category_slug);
   }
+  for (const [i, r] of relatedLists.entries()) {
+    for (const k of ["tag", "tag_en", "description", "description_en"]) if (!nonEmpty(r[k])) errors.push(`related-lists #${i}: '${k}' eksik veya boş`);
+  }
   if (errors.length) {
-    console.error(`data/apps.json geçersiz:\n- ${errors.join("\n- ")}`);
+    console.error(`data/ geçersiz:\n- ${errors.join("\n- ")}`);
     process.exit(1);
   }
 }
-validate(apps);
+validate(apps, related);
 
 const bucketsOf = a => [...new Set(a.platforms.flatMap(p => PLATFORM_MAP[p] ?? []))];
-const badges = a => [
-  BADGES[a.license_type],
-  a.laravel ? "🟥 Laravel" : null,
-  a.trending ? "🔥 Trend" : null,
-].filter(Boolean).join(" · ");
 const cell = s => String(s).replace(/\|/g, "\\|");
+// GitHub's heading anchor: lowercase, drop punctuation, spaces to hyphens.
+const anchor = s => s.toLowerCase().replace(/[^\p{L}\p{N} -]/gu, "").replace(/ /g, "-");
 
-function table(list, { withCategory = false } = {}) {
-  const head = withCategory
-    ? "| Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |\n| --- | --- | --- | --- | --- | --- |"
-    : "| Alternatif | Yerine geçtiği | Lisans | Platform | Açıklama |\n| --- | --- | --- | --- | --- |";
-  const rows = [...list]
-    .sort((a, b) => a.name.localeCompare(b.name, "tr"))
-    .map(a => {
-      const cols = [
-        `[${cell(a.name)}](${a.url})`, cell(a.replaces),
-        ...(withCategory ? [`[${cell(a.category)}](../categories/${a.category_slug}.md)`] : []),
-        `${badges(a)}<br><sub>${cell(a.license)}</sub>`,
-        cell(a.platforms.join(", ")), cell(a.description),
-      ];
-      return `| ${cols.join(" | ")} |`;
-    });
-  return `${head}\n${rows.join("\n")}`;
-}
-
-const LEGEND = "**Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı";
-const backLink = "[← Ana sayfa](../README.md)";
+// Clean generated folders so removed categories don't linger.
+for (const d of ["categories", "platforms", "licenses", "lists", "en"]) rmSync(join(root, d), { recursive: true, force: true });
 
 function write(rel, content) {
   const p = join(root, rel);
@@ -99,133 +76,130 @@ function write(rel, content) {
   writeFileSync(p, content.trimEnd() + "\n");
 }
 
-// Clean generated folders so removed categories don't linger.
-for (const d of ["categories", "platforms", "licenses", "lists"]) rmSync(join(root, d), { recursive: true, force: true });
-
-// ---- categories/<slug>.md
 const categories = [...new Map(apps.map(a => [a.category_slug, a.category])).entries()];
-for (const [slug, title] of categories) {
-  const list = apps.filter(a => a.category_slug === slug);
-  write(`categories/${slug}.md`, `# ${title}
 
-${backLink}
+function buildLocale(L) {
+  const badges = a => [
+    L.badges[a.license_type],
+    a.laravel ? L.badges.laravel : null,
+    a.trending ? L.badges.trending : null,
+  ].filter(Boolean).join(" · ");
 
-${list.length} araç. ${LEGEND}
+  function table(list, { withCategory = false } = {}) {
+    const c = L.cols;
+    const names = [c.alt, c.replaces, ...(withCategory ? [c.category] : []), c.license, c.platform, c.desc];
+    const head = `| ${names.join(" | ")} |\n| ${names.map(() => "---").join(" | ")} |`;
+    const rows = [...list]
+      .sort((a, b) => L.name(a).localeCompare(L.name(b), L.sortLocale))
+      .map(a => {
+        const cols = [
+          `[${cell(L.name(a))}](${a.url})`, cell(L.replaces(a)),
+          ...(withCategory ? [`[${cell(L.category(a))}](../categories/${a.category_slug}.md)`] : []),
+          `${badges(a)}<br><sub>${cell(L.license(a))}</sub>`,
+          cell(a.platforms.map(L.platform).join(", ")), cell(L.description(a)),
+        ];
+        return `| ${cols.join(" | ")} |`;
+      });
+    return `${head}\n${rows.join("\n")}`;
+  }
 
-${table(list)}
-`);
-}
+  const out = (rel, content) => write(`${L.dir}${rel}`, content);
+  const page = (title, intro, body) => out(title.path, `# ${title.text}
 
-// ---- platforms/<os>.md
-const platformCounts = {};
-for (const [key, title] of Object.entries(PLATFORMS)) {
-  const list = apps.filter(a => bucketsOf(a).includes(key));
-  platformCounts[key] = list.length;
-  if (!list.length) continue;
-  write(`platforms/${key}.md`, `# ${title}
+${L.backLink}
 
-${backLink}
+${intro}
 
-${list.length} araç. ${LEGEND}
-
-${table(list, { withCategory: true })}
-`);
-}
-
-// ---- licenses/<type>.md
-const licenseCounts = {};
-for (const [key, { title, desc }] of Object.entries(LICENSES)) {
-  const list = apps.filter(a => a.license_type === key);
-  licenseCounts[key] = list.length;
-  write(`licenses/${key}.md`, `# ${title}
-
-${backLink}
-
-${desc} ${list.length} araç.
-
-${table(list, { withCategory: true })}
-`);
-}
-
-// ---- special lists
-const laravel = apps.filter(a => a.laravel);
-const trending = apps.filter(a => a.trending);
-write("lists/laravel.md", `# Laravel ile yazılmış uygulamalar
-
-${backLink}
-
-Kaynak kodu Laravel olan, kendin barındırabileceğin ve inceleyip katkı verebileceğin ${laravel.length} uygulama.
-
-${table(laravel, { withCategory: true })}
-`);
-write("lists/trending.md", `# Trend ve yeni projeler (2025-2026)
-
-${backLink}
-
-GitHub'da son dönemde hızla yıldız toplayan ${trending.length} proje. Hızlı yükselen bazı repoların lisansı belirsiz olabiliyor veya yıldızları şişirilmiş olabiliyor; kurmadan önce kodu incele.
-
-${table(trending, { withCategory: true })}
+${body}
 `);
 
-// ---- README.md
-const osi = licenseCounts.osi;
-const relatedRows = related.map(r =>
-  `| ${r.links.map(l => `[${cell(l.name)}](${l.url})`).join(" · ")} | ${cell(r.tag)} | ${cell(r.description)} |`
-).join("\n");
+  for (const [slug, trTitle] of categories) {
+    const list = apps.filter(a => a.category_slug === slug);
+    page({ path: `categories/${slug}.md`, text: L.categoryTitle(slug, trTitle) }, `${L.count(list.length)} ${L.legend}`, table(list));
+  }
 
-write("README.md", `# Awesome FOSS Alternatives [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+  const platformCounts = {};
+  for (const [key, title] of Object.entries(L.platforms)) {
+    const list = apps.filter(a => bucketsOf(a).includes(key));
+    platformCounts[key] = list.length;
+    if (!list.length) continue;
+    page({ path: `platforms/${key}.md`, text: title }, `${L.count(list.length)} ${L.legend}`, table(list, { withCategory: true }));
+  }
 
-> Ücretli veya kapalı kaynak uygulamaların yerine kullanılabilecek açık kaynak alternatifler; alana, işletim sistemine ve lisansa göre düzenlenmiş.
+  const licenseCounts = {};
+  for (const [key, { title, desc }] of Object.entries(L.licenses)) {
+    const list = apps.filter(a => a.license_type === key);
+    licenseCounts[key] = list.length;
+    page({ path: `licenses/${key}.md`, text: title }, `${desc} ${L.count(list.length).replace(/\.$/, "")}.`, table(list, { withCategory: true }));
+  }
 
-**${apps.length} araç · ${categories.length} kategori · ${osi} OSI lisanslı**
+  const laravel = apps.filter(a => a.laravel);
+  const trending = apps.filter(a => a.trending);
+  page({ path: "lists/laravel.md", text: L.laravelTitle }, L.laravelIntro(laravel.length), table(laravel, { withCategory: true }));
+  page({ path: "lists/trending.md", text: L.trendingTitle }, L.trendingIntro(trending.length), table(trending, { withCategory: true }));
 
-${LEGEND}
+  const R = L.readme;
+  const sections = [R.byCategory, R.byPlatform, R.byLicense, R.special, R.related, R.contributing];
+  const relatedRows = related.map(r =>
+    `| ${r.links.map(l => `[${cell(l.name)}](${l.url})`).join(" · ")} | ${cell(L.relatedTag(r))} | ${cell(L.relatedDescription(r))} |`
+  ).join("\n");
 
-## İçindekiler
+  out("README.md", `# Awesome FOSS Alternatives [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-- [Alana göre](#alana-göre)
-- [İşletim sistemine göre](#işletim-sistemine-göre)
-- [Lisansa göre](#lisansa-göre)
-- [Özel listeler](#özel-listeler)
-- [Benzer listeler](#benzer-listeler)
-- [Katkıda bulunma](#katkıda-bulunma)
+${R.switcher}
 
-## Alana göre
+> ${R.tagline}
 
-| Kategori | Araç sayısı |
+${R.stats(apps.length, categories.length, licenseCounts.osi)}
+
+${L.legend}
+
+## ${R.toc}
+
+${sections.map(s => `- [${s}](#${anchor(s)})`).join("\n")}
+
+## ${R.byCategory}
+
+| ${R.catCol} | ${R.countCol} |
 | --- | --- |
-${categories.map(([slug, title]) => `| [${title}](categories/${slug}.md) | ${apps.filter(a => a.category_slug === slug).length} |`).join("\n")}
+${categories.map(([slug, trTitle]) => `| [${L.categoryTitle(slug, trTitle)}](categories/${slug}.md) | ${apps.filter(a => a.category_slug === slug).length} |`).join("\n")}
 
-## İşletim sistemine göre
+## ${R.byPlatform}
 
-| Platform | Araç sayısı |
+| ${R.platCol} | ${R.countCol} |
 | --- | --- |
-${Object.entries(PLATFORMS).filter(([k]) => platformCounts[k]).map(([k, t]) => `| [${t}](platforms/${k}.md) | ${platformCounts[k]} |`).join("\n")}
+${Object.entries(L.platforms).filter(([k]) => platformCounts[k]).map(([k, t]) => `| [${t}](platforms/${k}.md) | ${platformCounts[k]} |`).join("\n")}
 
-## Lisansa göre
+## ${R.byLicense}
 
-| Lisans türü | Araç sayısı | Açıklama |
+| ${R.licCol} | ${R.countCol} | ${R.descCol} |
 | --- | --- | --- |
-${Object.entries(LICENSES).map(([k, { title, desc }]) => `| [${title}](licenses/${k}.md) | ${licenseCounts[k]} | ${desc} |`).join("\n")}
+${Object.entries(L.licenses).map(([k, { title, desc }]) => `| [${title}](licenses/${k}.md) | ${licenseCounts[k]} | ${desc} |`).join("\n")}
 
-## Özel listeler
+## ${R.special}
 
-- [🟥 Laravel ile yazılmış uygulamalar](lists/laravel.md) (${laravel.length})
-- [🔥 Trend ve yeni projeler](lists/trending.md) (${trending.length})
+- [${R.laravelLink}](lists/laravel.md) (${laravel.length})
+- [${R.trendingLink}](lists/trending.md) (${trending.length})
 
-## Benzer listeler
+## ${R.related}
 
-| Liste | Odak | Açıklama |
+| ${R.relCols.join(" | ")} |
 | --- | --- | --- |
 ${relatedRows}
 
-## Katkıda bulunma
+## ${R.contributing}
 
-Bu repodaki markdown dosyaları elle düzenlenmez, hepsi [\`data/apps.json\`](data/apps.json) dosyasından üretilir. Detaylar için [CONTRIBUTING.md](CONTRIBUTING.md).
+${R.contributingText}
 
-## Lisans
+## ${R.license}
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](LICENSE) Liste içeriği CC0-1.0 ile kamu malıdır.
+${R.licenseText}
 `);
 
-console.log(`Built: ${apps.length} apps, ${categories.length} categories, ${Object.values(platformCounts).filter(Boolean).length} platform pages.`);
+  return platformCounts;
+}
+
+let platformPages = 0;
+for (const L of Object.values(LOCALES)) platformPages = Object.values(buildLocale(L)).filter(Boolean).length;
+
+console.log(`Built: ${apps.length} apps, ${categories.length} categories, ${platformPages} platform pages, ${Object.keys(LOCALES).length} languages.`);

@@ -1,5 +1,7 @@
 # Awesome FOSS Alternatives [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+🇬🇧 [English](en/README.md)
+
 > Ücretli veya kapalı kaynak uygulamaların yerine kullanılabilecek açık kaynak alternatifler; alana, işletim sistemine ve lisansa göre düzenlenmiş.
 
 **642 araç · 17 kategori · 595 OSI lisanslı**
