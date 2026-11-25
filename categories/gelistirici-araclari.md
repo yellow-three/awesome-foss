@@ -11,7 +11,7 @@
 | [Alacritty](https://github.com/alacritty/alacritty) | iTerm2 / Windows Terminal | OSI<br><sub>Apache-2.0</sub> | Masaüstü | Minimal ve hızlı GPU terminali. |
 | [Appsmith](https://github.com/appsmithorg/appsmith) | Retool | OSI<br><sub>Apache-2.0</sub> | Sunucu | Sürükle bırak dahili araç geliştirme. |
 | [Appwrite](https://github.com/appwrite/appwrite) | Firebase | OSI<br><sub>BSD-3</sub> | Sunucu | Auth, veritabanı, fonksiyonlar. |
-| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | OSI · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
+| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | 📄 Diğer açık · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
 | [Beekeeper Studio CE](https://github.com/beekeeper-studio/beekeeper-studio) | TablePlus | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Sade ve hızlı SQL istemcisi. |
 | [Bruno](https://github.com/usebruno/bruno) | Postman | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Koleksiyonlar git'te düz dosya olarak duruyor. |
 | [Budibase](https://github.com/Budibase/budibase) | Retool / PowerApps | 🧩 Open-core<br><sub>GPL-3.0 + BSL (pro)</sub> | Sunucu | Düşük kodlu iş uygulamaları. |

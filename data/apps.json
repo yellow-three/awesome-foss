@@ -2944,7 +2944,7 @@
     "replaces": "LocalStack",
     "name": "AWS Emulator",
     "url": "https://github.com/aws/aws-emulator",
-    "license_type": "osi",
+    "license_type": "other",
     "license": "CC0-1.0",
     "platforms": [
       "CLI",
