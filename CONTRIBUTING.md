@@ -29,15 +29,16 @@ Markdown dosyaları (`README.md`, `categories/`, `platforms/`, `licenses/`, `lis
 
 | Alan | Değerler |
 | --- | --- |
-| `license_type` | `osi` (OSI onaylı) veya `restricted` (BSL, FSL, Sustainable Use, Elastic vb.) |
+| `license_type` | `osi` (OSI onaylı), `open-core` (OSI çekirdek + `ee/`, `enterprise/` gibi ticari lisanslı klasörler), `other` (CC-BY gibi OSI dışı serbest lisanslar) veya `restricted` (BSL, FSL, Sustainable Use, Elastic, Commons Clause vb.) |
 | `platforms` | `Linux`, `Windows`, `macOS`, `Android`, `iOS`, `Mobil`, `Masaüstü`, `Tümü`, `Web`, `Sunucu`, `Docker`, `CLI`, `VS Code`, `JetBrains`, `Tarayıcı eklentisi`, `Laravel paketi`, `Repo` |
 | `laravel` | Uygulamanın kendisi Laravel ile yazılmışsa `true` |
-| `trending` | Son 12 ayda belirgin yıldız artışı varsa `true` |
+| `trending` | Repo 2025 veya sonrasında açıldıysa ve 5000+ yıldızı varsa `true` |
 
 Yeni bir platform değeri eklersen `scripts/build.mjs` içindeki `PLATFORM_MAP`'e de ekle.
 
 ## Kabul kriterleri
 
 - Proje aktif olmalı (son 12 ayda commit).
-- Lisans projenin kendi LICENSE dosyasından kontrol edilmeli.
+- Lisans projenin kendi LICENSE dosyasından kontrol edilmeli. Repo kökünde `ee/`, `enterprise/` veya `premium/` klasörü varsa `open-core` seç.
+- Birden fazla uygulamayı tek kayıtta birleştirme; her uygulama kendi linkiyle ayrı kayıt olsun.
 - Açıklama tek cümle, Türkçe ve pazarlama dili olmadan yazılmalı.

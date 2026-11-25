@@ -30,7 +30,7 @@ const PLATFORMS = {
 const LICENSES = {
   osi: { title: "OSI onaylı açık kaynak", desc: "MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar." },
   "open-core": { title: "Open-core", desc: "Çekirdeği OSI onaylı lisanslı, bazı klasör veya dosyaları (enterprise/premium) ticari lisanslı projeler. Self-hosted topluluk sürümü serbestçe kullanılabilir." },
-  other: { title: "Diğer açık lisanslar", desc: "OSI listesinde olmayan ama serbest kullanıma izin veren lisanslar (Creative Commons, TrueCrypt License vb.)." },
+  other: { title: "Diğer açık lisanslar", desc: "OSI listesinde olmayan ama serbest kullanıma izin veren lisanslar (CC0, Creative Commons, TrueCrypt License vb.)." },
   restricted: { title: "Kısıtlı lisans", desc: "Source-available veya fair-code (BSL, FSL, Sustainable Use, Elastic vb.). Kodu okuyabilir ve kendin barındırabilirsin ama ticari kullanım sınırlı olabilir." },
 };
 
@@ -88,7 +88,7 @@ function table(list, { withCategory = false } = {}) {
   return `${head}\n${rows.join("\n")}`;
 }
 
-const LEGEND = "**Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen";
+const LEGEND = "**Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı";
 const backLink = "[← Ana sayfa](../README.md)";
 
 function write(rel, content) {

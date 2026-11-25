@@ -577,7 +577,7 @@
     ],
     "description": "Yer imi kaydetme, AI ile etiketleme.",
     "laravel": false,
-    "trending": true
+    "trending": false
   },
   {
     "category": "Ofis ve Üretkenlik",
@@ -742,7 +742,7 @@
     "category": "İletişim",
     "category_slug": "iletisim",
     "replaces": "Discord / WhatsApp",
-    "name": "Matrix + Element",
+    "name": "Element",
     "url": "https://github.com/element-hq/element-web",
     "license_type": "osi",
     "license": "AGPL-3.0",
@@ -751,7 +751,22 @@
       "Masaüstü",
       "Mobil"
     ],
-    "description": "Dağıtık ve şifreli mesajlaşma.",
+    "description": "Matrix ağı için şifreli mesajlaşma istemcisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "İletişim",
+    "category_slug": "iletisim",
+    "replaces": "Discord / WhatsApp",
+    "name": "Synapse",
+    "url": "https://github.com/element-hq/synapse",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Kendi Matrix sunucunu kurmak için referans sunucu.",
     "laravel": false,
     "trending": false
   },
@@ -845,7 +860,7 @@
     ],
     "description": "Sosyal medya planlama.",
     "laravel": false,
-    "trending": true
+    "trending": false
   },
   {
     "category": "İletişim",
@@ -1145,7 +1160,39 @@
     "category": "Güvenlik ve Gizlilik",
     "category_slug": "guvenlik-ve-gizlilik",
     "replaces": "Chrome",
-    "name": "Firefox / LibreWolf / Zen",
+    "name": "Firefox",
+    "url": "https://www.mozilla.org/firefox/",
+    "license_type": "osi",
+    "license": "MPL-2.0",
+    "platforms": [
+      "Tümü"
+    ],
+    "description": "Gecko motorlu, eklenti desteği güçlü tarayıcı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "Chrome",
+    "name": "LibreWolf",
+    "url": "https://librewolf.net",
+    "license_type": "osi",
+    "license": "MPL-2.0",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Telemetrisi kapatılmış, gizlilik ayarları sıkılaştırılmış Firefox derlemesi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "Chrome",
+    "name": "Zen Browser",
     "url": "https://github.com/zen-browser/desktop",
     "license_type": "osi",
     "license": "MPL-2.0",
@@ -1154,9 +1201,9 @@
       "Windows",
       "macOS"
     ],
-    "description": "Zen: Arc tarzı dikey sekmeli Firefox tabanlı tarayıcı.",
+    "description": "Arc tarzı dikey sekmeli Firefox tabanlı tarayıcı.",
     "laravel": false,
-    "trending": true
+    "trending": false
   },
   {
     "category": "Güvenlik ve Gizlilik",
@@ -1246,7 +1293,7 @@
     ],
     "description": "Kendi VPS'inle tünelli reverse proxy.",
     "laravel": false,
-    "trending": true
+    "trending": false
   },
   {
     "category": "Depolama ve Yedek",
@@ -1575,14 +1622,29 @@
     "category": "Medya Sunucu",
     "category_slug": "medya-sunucu",
     "replaces": "Comixology",
-    "name": "Komga / Kavita",
+    "name": "Komga",
+    "url": "https://github.com/gotson/komga",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Çizgi roman ve manga sunucusu, OPDS ve Kobo senkronu var.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Medya Sunucu",
+    "category_slug": "medya-sunucu",
+    "replaces": "Comixology",
+    "name": "Kavita",
     "url": "https://github.com/Kareadita/Kavita",
     "license_type": "osi",
     "license": "GPL-3.0",
     "platforms": [
       "Sunucu"
     ],
-    "description": "Çizgi roman, manga ve e-kitap sunucusu.",
+    "description": "Manga, çizgi roman ve e-kitap için okuma sunucusu.",
     "laravel": false,
     "trending": false
   },
@@ -1630,20 +1692,37 @@
     ],
     "description": "Çok parçalı hızlı indirme yöneticisi.",
     "laravel": false,
-    "trending": true
+    "trending": false
   },
   {
     "category": "Medya Sunucu",
     "category_slug": "medya-sunucu",
     "replaces": "Kodi dışı oynatıcılar",
-    "name": "mpv / VLC",
+    "name": "mpv",
     "url": "https://mpv.io",
     "license_type": "osi",
-    "license": "GPL / LGPL",
+    "license": "GPL-2.0 / LGPL-2.1",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Arayüzsüz, betiklerle özelleştirilen hafif oynatıcı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Medya Sunucu",
+    "category_slug": "medya-sunucu",
+    "replaces": "Kodi dışı oynatıcılar",
+    "name": "VLC",
+    "url": "https://www.videolan.org/vlc/",
+    "license_type": "osi",
+    "license": "GPL-2.0",
     "platforms": [
       "Tümü"
     ],
-    "description": "Her formatı oynatan hafif oynatıcı.",
+    "description": "Neredeyse her formatı codec kurmadan oynatır.",
     "laravel": false,
     "trending": false
   },
@@ -2402,7 +2481,7 @@
     ],
     "description": "Tauri ile yazılmış hızlı API istemcisi.",
     "laravel": false,
-    "trending": true
+    "trending": false
   },
   {
     "category": "Geliştirici Araçları",
@@ -2451,7 +2530,7 @@
     ],
     "description": "Tarayıcıda ER diyagramı, SQL çıktı.",
     "laravel": false,
-    "trending": true
+    "trending": false
   },
   {
     "category": "Geliştirici Araçları",
@@ -2553,14 +2632,29 @@
     "category": "Geliştirici Araçları",
     "category_slug": "gelistirici-araclari",
     "replaces": "PhpStorm (terminal)",
-    "name": "Neovim / Helix",
-    "url": "https://github.com/helix-editor/helix",
+    "name": "Neovim",
+    "url": "https://github.com/neovim/neovim",
     "license_type": "osi",
-    "license": "Apache / MPL",
+    "license": "Apache-2.0 / Vim",
     "platforms": [
       "CLI"
     ],
-    "description": "Modal editörler, Helix ayarsız çalışıyor.",
+    "description": "Lua ile genişletilen Vim türevi, yerleşik LSP desteği var.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "PhpStorm (terminal)",
+    "name": "Helix",
+    "url": "https://github.com/helix-editor/helix",
+    "license_type": "osi",
+    "license": "MPL-2.0",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "LSP ve tree-sitter hazır gelen, ayarsız çalışan modal editör.",
     "laravel": false,
     "trending": false
   },
@@ -2578,7 +2672,7 @@
     ],
     "description": "GPU hızlandırmalı terminal.",
     "laravel": false,
-    "trending": true
+    "trending": false
   },
   {
     "category": "Geliştirici Araçları",
@@ -2675,7 +2769,7 @@
     ],
     "description": "Terminal kodlama ajanı.",
     "laravel": false,
-    "trending": false
+    "trending": true
   },
   {
     "category": "Geliştirici Araçları",
@@ -2850,7 +2944,7 @@
     "replaces": "LocalStack",
     "name": "AWS Emulator",
     "url": "https://github.com/aws/aws-emulator",
-    "license_type": "osi",
+    "license_type": "other",
     "license": "CC0-1.0",
     "platforms": [
       "CLI",
@@ -3113,7 +3207,7 @@
     ],
     "description": "Uygulamalara gömülebilir tablo/belge motoru.",
     "laravel": false,
-    "trending": true
+    "trending": false
   },
   {
     "category": "AI ve Yerel Modeller",
@@ -3540,7 +3634,7 @@
     ],
     "description": "Hafif sunucu ve Docker izleme.",
     "laravel": false,
-    "trending": true
+    "trending": false
   },
   {
     "category": "Self-hosted ve Sunucu",
@@ -3561,14 +3655,29 @@
     "category": "Self-hosted ve Sunucu",
     "category_slug": "self-hosted-ve-sunucu",
     "replaces": "Datadog / New Relic",
-    "name": "Grafana + Prometheus",
+    "name": "Grafana",
     "url": "https://github.com/grafana/grafana",
     "license_type": "osi",
-    "license": "AGPL-3.0 / Apache",
+    "license": "AGPL-3.0",
     "platforms": [
       "Sunucu"
     ],
-    "description": "Dashboard ve metrik toplama.",
+    "description": "Metrik, log ve trace için dashboard aracı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Datadog / New Relic",
+    "name": "Prometheus",
+    "url": "https://github.com/prometheus/prometheus",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Zaman serisi metrik toplama ve uyarı sistemi.",
     "laravel": false,
     "trending": false
   },
@@ -3705,7 +3814,7 @@
     ],
     "description": "Modern CRM.",
     "laravel": false,
-    "trending": true
+    "trending": false
   },
   {
     "category": "Self-hosted ve Sunucu",
@@ -3969,14 +4078,31 @@
     "category": "Kişisel ve Ev",
     "category_slug": "kisisel-ve-ev",
     "replaces": "Parsec",
-    "name": "Sunshine + Moonlight",
+    "name": "Sunshine",
     "url": "https://github.com/SunshineStream/Sunshine",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Oyun bilgisayarını yayınlayan düşük gecikmeli akış sunucusu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Parsec",
+    "name": "Moonlight",
+    "url": "https://github.com/moonlight-stream/moonlight-qt",
     "license_type": "osi",
     "license": "GPL-3.0",
     "platforms": [
       "Tümü"
     ],
-    "description": "Oyun akışı, düşük gecikme.",
+    "description": "Sunshine yayınına bağlanan istemci.",
     "laravel": false,
     "trending": false
   },
@@ -4028,15 +4154,30 @@
   {
     "category": "Linux ve Terminal",
     "category_slug": "linux-ve-terminal",
-    "replaces": "Oh My Zsh",
-    "name": "Starship + fzf",
+    "replaces": "Oh My Zsh teması",
+    "name": "Starship",
     "url": "https://github.com/starship/starship",
     "license_type": "osi",
-    "license": "ISC / MIT",
+    "license": "ISC",
     "platforms": [
       "CLI"
     ],
-    "description": "Hızlı prompt ve bulanık arama.",
+    "description": "Her shell'de çalışan hızlı ve ayarlanabilir prompt.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Linux ve Terminal",
+    "category_slug": "linux-ve-terminal",
+    "replaces": "Ctrl+R geçmiş araması",
+    "name": "fzf",
+    "url": "https://github.com/junegunn/fzf",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Dosya, geçmiş ve her türlü liste için bulanık arama.",
     "laravel": false,
     "trending": false
   },
@@ -4120,15 +4261,30 @@
   {
     "category": "Linux ve Terminal",
     "category_slug": "linux-ve-terminal",
-    "replaces": "grep / find",
-    "name": "ripgrep + fd",
+    "replaces": "grep",
+    "name": "ripgrep",
     "url": "https://github.com/BurntSushi/ripgrep",
     "license_type": "osi",
     "license": "MIT / Unlicense",
     "platforms": [
       "CLI"
     ],
-    "description": "Çok daha hızlı arama.",
+    "description": ".gitignore'a uyan, çok hızlı metin arama.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Linux ve Terminal",
+    "category_slug": "linux-ve-terminal",
+    "replaces": "find",
+    "name": "fd",
+    "url": "https://github.com/sharkdp/fd",
+    "license_type": "osi",
+    "license": "MIT / Apache-2.0",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Kısa sözdizimli, hızlı dosya bulma.",
     "laravel": false,
     "trending": false
   },
@@ -4210,15 +4366,30 @@
   {
     "category": "Linux ve Terminal",
     "category_slug": "linux-ve-terminal",
-    "replaces": "JSON görüntüleme",
-    "name": "jq / jless",
+    "replaces": "JSON işleme",
+    "name": "jq",
     "url": "https://github.com/jqlang/jq",
     "license_type": "osi",
     "license": "MIT",
     "platforms": [
       "CLI"
     ],
-    "description": "JSON işleme ve gezme.",
+    "description": "Komut satırında JSON filtreleme ve dönüştürme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Linux ve Terminal",
+    "category_slug": "linux-ve-terminal",
+    "replaces": "JSON görüntüleme",
+    "name": "jless",
+    "url": "https://github.com/PaulJuliusMartinez/jless",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Büyük JSON dosyalarında katlanabilir gezinme.",
     "laravel": false,
     "trending": false
   },
@@ -4683,6 +4854,3915 @@
       "Android"
     ],
     "description": "K-9 Mail'in devamı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Evernote",
+    "name": "Trilium Notes",
+    "url": "https://github.com/TriliumNext/Trilium",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Masaüstü",
+      "Web"
+    ],
+    "description": "Hiyerarşik notlar, ilişki haritası ve betik desteği olan kişisel bilgi tabanı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Typora",
+    "name": "MarkText",
+    "url": "https://github.com/marktext/marktext",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Yazarken biçimlendirmeyi gösteren Markdown editörü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Evernote / Apple Notes",
+    "name": "Notesnook",
+    "url": "https://github.com/streetwriters/notesnook",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Tümü",
+      "Web"
+    ],
+    "description": "Uçtan uca şifreli not uygulaması.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Ulysses / Scrivener",
+    "name": "Zettlr",
+    "url": "https://github.com/Zettlr/Zettlr",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Akademik yazım için Markdown editörü, Zotero ve Pandoc entegre.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "HackMD",
+    "name": "HedgeDoc",
+    "url": "https://github.com/hedgedoc/hedgedoc",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Ortak, gerçek zamanlı Markdown düzenleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Google Docs (basit)",
+    "name": "Etherpad",
+    "url": "https://github.com/ether/etherpad",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Gerçek zamanlı ortak metin düzenleyici.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Google Workspace",
+    "name": "CryptPad",
+    "url": "https://github.com/cryptpad/cryptpad",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu",
+      "Web"
+    ],
+    "description": "Sunucunun içeriği göremediği şifreli ofis paketi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Airtable / Excel",
+    "name": "Grist",
+    "url": "https://github.com/gristlabs/grist-core",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu",
+      "Web"
+    ],
+    "description": "Formülleri Python olan ilişkisel tablo uygulaması.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Todoist / Toggl",
+    "name": "Super Productivity",
+    "url": "https://github.com/super-productivity/super-productivity",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü",
+      "Mobil"
+    ],
+    "description": "Görev, zaman takibi ve Jira/GitHub entegrasyonu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "LaTeX / Word",
+    "name": "Typst",
+    "url": "https://github.com/typst/typst",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Hızlı derlenen, öğrenmesi kolay dizgi sistemi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "DocuSign",
+    "name": "DocuSeal",
+    "url": "https://github.com/docusealco/docuseal",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "PDF belgeleri doldurma ve e-imza.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "DocuSign",
+    "name": "Documenso",
+    "url": "https://github.com/documenso/documenso",
+    "license_type": "open-core",
+    "license": "AGPL-3.0 + EE",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "E-imza platformu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Typeform",
+    "name": "OpnForm",
+    "url": "https://github.com/OpnForm/OpnForm",
+    "license_type": "open-core",
+    "license": "AGPL-3.0 + Enterprise",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Kod yazmadan form oluşturma.",
+    "laravel": true,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Toggl Track",
+    "name": "solidtime",
+    "url": "https://github.com/solidtime-io/solidtime",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Proje ve müşteri bazlı zaman takibi.",
+    "laravel": true,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Harvest / Toggl",
+    "name": "Kimai",
+    "url": "https://github.com/kimai/kimai",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Ekipler için zaman takibi ve faturalama.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Kindle okuyucu",
+    "name": "KOReader",
+    "url": "https://github.com/koreader/koreader",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Android",
+      "Linux"
+    ],
+    "description": "E-mürekkep cihazlar için PDF ve EPUB okuyucu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Apple Books",
+    "name": "Foliate",
+    "url": "https://github.com/johnfactotum/foliate",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux"
+    ],
+    "description": "Sade ve şık e-kitap okuyucu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Apple Books / Kindle",
+    "name": "Readest",
+    "url": "https://github.com/readest/readest",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Tümü",
+      "Web"
+    ],
+    "description": "Senkronlu, platformlar arası e-kitap okuyucu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Adobe Reader (makale okuma)",
+    "name": "Sioyek",
+    "url": "https://github.com/ahrm/sioyek",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Akademik makale ve kitaplar için PDF okuyucu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Tableau / Power BI",
+    "name": "Metabase",
+    "url": "https://github.com/metabase/metabase",
+    "license_type": "open-core",
+    "license": "AGPL-3.0 + Commercial",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "SQL bilmeden veri sorgulama ve dashboard.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Ofis ve Üretkenlik",
+    "category_slug": "ofis-ve-uretkenlik",
+    "replaces": "Tableau / Looker",
+    "name": "Apache Superset",
+    "url": "https://github.com/apache/superset",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Veri keşfi ve görselleştirme platformu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "İletişim",
+    "category_slug": "iletisim",
+    "replaces": "X (Twitter)",
+    "name": "Mastodon",
+    "url": "https://github.com/mastodon/mastodon",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu",
+      "Web"
+    ],
+    "description": "Federe mikroblog ağı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "İletişim",
+    "category_slug": "iletisim",
+    "replaces": "Reddit",
+    "name": "Lemmy",
+    "url": "https://github.com/LemmyNet/lemmy",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Federe bağlantı paylaşım ve tartışma platformu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "İletişim",
+    "category_slug": "iletisim",
+    "replaces": "Forum yazılımları / Discord topluluk",
+    "name": "Discourse",
+    "url": "https://github.com/discourse/discourse",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Modern tartışma forumu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "İletişim",
+    "category_slug": "iletisim",
+    "replaces": "vBulletin / XenForo",
+    "name": "Flarum",
+    "url": "https://github.com/flarum/framework",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Hafif ve eklentili forum yazılımı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "İletişim",
+    "category_slug": "iletisim",
+    "replaces": "WhatsApp / Telegram",
+    "name": "SimpleX Chat",
+    "url": "https://github.com/simplex-chat/simplex-chat",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Mobil",
+      "Masaüstü"
+    ],
+    "description": "Kullanıcı kimliği olmayan şifreli mesajlaşma.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "İletişim",
+    "category_slug": "iletisim",
+    "replaces": "WhatsApp",
+    "name": "Delta Chat",
+    "url": "https://github.com/deltachat/deltachat-desktop",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Tümü"
+    ],
+    "description": "E-posta altyapısı üzerinden şifreli sohbet.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "İletişim",
+    "category_slug": "iletisim",
+    "replaces": "Gmail / Outlook",
+    "name": "Tuta",
+    "url": "https://github.com/tutao/tutanota",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Tümü",
+      "Web"
+    ],
+    "description": "Uçtan uca şifreli e-posta ve takvim istemcisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "İletişim",
+    "category_slug": "iletisim",
+    "replaces": "Zoom (eğitim)",
+    "name": "BigBlueButton",
+    "url": "https://github.com/bigbluebutton/bigbluebutton",
+    "license_type": "osi",
+    "license": "LGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Çevrimiçi ders ve toplantı sistemi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "İletişim",
+    "category_slug": "iletisim",
+    "replaces": "Twitch",
+    "name": "Owncast",
+    "url": "https://github.com/owncast/owncast",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Kendi canlı yayın sunucun ve sohbeti.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "İletişim",
+    "category_slug": "iletisim",
+    "replaces": "SendGrid / Mailgun",
+    "name": "Postal",
+    "url": "https://github.com/postalserver/postal",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Toplu ve işlemsel e-posta gönderim sunucusu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "İletişim",
+    "category_slug": "iletisim",
+    "replaces": "Zendesk",
+    "name": "Zammad",
+    "url": "https://github.com/zammad/zammad",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Çok kanallı müşteri destek sistemi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "İletişim",
+    "category_slug": "iletisim",
+    "replaces": "Help Scout",
+    "name": "FreeScout",
+    "url": "https://github.com/freescout-help-desk/freescout",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Paylaşımlı gelen kutusu ve destek masası.",
+    "laravel": true,
+    "trending": false
+  },
+  {
+    "category": "İletişim",
+    "category_slug": "iletisim",
+    "replaces": "Gmail web arayüzü",
+    "name": "SnappyMail",
+    "url": "https://github.com/the-djmaze/snappymail",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Hızlı ve hafif web e-posta istemcisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "İletişim",
+    "category_slug": "iletisim",
+    "replaces": "Outlook Web",
+    "name": "Roundcube",
+    "url": "https://github.com/roundcube/roundcubemail",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Yaygın kullanılan web e-posta istemcisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "1Password Teams",
+    "name": "Passbolt",
+    "url": "https://github.com/passbolt/passbolt_api",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Ekipler için parola paylaşımı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "NextDNS",
+    "name": "Pi-hole",
+    "url": "https://github.com/pi-hole/pi-hole",
+    "license_type": "osi",
+    "license": "EUPL-1.2",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Ağ genelinde reklam ve izleyici engelleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "NextDNS / Cloudflare Gateway",
+    "name": "Technitium DNS",
+    "url": "https://github.com/TechnitiumSoftware/DnsServer",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Sunucu",
+      "Windows"
+    ],
+    "description": "Engelleme listeli, DoH destekli DNS sunucusu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "Fail2ban / Cloudflare WAF",
+    "name": "CrowdSec",
+    "url": "https://github.com/crowdsecurity/crowdsec",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Topluluk tabanlı saldırı tespiti ve engelleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "Splunk / CrowdStrike",
+    "name": "Wazuh",
+    "url": "https://github.com/wazuh/wazuh",
+    "license_type": "osi",
+    "license": "GPL-2.0 / AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "SIEM ve uç nokta güvenlik izleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "Cloudflare Access",
+    "name": "Authelia",
+    "url": "https://github.com/authelia/authelia",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Reverse proxy önünde SSO ve 2FA.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "Auth0 (basit)",
+    "name": "Pocket ID",
+    "url": "https://github.com/pocket-id/pocket-id",
+    "license_type": "osi",
+    "license": "BSD-2",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Passkey ile giriş yapan sade OIDC sağlayıcı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "HashiCorp Vault",
+    "name": "OpenBao",
+    "url": "https://github.com/openbao/openbao",
+    "license_type": "osi",
+    "license": "MPL-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Vault'un açık kaynak çatalı, sır yönetimi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "Tailscale / Zscaler",
+    "name": "Firezone",
+    "url": "https://github.com/firezone/firezone",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu",
+      "Tümü"
+    ],
+    "description": "WireGuard tabanlı sıfır güven erişim.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "Ticari VPN panelleri",
+    "name": "wg-easy",
+    "url": "https://github.com/wg-easy/wg-easy",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Docker"
+    ],
+    "description": "Web arayüzlü WireGuard VPN sunucusu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "GlassWire / Little Snitch",
+    "name": "Portmaster",
+    "url": "https://github.com/safing/portmaster",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux",
+      "Windows"
+    ],
+    "description": "Uygulama bazlı güvenlik duvarı ve izleyici engelleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "Little Snitch",
+    "name": "OpenSnitch",
+    "url": "https://github.com/evilsocket/opensnitch",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux"
+    ],
+    "description": "Uygulama bazlı giden bağlantı güvenlik duvarı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "macOS",
+    "category_slug": "macos",
+    "replaces": "Little Snitch",
+    "name": "LuLu",
+    "url": "https://github.com/objective-see/LuLu",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "macOS"
+    ],
+    "description": "Giden bağlantıları uygulama bazında engelleyen güvenlik duvarı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "GlassWire",
+    "name": "Sniffnet",
+    "url": "https://github.com/GyulyVGC/sniffnet",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Ağ trafiğini grafiklerle izleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "Ghostery",
+    "name": "Privacy Badger",
+    "url": "https://github.com/EFForg/privacybadger",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Tarayıcı eklentisi"
+    ],
+    "description": "İzleyicileri davranışlarından öğrenip engelleyen eklenti.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "Chrome",
+    "name": "ungoogled-chromium",
+    "url": "https://github.com/ungoogled-software/ungoogled-chromium",
+    "license_type": "osi",
+    "license": "BSD-3",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Google servislerinden arındırılmış Chromium.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "Chrome",
+    "name": "Brave",
+    "url": "https://github.com/brave/brave-browser",
+    "license_type": "osi",
+    "license": "MPL-2.0",
+    "platforms": [
+      "Tümü"
+    ],
+    "description": "Yerleşik reklam engelleyicili Chromium tabanlı tarayıcı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "Google Authenticator / Authy",
+    "name": "2FAS",
+    "url": "https://github.com/twofas/2fas-android",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Yedeklemeli iki adımlı doğrulama uygulaması.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Depolama ve Yedek",
+    "category_slug": "depolama-ve-yedek",
+    "replaces": "Backblaze uygulaması",
+    "name": "Backrest",
+    "url": "https://github.com/garethgeorge/backrest",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Restic için web arayüzü ve zamanlayıcı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Depolama ve Yedek",
+    "category_slug": "depolama-ve-yedek",
+    "replaces": "Time Machine",
+    "name": "Vorta",
+    "url": "https://github.com/borgbase/vorta",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux",
+      "macOS"
+    ],
+    "description": "BorgBackup için masaüstü arayüzü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Depolama ve Yedek",
+    "category_slug": "depolama-ve-yedek",
+    "replaces": "WeTransfer",
+    "name": "croc",
+    "url": "https://github.com/schollz/croc",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "İki bilgisayar arasında şifreli dosya gönderme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Depolama ve Yedek",
+    "category_slug": "depolama-ve-yedek",
+    "replaces": "AirDrop",
+    "name": "Warpinator",
+    "url": "https://github.com/linuxmint/warpinator",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux"
+    ],
+    "description": "Yerel ağda dosya gönderme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Depolama ve Yedek",
+    "category_slug": "depolama-ve-yedek",
+    "replaces": "Finder / Google Drive",
+    "name": "Spacedrive",
+    "url": "https://github.com/spacedriveapp/spacedrive",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Birden çok cihazdaki dosyaları tek yerden yönetme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Depolama ve Yedek",
+    "category_slug": "depolama-ve-yedek",
+    "replaces": "Dropbox / FTP sunucu",
+    "name": "copyparty",
+    "url": "https://github.com/9001/copyparty",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Tek dosyalık, her protokolü destekleyen dosya sunucusu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Depolama ve Yedek",
+    "category_slug": "depolama-ve-yedek",
+    "replaces": "Google Drive",
+    "name": "Cloudreve",
+    "url": "https://github.com/cloudreve/cloudreve",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Çoklu depolama arka uçlu bulut sürücü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Depolama ve Yedek",
+    "category_slug": "depolama-ve-yedek",
+    "replaces": "Bulut sürücü birleştiriciler",
+    "name": "OpenList",
+    "url": "https://github.com/OpenListTeam/OpenList",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Farklı bulut depolamaları tek arayüzde listeleme.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "Depolama ve Yedek",
+    "category_slug": "depolama-ve-yedek",
+    "replaces": "CCleaner",
+    "name": "BleachBit",
+    "url": "https://github.com/bleachbit/bleachbit",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux",
+      "Windows"
+    ],
+    "description": "Disk temizleme ve gizlilik temizliği.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Depolama ve Yedek",
+    "category_slug": "depolama-ve-yedek",
+    "replaces": "Duplicate Cleaner",
+    "name": "dupeGuru",
+    "url": "https://github.com/arsenetar/dupeguru",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Benzer adlı veya içerikli kopya dosyaları bulma.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Medya Sunucu",
+    "category_slug": "medya-sunucu",
+    "replaces": "Plex istemcisi / Apple TV",
+    "name": "Kodi",
+    "url": "https://github.com/xbmc/xbmc",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Tümü"
+    ],
+    "description": "Ev sineması medya merkezi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Medya Sunucu",
+    "category_slug": "medya-sunucu",
+    "replaces": "YouTube",
+    "name": "PeerTube",
+    "url": "https://github.com/Chocobozzz/PeerTube",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Federe video barındırma platformu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Medya Sunucu",
+    "category_slug": "medya-sunucu",
+    "replaces": "iTunes / MusicBee",
+    "name": "Strawberry",
+    "url": "https://github.com/strawberrymusicplayer/strawberry",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Yerel müzik koleksiyonu için oynatıcı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Medya Sunucu",
+    "category_slug": "medya-sunucu",
+    "replaces": "Plexamp",
+    "name": "Feishin",
+    "url": "https://github.com/jeffvli/feishin",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Masaüstü",
+      "Web"
+    ],
+    "description": "Navidrome ve Jellyfin için müzik istemcisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Medya Sunucu",
+    "category_slug": "medya-sunucu",
+    "replaces": "Sonos uygulaması",
+    "name": "Music Assistant",
+    "url": "https://github.com/music-assistant/server",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Farklı müzik kaynaklarını evdeki hoparlörlere dağıtma.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Medya Sunucu",
+    "category_slug": "medya-sunucu",
+    "replaces": "YouTube Premium (indirme)",
+    "name": "Tube Archivist",
+    "url": "https://github.com/tubearchivist/tubearchivist",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "YouTube kanallarını arşivleyip izleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Medya Sunucu",
+    "category_slug": "medya-sunucu",
+    "replaces": "YouTube Premium (indirme)",
+    "name": "Pinchflat",
+    "url": "https://github.com/kieraneglin/pinchflat",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Kanalları otomatik indirip medya sunucusuna aktarma.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Medya Sunucu",
+    "category_slug": "medya-sunucu",
+    "replaces": "Kindle bulut kütüphanesi",
+    "name": "Calibre-Web",
+    "url": "https://github.com/janeczku/calibre-web",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Calibre kütüphanesi için web arayüzü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "macOS",
+    "category_slug": "macos",
+    "replaces": "Infuse",
+    "name": "IINA",
+    "url": "https://github.com/iina/iina",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "macOS"
+    ],
+    "description": "mpv tabanlı modern macOS oynatıcısı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Medya Sunucu",
+    "category_slug": "medya-sunucu",
+    "replaces": "µTorrent / BitTorrent",
+    "name": "qBittorrent",
+    "url": "https://github.com/qbittorrent/qBittorrent",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Reklamsız BitTorrent istemcisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Medya Sunucu",
+    "category_slug": "medya-sunucu",
+    "replaces": "µTorrent",
+    "name": "Transmission",
+    "url": "https://github.com/transmission/transmission",
+    "license_type": "osi",
+    "license": "GPL-2.0 / GPL-3.0",
+    "platforms": [
+      "Masaüstü",
+      "Sunucu"
+    ],
+    "description": "Hafif BitTorrent istemcisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Medya Sunucu",
+    "category_slug": "medya-sunucu",
+    "replaces": "Görsel indirme uygulamaları",
+    "name": "gallery-dl",
+    "url": "https://github.com/mikf/gallery-dl",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Galeri ve görsel sitelerinden toplu indirme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Tasarım ve Grafik",
+    "category_slug": "tasarim-ve-grafik",
+    "replaces": "Photoshop / Illustrator",
+    "name": "Graphite",
+    "url": "https://github.com/GraphiteEditor/Graphite",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Web"
+    ],
+    "description": "Düğüm tabanlı, prosedürel 2D grafik editörü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Tasarım ve Grafik",
+    "category_slug": "tasarim-ve-grafik",
+    "replaces": "Paint.NET",
+    "name": "Pinta",
+    "url": "https://github.com/PintaProject/Pinta",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Basit ve hızlı resim düzenleyici.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Tasarım ve Grafik",
+    "category_slug": "tasarim-ve-grafik",
+    "replaces": "Photopea",
+    "name": "miniPaint",
+    "url": "https://github.com/viliusle/miniPaint",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Web"
+    ],
+    "description": "Tarayıcıda çalışan resim editörü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Tasarım ve Grafik",
+    "category_slug": "tasarim-ve-grafik",
+    "replaces": "Midjourney",
+    "name": "InvokeAI",
+    "url": "https://github.com/invoke-ai/InvokeAI",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Masaüstü",
+      "Sunucu"
+    ],
+    "description": "Yerel görsel üretim için arayüz.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Tasarım ve Grafik",
+    "category_slug": "tasarim-ve-grafik",
+    "replaces": "Midjourney",
+    "name": "Fooocus",
+    "url": "https://github.com/lllyasviel/Fooocus",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Ayarsız yerel görsel üretimi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Tasarım ve Grafik",
+    "category_slug": "tasarim-ve-grafik",
+    "replaces": "Procreate",
+    "name": "MyPaint",
+    "url": "https://github.com/mypaint/mypaint",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Linux",
+      "Windows"
+    ],
+    "description": "Sade arayüzlü dijital boyama.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Tasarım ve Grafik",
+    "category_slug": "tasarim-ve-grafik",
+    "replaces": "GoodNotes / OneNote çizim",
+    "name": "Rnote",
+    "url": "https://github.com/flxzt/rnote",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux",
+      "Windows"
+    ],
+    "description": "Kalemle not ve çizim.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Tasarım ve Grafik",
+    "category_slug": "tasarim-ve-grafik",
+    "replaces": "Fusion 360 (parametrik)",
+    "name": "OpenSCAD",
+    "url": "https://github.com/openscad/openscad",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Kodla 3D katı model tasarımı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Tasarım ve Grafik",
+    "category_slug": "tasarim-ve-grafik",
+    "replaces": "Glyphs / FontLab",
+    "name": "FontForge",
+    "url": "https://github.com/fontforge/fontforge",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Yazı tipi tasarımı ve düzenleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Video, Ses ve 3D",
+    "category_slug": "video-ses-ve-3d",
+    "replaces": "iMovie",
+    "name": "OpenShot",
+    "url": "https://github.com/OpenShot/openshot-qt",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Kolay kullanımlı video düzenleyici.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Video, Ses ve 3D",
+    "category_slug": "video-ses-ve-3d",
+    "replaces": "Video kesme araçları",
+    "name": "LosslessCut",
+    "url": "https://github.com/mifi/lossless-cut",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Yeniden kodlamadan video ve ses kesme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Video, Ses ve 3D",
+    "category_slug": "video-ses-ve-3d",
+    "replaces": "Loom",
+    "name": "Cap",
+    "url": "https://github.com/CapSoftware/Cap",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Ekran kaydı ve paylaşım linki.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Video, Ses ve 3D",
+    "category_slug": "video-ses-ve-3d",
+    "replaces": "Screen Studio",
+    "name": "Recordly",
+    "url": "https://github.com/webadderallorg/Recordly",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Otomatik zoom'lu demo videosu kaydı.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "Video, Ses ve 3D",
+    "category_slug": "video-ses-ve-3d",
+    "replaces": "Serato / Traktor",
+    "name": "Mixxx",
+    "url": "https://github.com/mixxxdj/mixxx",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "DJ yazılımı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Video, Ses ve 3D",
+    "category_slug": "video-ses-ve-3d",
+    "replaces": "Serum / ticari synth'ler",
+    "name": "Surge XT",
+    "url": "https://github.com/surge-synthesizer/surge",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Hibrit yazılım synthesizer.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Video, Ses ve 3D",
+    "category_slug": "video-ses-ve-3d",
+    "replaces": "Ticari davul makineleri",
+    "name": "Hydrogen",
+    "url": "https://github.com/hydrogen-music/hydrogen",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Davul makinesi ve ritim programlama.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Video, Ses ve 3D",
+    "category_slug": "video-ses-ve-3d",
+    "replaces": "Ticari altyazı editörleri",
+    "name": "Subtitle Edit",
+    "url": "https://github.com/SubtitleEdit/subtitleedit",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "description": "Altyazı düzenleme, senkron ve çeviri.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Video, Ses ve 3D",
+    "category_slug": "video-ses-ve-3d",
+    "replaces": "Otter.ai / MacWhisper",
+    "name": "Buzz",
+    "url": "https://github.com/chidiwilliams/buzz",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Whisper ile yerel ses yazıya dökme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Video, Ses ve 3D",
+    "category_slug": "video-ses-ve-3d",
+    "replaces": "OpenAI Whisper API",
+    "name": "whisper.cpp",
+    "url": "https://github.com/ggml-org/whisper.cpp",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Whisper modelinin CPU'da hızlı çalışan C++ portu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Video, Ses ve 3D",
+    "category_slug": "video-ses-ve-3d",
+    "replaces": "ElevenLabs",
+    "name": "Chatterbox",
+    "url": "https://github.com/resemble-ai/chatterbox",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Ses klonlayabilen yerel metinden konuşma modeli.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "Video, Ses ve 3D",
+    "category_slug": "video-ses-ve-3d",
+    "replaces": "LALAL.AI",
+    "name": "Ultimate Vocal Remover",
+    "url": "https://github.com/Anjok07/ultimatevocalremovergui",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Şarkılardan vokal ve enstrüman ayırma.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Video, Ses ve 3D",
+    "category_slug": "video-ses-ve-3d",
+    "replaces": "RealityCapture",
+    "name": "Meshroom",
+    "url": "https://github.com/alicevision/Meshroom",
+    "license_type": "osi",
+    "license": "MPL-2.0",
+    "platforms": [
+      "Linux",
+      "Windows"
+    ],
+    "description": "Fotoğraflardan 3D model üreten fotogrametri.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Oyun Geliştirme",
+    "category_slug": "oyun-gelistirme",
+    "replaces": "Unreal Engine",
+    "name": "O3DE",
+    "url": "https://github.com/o3de/o3de",
+    "license_type": "osi",
+    "license": "Apache-2.0 / MIT",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Linux Foundation'ın AAA odaklı 3D motoru.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Oyun Geliştirme",
+    "category_slug": "oyun-gelistirme",
+    "replaces": "Unity",
+    "name": "Stride",
+    "url": "https://github.com/stride3d/stride",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "C# ile yazılan 3D oyun motoru.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Oyun Geliştirme",
+    "category_slug": "oyun-gelistirme",
+    "replaces": "Construct / GameMaker",
+    "name": "GDevelop",
+    "url": "https://github.com/4ian/GDevelop",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü",
+      "Web"
+    ],
+    "description": "Kod yazmadan oyun yapma.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Oyun Geliştirme",
+    "category_slug": "oyun-gelistirme",
+    "replaces": "Ticari 2D/3D çatılar",
+    "name": "raylib",
+    "url": "https://github.com/raysan5/raylib",
+    "license_type": "osi",
+    "license": "zlib",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Sade C oyun programlama kütüphanesi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Oyun Geliştirme",
+    "category_slug": "oyun-gelistirme",
+    "replaces": "XNA / Unity 2D",
+    "name": "MonoGame",
+    "url": "https://github.com/MonoGame/MonoGame",
+    "license_type": "osi",
+    "license": "MS-PL",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "C# ile çapraz platform oyun çatısı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Oyun Geliştirme",
+    "category_slug": "oyun-gelistirme",
+    "replaces": "Unity WebGL",
+    "name": "Babylon.js",
+    "url": "https://github.com/BabylonJS/Babylon.js",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Web"
+    ],
+    "description": "Tarayıcı için 3D motor.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Oyun Geliştirme",
+    "category_slug": "oyun-gelistirme",
+    "replaces": "Unity WebGL",
+    "name": "PlayCanvas Engine",
+    "url": "https://github.com/playcanvas/engine",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Web"
+    ],
+    "description": "WebGL/WebGPU oyun motoru.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Oyun Geliştirme",
+    "category_slug": "oyun-gelistirme",
+    "replaces": "Ticari seviye editörleri",
+    "name": "LDtk",
+    "url": "https://github.com/deepnight/ldtk",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "2D seviye tasarım editörü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Oyun Geliştirme",
+    "category_slug": "oyun-gelistirme",
+    "replaces": "TyranoBuilder",
+    "name": "Ren'Py",
+    "url": "https://github.com/renpy/renpy",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Görsel roman motoru.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Oyun Geliştirme",
+    "category_slug": "oyun-gelistirme",
+    "replaces": "Unity",
+    "name": "Fyrox",
+    "url": "https://github.com/FyroxEngine/Fyrox",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Editörlü Rust oyun motoru.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Online dönüştürücüler",
+    "name": "DevToys",
+    "url": "https://github.com/DevToys-app/DevToys",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "JSON, Base64, JWT gibi geliştirici araçları tek uygulamada.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "010 Editor",
+    "name": "ImHex",
+    "url": "https://github.com/WerWolv/ImHex",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Desen dilli hex editörü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "GitKraken / Fork",
+    "name": "SourceGit",
+    "url": "https://github.com/sourcegit-org/sourcegit",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Git grafik arayüzü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "GitKraken",
+    "name": "GitHub Desktop",
+    "url": "https://github.com/desktop/desktop",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "description": "Basit Git istemcisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "GitHub (self-host)",
+    "name": "Gogs",
+    "url": "https://github.com/gogs/gogs",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Çok hafif Git sunucusu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "GitHub Codespaces",
+    "name": "code-server",
+    "url": "https://github.com/coder/code-server",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "VS Code'u tarayıcıda çalıştırma.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "GitHub Codespaces / Gitpod",
+    "name": "Coder",
+    "url": "https://github.com/coder/coder",
+    "license_type": "open-core",
+    "license": "AGPL-3.0 + Enterprise",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Kendi altyapında geliştirme ortamları.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Retool",
+    "name": "Appsmith",
+    "url": "https://github.com/appsmithorg/appsmith",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Sürükle bırak dahili araç geliştirme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Retool / PowerApps",
+    "name": "Budibase",
+    "url": "https://github.com/Budibase/budibase",
+    "license_type": "open-core",
+    "license": "GPL-3.0 + BSL (pro)",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Düşük kodlu iş uygulamaları.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Docker Desktop",
+    "name": "Rancher Desktop",
+    "url": "https://github.com/rancher-sandbox/rancher-desktop",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Konteyner ve yerel Kubernetes.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Docker Desktop",
+    "name": "Colima",
+    "url": "https://github.com/abiosoft/colima",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "macOS",
+      "Linux"
+    ],
+    "description": "Minimum ayarla konteyner çalıştırma.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "DataGrip (PostgreSQL)",
+    "name": "pgAdmin",
+    "url": "https://github.com/pgadmin-org/pgadmin4",
+    "license_type": "osi",
+    "license": "PostgreSQL",
+    "platforms": [
+      "Masaüstü",
+      "Web"
+    ],
+    "description": "PostgreSQL yönetim aracı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "TablePlus",
+    "name": "DbGate",
+    "url": "https://github.com/dbgate/dbgate",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Masaüstü",
+      "Web"
+    ],
+    "description": "SQL ve NoSQL veritabanı istemcisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "macOS",
+    "category_slug": "macos",
+    "replaces": "TablePlus (MySQL)",
+    "name": "Sequel Ace",
+    "url": "https://github.com/Sequel-Ace/Sequel-Ace",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "macOS"
+    ],
+    "description": "MySQL ve MariaDB istemcisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "Navicat",
+    "name": "HeidiSQL",
+    "url": "https://github.com/HeidiSQL/HeidiSQL",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "MySQL, PostgreSQL ve SQL Server istemcisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Lens",
+    "name": "Freelens",
+    "url": "https://github.com/freelensapp/freelens",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Kubernetes masaüstü IDE'si.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Lens / Rancher UI",
+    "name": "Headlamp",
+    "url": "https://github.com/kubernetes-sigs/headlamp",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Masaüstü",
+      "Web"
+    ],
+    "description": "Eklentili Kubernetes arayüzü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Postman testleri",
+    "name": "Hurl",
+    "url": "https://github.com/Orange-OpenSource/hurl",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Düz metin dosyalarla HTTP isteği ve test.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "LoadRunner / BlazeMeter",
+    "name": "k6",
+    "url": "https://github.com/grafana/k6",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "JavaScript ile yük testi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Docker imaj analiz araçları",
+    "name": "dive",
+    "url": "https://github.com/wagoodman/dive",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Docker imaj katmanlarını inceleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "iTerm2",
+    "name": "kitty",
+    "url": "https://github.com/kovidgoyal/kitty",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux",
+      "macOS"
+    ],
+    "description": "GPU hızlandırmalı terminal.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "iTerm2 / Windows Terminal",
+    "name": "Alacritty",
+    "url": "https://github.com/alacritty/alacritty",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Minimal ve hızlı GPU terminali.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Ticari AI terminalleri",
+    "name": "Warp",
+    "url": "https://github.com/warpdotdev/warp",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Yapay zekâ destekli terminal.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Sublime Text",
+    "name": "Lapce",
+    "url": "https://github.com/lapce/lapce",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Rust ile yazılmış hızlı kod editörü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Sublime Text",
+    "name": "Pulsar",
+    "url": "https://github.com/pulsar-edit/pulsar",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Atom editörünün topluluk devamı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "Sublime Text / UltraEdit",
+    "name": "Notepad++",
+    "url": "https://github.com/notepad-plus-plus/notepad-plus-plus",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "Hafif kod ve metin editörü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Cursor / GitHub Copilot",
+    "name": "Kilo Code",
+    "url": "https://github.com/Kilo-Org/kilocode",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "VS Code",
+      "JetBrains"
+    ],
+    "description": "Açık kaynak AI kodlama ajanı.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Devin",
+    "name": "OpenHands",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu",
+      "CLI"
+    ],
+    "description": "Otonom yazılım geliştirme ajanı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Claude Code / Cursor",
+    "name": "goose",
+    "url": "https://github.com/aaif-goose/goose",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "CLI",
+      "Masaüstü"
+    ],
+    "description": "Her modelle çalışan yerel AI ajanı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "OpenAI API",
+    "name": "llama.cpp",
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI",
+      "Sunucu"
+    ],
+    "description": "GGUF modelleri CPU ve GPU'da çalıştıran çıkarım motoru.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "OpenAI API",
+    "name": "LocalAI",
+    "url": "https://github.com/mudler/LocalAI",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "OpenAI uyumlu yerel AI API sunucusu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "Barındırılan LLM API'leri",
+    "name": "vLLM",
+    "url": "https://github.com/vllm-project/vllm",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Yüksek verimli LLM sunma motoru.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "ChatGPT masaüstü",
+    "name": "Cherry Studio",
+    "url": "https://github.com/CherryHQ/cherry-studio",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Birçok model sağlayıcısını tek arayüzde toplayan istemci.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "NotebookLM",
+    "name": "Open Notebook",
+    "url": "https://github.com/lfnovo/open-notebook",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Kaynaklarınla sohbet ve podcast üretimi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "ChatGPT Enterprise (belge arama)",
+    "name": "RAGFlow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Derin belge ayrıştırmalı RAG motoru.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "Ticari ajan oluşturucular",
+    "name": "Langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Görsel AI iş akışı ve ajan oluşturucu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "Otter.ai / Fireflies",
+    "name": "Meetily",
+    "url": "https://github.com/Zackriya-Solutions/meetily",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Toplantıları cihazda yazıya döküp özetleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "Adobe PDF Extract API",
+    "name": "Docling",
+    "url": "https://github.com/docling-project/docling",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "PDF ve ofis belgelerini Markdown/JSON'a çevirme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "LangSmith",
+    "name": "Langfuse",
+    "url": "https://github.com/langfuse/langfuse",
+    "license_type": "open-core",
+    "license": "MIT + EE",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "LLM uygulamaları için izleme ve değerlendirme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "OpenAI Operator",
+    "name": "Browser Use",
+    "url": "https://github.com/browser-use/browser-use",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "AI ajanlarına tarayıcı kontrolü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "Firecrawl (bulut)",
+    "name": "Crawl4AI",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "CLI",
+      "Sunucu"
+    ],
+    "description": "LLM'ler için web tarama ve içerik çıkarma.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "iGoogle / Start.me",
+    "name": "Glance",
+    "url": "https://github.com/glanceapp/glance",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "RSS, hava durumu ve servisleri tek sayfada toplayan pano.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Start.me",
+    "name": "Homepage",
+    "url": "https://github.com/gethomepage/homepage",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Servis entegrasyonlu uygulama panosu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Start.me",
+    "name": "Homarr",
+    "url": "https://github.com/homarr-labs/homarr",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Sürükle bırak sunucu panosu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Start.me",
+    "name": "Dashy",
+    "url": "https://github.com/lissy93/dashy",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Durum kontrollü kişisel pano.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Heroku",
+    "name": "Dokku",
+    "url": "https://github.com/dokku/dokku",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "git push ile dağıtım yapan mini PaaS.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Synology DSM (uygulamalar)",
+    "name": "YunoHost",
+    "url": "https://github.com/YunoHost/yunohost",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Bare metal"
+    ],
+    "description": "Sunucuya tek tıkla uygulama kuran işletim sistemi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Synology DSM",
+    "name": "OpenMediaVault",
+    "url": "https://github.com/openmediavault/openmediavault",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Bare metal"
+    ],
+    "description": "Debian tabanlı NAS işletim sistemi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Pingdom / Statuspage",
+    "name": "Gatus",
+    "url": "https://github.com/TwiN/gatus",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "YAML ile yapılandırılan durum sayfası ve izleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Cronitor",
+    "name": "Healthchecks",
+    "url": "https://github.com/healthchecks/healthchecks",
+    "license_type": "osi",
+    "license": "BSD-3",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Cron işlerinin çalışıp çalışmadığını izleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Pushover",
+    "name": "ntfy",
+    "url": "https://github.com/binwiederhier/ntfy",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "HTTP ile telefona bildirim gönderme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Pushover",
+    "name": "Gotify",
+    "url": "https://github.com/gotify/server",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Kendi bildirim sunucun.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Pocket / Raindrop",
+    "name": "linkding",
+    "url": "https://github.com/sissbruecker/linkding",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Sade yer imi yöneticisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Raindrop.io",
+    "name": "Linkwarden",
+    "url": "https://github.com/linkwarden/linkwarden",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Sayfaları arşivleyen ortak yer imi yöneticisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Pocket / Instapaper",
+    "name": "wallabag",
+    "url": "https://github.com/wallabag/wallabag",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Sonra okumak için makale kaydetme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Feedly",
+    "name": "Miniflux",
+    "url": "https://github.com/miniflux/v2",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Minimalist RSS okuyucu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Paprika",
+    "name": "Tandoor Recipes",
+    "url": "https://github.com/TandoorRecipes/recipes",
+    "license_type": "restricted",
+    "license": "AGPL-3.0 + Commons Clause",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Tarif, yemek planı ve alışveriş listesi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Datadog / Elastic",
+    "name": "OpenObserve",
+    "url": "https://github.com/openobserve/openobserve",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Log, metrik ve trace için düşük maliyetli gözlemlenebilirlik.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Splunk / Papertrail",
+    "name": "Loki",
+    "url": "https://github.com/grafana/loki",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Etiket tabanlı log toplama.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "PRTG / SolarWinds",
+    "name": "Zabbix",
+    "url": "https://github.com/zabbix/zabbix",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Kurumsal ağ ve sunucu izleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Portainer Business",
+    "name": "Komodo",
+    "url": "https://github.com/moghtech/komodo",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Birden çok sunucuda Docker ve build yönetimi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Ticari oyun sunucu panelleri",
+    "name": "Pelican Panel",
+    "url": "https://github.com/pelican/panel",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Oyun sunucusu yönetim paneli.",
+    "laravel": true,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Ticari oyun sunucu panelleri",
+    "name": "Pterodactyl",
+    "url": "https://github.com/pterodactyl/panel",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Docker tabanlı oyun sunucusu paneli.",
+    "laravel": true,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Speedtest.net geçmişi",
+    "name": "Speedtest Tracker",
+    "url": "https://github.com/alexjustesen/speedtest-tracker",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Docker"
+    ],
+    "description": "İnternet hızını düzenli ölçüp kaydeder.",
+    "laravel": true,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Laravel Forge / Ploi",
+    "name": "Vito",
+    "url": "https://github.com/vitodeploy/vito",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "PHP sunucusu kurma ve site dağıtma.",
+    "laravel": true,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "QuickBooks / Xero",
+    "name": "Akaunting",
+    "url": "https://github.com/akaunting/akaunting",
+    "license_type": "restricted",
+    "license": "BSL-1.1",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Küçük işletmeler için muhasebe.",
+    "laravel": true,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Shopify",
+    "name": "Bagisto",
+    "url": "https://github.com/bagisto/bagisto",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "E-ticaret platformu.",
+    "laravel": true,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "HubSpot CRM / Pipedrive",
+    "name": "Krayin CRM",
+    "url": "https://github.com/krayin/laravel-crm",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Satış süreci ve müşteri yönetimi.",
+    "laravel": true,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "SAP Business One",
+    "name": "AureusERP",
+    "url": "https://github.com/aureuserp/aureuserp",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Filament tabanlı modüler ERP.",
+    "laravel": true,
+    "trending": true
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Akeneo Enterprise",
+    "name": "UnoPim",
+    "url": "https://github.com/unopim/unopim",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Ürün bilgisi yönetimi (PIM).",
+    "laravel": true,
+    "trending": false
+  },
+  {
+    "category": "Medya Sunucu",
+    "category_slug": "medya-sunucu",
+    "replaces": "Google Photos albümleri",
+    "name": "Lychee",
+    "url": "https://github.com/LycheeOrg/Lychee",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Fotoğraf albümü yönetimi ve paylaşımı.",
+    "laravel": true,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Raindrop.io",
+    "name": "LinkAce",
+    "url": "https://github.com/Kovah/LinkAce",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Arşivlemeli yer imi yöneticisi.",
+    "laravel": true,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Shopify",
+    "name": "Medusa",
+    "url": "https://github.com/medusajs/medusa",
+    "license_type": "open-core",
+    "license": "MIT + Enterprise",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Modüler headless e-ticaret.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Shopify Plus",
+    "name": "Saleor",
+    "url": "https://github.com/saleor/saleor",
+    "license_type": "osi",
+    "license": "BSD-3",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "GraphQL tabanlı e-ticaret.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Mixpanel",
+    "name": "OpenPanel",
+    "url": "https://github.com/Openpanel-dev/openpanel",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Ürün analitiği ve web analitiği.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Google Analytics",
+    "name": "Rybbit",
+    "url": "https://github.com/rybbit-io/rybbit",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Çerezsiz web analitiği.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Google Workspace e-posta",
+    "name": "Mailu",
+    "url": "https://github.com/Mailu/Mailu",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Docker"
+    ],
+    "description": "Docker ile e-posta sunucusu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Google Workspace e-posta",
+    "name": "docker-mailserver",
+    "url": "https://github.com/docker-mailserver/docker-mailserver",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Docker"
+    ],
+    "description": "Tek konteynerde tam e-posta sunucusu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Self-hosted ve Sunucu",
+    "category_slug": "self-hosted-ve-sunucu",
+    "replaces": "Wix / Squarespace",
+    "name": "WordPress",
+    "url": "https://github.com/WordPress/wordpress-develop",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "En yaygın site ve blog sistemi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Strong / MyFitnessPal",
+    "name": "wger",
+    "url": "https://github.com/wger-project/wger",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu",
+      "Android"
+    ],
+    "description": "Antrenman ve beslenme takibi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Google Zaman Çizelgesi",
+    "name": "Dawarich",
+    "url": "https://github.com/Freika/dawarich",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Konum geçmişini kaydedip haritada gösterme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Ticari GPS takip servisleri",
+    "name": "Traccar",
+    "url": "https://github.com/traccar/traccar",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "GPS cihaz ve araç takibi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Sortly",
+    "name": "HomeBox",
+    "url": "https://github.com/sysadminsmedia/homebox",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Ev eşyası envanteri.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Huckleberry",
+    "name": "Baby Buddy",
+    "url": "https://github.com/babybuddy/babybuddy",
+    "license_type": "osi",
+    "license": "BSD-2",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Bebek uyku, beslenme ve bez takibi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Bobby / Rocket Money",
+    "name": "Wallos",
+    "url": "https://github.com/ellite/Wallos",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Abonelik ve tekrarlayan ödeme takibi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "AnyList",
+    "name": "KitchenOwl",
+    "url": "https://github.com/TomBursch/kitchenowl",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu",
+      "Mobil"
+    ],
+    "description": "Ortak alışveriş listesi ve tarifler.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "IFTTT",
+    "name": "Node-RED",
+    "url": "https://github.com/node-red/node-red",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Akış tabanlı otomasyon ve IoT.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Philips Hue Bridge / Aqara hub",
+    "name": "Zigbee2MQTT",
+    "url": "https://github.com/Koenkk/zigbee2mqtt",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Zigbee cihazları üretici hub'ı olmadan kullanma.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Ticari akıllı ev cihaz yazılımları",
+    "name": "ESPHome",
+    "url": "https://github.com/esphome/esphome",
+    "license_type": "osi",
+    "license": "MIT / GPL-3.0",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "ESP32 cihazlarına YAML ile yazılım.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "SmartThings",
+    "name": "openHAB",
+    "url": "https://github.com/openhab/openhab-core",
+    "license_type": "osi",
+    "license": "EPL-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Üretici bağımsız akıllı ev platformu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Ancestry / MyHeritage",
+    "name": "Gramps",
+    "url": "https://github.com/gramps-project/gramps",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Soy ağacı araştırması.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Ancestry",
+    "name": "webtrees",
+    "url": "https://github.com/fisharebest/webtrees",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Web tabanlı ortak soy ağacı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Ticari emülatör arayüzleri",
+    "name": "RetroArch",
+    "url": "https://github.com/libretro/RetroArch",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Tümü"
+    ],
+    "description": "Birçok emülatörü tek arayüzde toplayan ön uç.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Kişisel ve Ev",
+    "category_slug": "kisisel-ve-ev",
+    "replaces": "Nintendo GameCube / Wii",
+    "name": "Dolphin",
+    "url": "https://github.com/dolphin-emu/dolphin",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Masaüstü",
+      "Android"
+    ],
+    "description": "GameCube ve Wii emülatörü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "Steam / GOG Galaxy kütüphanesi",
+    "name": "Playnite",
+    "url": "https://github.com/JosefNemec/Playnite",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "Tüm oyun mağazalarını tek kütüphanede toplama.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Linux ve Terminal",
+    "category_slug": "linux-ve-terminal",
+    "replaces": "Steam (Linux oyun yönetimi)",
+    "name": "Lutris",
+    "url": "https://github.com/lutris/lutris",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux"
+    ],
+    "description": "Linux'ta oyun kurma ve yönetme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Linux ve Terminal",
+    "category_slug": "linux-ve-terminal",
+    "replaces": "tmux",
+    "name": "Zellij",
+    "url": "https://github.com/zellij-org/zellij",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Paneli ve eklentisi hazır terminal çalışma alanı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Linux ve Terminal",
+    "category_slug": "linux-ve-terminal",
+    "replaces": "PowerShell / bash",
+    "name": "Nushell",
+    "url": "https://github.com/nushell/nushell",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Yapılandırılmış veriyle çalışan modern shell.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Linux ve Terminal",
+    "category_slug": "linux-ve-terminal",
+    "replaces": "zsh + Oh My Zsh",
+    "name": "fish",
+    "url": "https://github.com/fish-shell/fish-shell",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Ayarsız otomatik tamamlama yapan kullanıcı dostu shell.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Linux ve Terminal",
+    "category_slug": "linux-ve-terminal",
+    "replaces": "Ticari sistem izleyiciler",
+    "name": "Glances",
+    "url": "https://github.com/nicolargo/glances",
+    "license_type": "osi",
+    "license": "LGPL-3.0",
+    "platforms": [
+      "CLI",
+      "Web"
+    ],
+    "description": "Sistem kaynaklarını terminalde ve web'de izleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "macOS",
+    "category_slug": "macos",
+    "replaces": "CleanMyMac",
+    "name": "Mole",
+    "url": "https://github.com/tw93/Mole",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "description": "Önbellek ve gereksiz dosya temizleyici.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "Linux ve Terminal",
+    "category_slug": "linux-ve-terminal",
+    "replaces": "Time Machine",
+    "name": "Timeshift",
+    "url": "https://github.com/linuxmint/timeshift",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Linux"
+    ],
+    "description": "Sistem anlık görüntüsü ve geri dönme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Linux ve Terminal",
+    "category_slug": "linux-ve-terminal",
+    "replaces": "Alfred / Raycast",
+    "name": "Ulauncher",
+    "url": "https://github.com/Ulauncher/Ulauncher",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux"
+    ],
+    "description": "Uygulama başlatıcı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Linux ve Terminal",
+    "category_slug": "linux-ve-terminal",
+    "replaces": "Raycast",
+    "name": "Vicinae",
+    "url": "https://github.com/vicinaehq/vicinae",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux"
+    ],
+    "description": "Raycast eklentileriyle uyumlu başlatıcı.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "Linux ve Terminal",
+    "category_slug": "linux-ve-terminal",
+    "replaces": "WSL / sanal makineler",
+    "name": "Distrobox",
+    "url": "https://github.com/89luca89/distrobox",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Linux"
+    ],
+    "description": "Başka dağıtımları konteynerde entegre çalıştırma.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Linux ve Terminal",
+    "category_slug": "linux-ve-terminal",
+    "replaces": "Paket yöneticisi GUI'leri",
+    "name": "topgrade",
+    "url": "https://github.com/topgrade-rs/topgrade",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Tüm paket yöneticilerini tek komutla güncelleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Linux ve Terminal",
+    "category_slug": "linux-ve-terminal",
+    "replaces": "Beyond Compare (terminal)",
+    "name": "delta",
+    "url": "https://github.com/dandavison/delta",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "git diff için sözdizimi renklendirmeli görüntüleyici.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Linux ve Terminal",
+    "category_slug": "linux-ve-terminal",
+    "replaces": "neofetch",
+    "name": "fastfetch",
+    "url": "https://github.com/fastfetch-cli/fastfetch",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Sistem bilgisini hızlıca gösterme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Linux ve Terminal",
+    "category_slug": "linux-ve-terminal",
+    "replaces": "Synergy / ShareMouse",
+    "name": "Deskflow",
+    "url": "https://github.com/deskflow/deskflow",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Tek klavye ve fareyi birden çok bilgisayarda kullanma.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "Beyond Compare",
+    "name": "WinMerge",
+    "url": "https://github.com/WinMerge/winmerge",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "Dosya ve klasör karşılaştırma.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "ClipboardFusion",
+    "name": "Ditto",
+    "url": "https://github.com/sabrogden/Ditto",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "Pano geçmişi yöneticisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "Keyboard Maestro",
+    "name": "AutoHotkey",
+    "url": "https://github.com/AutoHotkey/AutoHotkey",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "Klavye kısayolu ve otomasyon betikleri.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "Ticari debloat araçları",
+    "name": "Win11Debloat",
+    "url": "https://github.com/Raphire/Win11Debloat",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "Hazır uygulamaları ve telemetriyi kaldıran betik.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "Ninite",
+    "name": "WinUtil",
+    "url": "https://github.com/ChrisTitusTech/winutil",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "Uygulama kurma ve sistem ayarları tek arayüzde.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "macOS Quick Look",
+    "name": "QuickLook",
+    "url": "https://github.com/QL-Win/QuickLook",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "Boşluk tuşuyla dosya önizleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "Ticari pencere yöneticileri",
+    "name": "GlazeWM",
+    "url": "https://github.com/glzr-io/glazewm",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "i3 tarzı döşemeli pencere yöneticisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "StartIsBack (görünüm)",
+    "name": "TranslucentTB",
+    "url": "https://github.com/TranslucentTB/TranslucentTB",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "Görev çubuğunu şeffaflaştırma.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "Start11 / StartIsBack",
+    "name": "Open-Shell",
+    "url": "https://github.com/Open-Shell/Open-Shell-Menu",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "Klasik başlat menüsü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "StartAllBack",
+    "name": "ExplorerPatcher",
+    "url": "https://github.com/valinet/ExplorerPatcher",
+    "license_type": "osi",
+    "license": "GPL-2.0",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "Windows 10 görev çubuğu ve başlat menüsü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "Process Explorer",
+    "name": "System Informer",
+    "url": "https://github.com/winsiderss/systeminformer",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "Gelişmiş görev yöneticisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "HWiNFO / AIDA64",
+    "name": "LibreHardwareMonitor",
+    "url": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+    "license_type": "osi",
+    "license": "MPL-2.0",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "Sıcaklık, fan ve donanım sensörleri.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "Ninite / Chocolatey Pro",
+    "name": "Scoop",
+    "url": "https://github.com/ScoopInstaller/Scoop",
+    "license_type": "osi",
+    "license": "Unlicense / MIT",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "Yönetici yetkisi istemeyen komut satırı paket yöneticisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "ConEmu Pro / ticari terminaller",
+    "name": "Windows Terminal",
+    "url": "https://github.com/microsoft/terminal",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Windows"
+    ],
+    "description": "Sekmeli, GPU hızlandırmalı terminal.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Windows",
+    "category_slug": "windows",
+    "replaces": "Internet Download Manager",
+    "name": "Motrix",
+    "url": "https://github.com/agalwood/Motrix",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Çok bağlantılı indirme yöneticisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "macOS",
+    "category_slug": "macos",
+    "replaces": "Magnet",
+    "name": "Rectangle",
+    "url": "https://github.com/rxhanson/Rectangle",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "macOS"
+    ],
+    "description": "Kısayolla pencere hizalama.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "macOS",
+    "category_slug": "macos",
+    "replaces": "Windows tarzı Alt-Tab",
+    "name": "AltTab",
+    "url": "https://github.com/lwouis/alt-tab-macos",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "macOS"
+    ],
+    "description": "Pencere önizlemeli uygulama geçişi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "macOS",
+    "category_slug": "macos",
+    "replaces": "iStat Menus",
+    "name": "Stats",
+    "url": "https://github.com/exelban/stats",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "macOS"
+    ],
+    "description": "Menü çubuğunda sistem izleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "macOS",
+    "category_slug": "macos",
+    "replaces": "Bartender",
+    "name": "Ice",
+    "url": "https://github.com/jordanbaird/Ice",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "macOS"
+    ],
+    "description": "Menü çubuğu simgelerini gizleme ve düzenleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "macOS",
+    "category_slug": "macos",
+    "replaces": "Lunar / BetterDisplay",
+    "name": "MonitorControl",
+    "url": "https://github.com/MonitorControl/MonitorControl",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "macOS"
+    ],
+    "description": "Harici monitör parlaklık ve ses kontrolü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "macOS",
+    "category_slug": "macos",
+    "replaces": "Paste",
+    "name": "Maccy",
+    "url": "https://github.com/p0deje/Maccy",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "macOS"
+    ],
+    "description": "Hafif pano geçmişi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "macOS",
+    "category_slug": "macos",
+    "replaces": "Keyboard Maestro",
+    "name": "Hammerspoon",
+    "url": "https://github.com/Hammerspoon/hammerspoon",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "macOS"
+    ],
+    "description": "Lua ile macOS otomasyonu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "macOS",
+    "category_slug": "macos",
+    "replaces": "Ticari pencere yöneticileri",
+    "name": "AeroSpace",
+    "url": "https://github.com/nikitabobko/AeroSpace",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "macOS"
+    ],
+    "description": "i3 tarzı döşemeli pencere yöneticisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "macOS",
+    "category_slug": "macos",
+    "replaces": "Magnet / Moom",
+    "name": "Loop",
+    "url": "https://github.com/mrkai77/Loop",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "macOS"
+    ],
+    "description": "Radyal menüyle pencere yönetimi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "Google Play",
+    "name": "Droid-ify",
+    "url": "https://github.com/Droid-ify/client",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Modern F-Droid istemcisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "Resmi Reddit uygulaması",
+    "name": "Infinity for Reddit",
+    "url": "https://github.com/Docile-Alligator/Infinity-For-Reddit",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Reklamsız Reddit istemcisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "Ticari terminal uygulamaları",
+    "name": "Termux",
+    "url": "https://github.com/termux/termux-app",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Android'de Linux ortamı ve paket yöneticisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "ES File Explorer",
+    "name": "Material Files",
+    "url": "https://github.com/zhanghai/MaterialFiles",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Reklamsız dosya yöneticisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "AccuWeather",
+    "name": "Breezy Weather",
+    "url": "https://github.com/breezy-weather/breezy-weather",
+    "license_type": "osi",
+    "license": "LGPL-3.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Reklamsız hava durumu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "YouTube",
+    "name": "LibreTube",
+    "url": "https://github.com/libre-tube/LibreTube",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Piped altyapılı YouTube istemcisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "YouTube Music",
+    "name": "Metrolist",
+    "url": "https://github.com/MetrolistGroup/Metrolist",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Reklamsız YouTube Music istemcisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "Poweramp",
+    "name": "Auxio",
+    "url": "https://github.com/OxygenCobalt/Auxio",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Yerel müzik oynatıcı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "Ticari güvenlik duvarları",
+    "name": "NetGuard",
+    "url": "https://github.com/M66B/NetGuard",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Root'suz uygulama bazlı güvenlik duvarı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "NextDNS uygulaması",
+    "name": "Rethink DNS",
+    "url": "https://github.com/celzero/rethink-app",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "DNS engelleme ve güvenlik duvarı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "Stocard",
+    "name": "Catima",
+    "url": "https://github.com/CatimaLoyalty/Android",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Sadakat kartı cüzdanı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "Nova Launcher",
+    "name": "Lawnchair",
+    "url": "https://github.com/LawnchairLauncher/lawnchair",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Pixel tarzı başlatıcı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "Niagara Launcher",
+    "name": "Kvaesitso",
+    "url": "https://github.com/MM2-0/Kvaesitso",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Arama odaklı başlatıcı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "Todoist",
+    "name": "Tasks.org",
+    "url": "https://github.com/tasks/tasks",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "CalDAV senkronlu görev yöneticisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "Obsidian mobil",
+    "name": "Markor",
+    "url": "https://github.com/gsantner/markor",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Markdown not ve yapılacaklar editörü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "Feedly",
+    "name": "Read You",
+    "url": "https://github.com/ReadYouApp/ReadYou",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Material You RSS okuyucu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "Ticari uygulama yöneticileri",
+    "name": "App Manager",
+    "url": "https://github.com/MuntashirAkon/AppManager",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Uygulama izinleri, izleyiciler ve yedekleme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "Android",
+    "category_slug": "android",
+    "replaces": "Snapseed / Picsart",
+    "name": "Image Toolbox",
+    "url": "https://github.com/T8RIN/ImageToolbox",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Kapsamlı resim düzenleme araçları.",
     "laravel": false,
     "trending": false
   }
