@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-68 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
+69 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
 | Alternatif | Yerine geçtiği | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- |
@@ -62,6 +62,7 @@
 | [Saleor](https://github.com/saleor/saleor) | Shopify Plus | OSI<br><sub>BSD-3</sub> | Sunucu | GraphQL tabanlı e-ticaret. |
 | [Shlink](https://github.com/shlinkio/shlink) | Bitly | OSI<br><sub>MIT</sub> | Sunucu | Kısa link ve tıklama istatistiği (PHP). |
 | [SigNoz](https://github.com/SigNoz/signoz) | Datadog APM | 🧩 Open-core<br><sub>MIT</sub> | Sunucu | OpenTelemetry tabanlı log, metrik, trace. |
+| [SiteWatcher](https://github.com/NikKurkov/sitewatcher) | UptimeRobot | OSI<br><sub>MIT</sub> | Sunucu, Docker | Web sitesi erişilebilirliğini, yanıt sürelerini, TLS sertifikalarını ve alan adı sürelerini izler. |
 | [Snipe-IT](https://github.com/grokability/snipe-it) | Varlık takibi | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Sunucu | Cihaz ve lisans envanteri. |
 | [Speedtest Tracker](https://github.com/alexjustesen/speedtest-tracker) | Speedtest.net geçmişi | OSI · 🟥 Laravel<br><sub>MIT</sub> | Docker | İnternet hızını düzenli ölçüp kaydeder. |
 | [Stalwart](https://github.com/stalwartlabs/stalwart) | Google Workspace Mail | OSI<br><sub>AGPL-3.0</sub> | Sunucu | Rust ile yazılmış hepsi bir arada mail sunucusu. |
