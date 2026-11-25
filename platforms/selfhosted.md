@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-198 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
+202 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
@@ -42,6 +42,7 @@
 | [CryptPad](https://github.com/cryptpad/cryptpad) | Google Workspace | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu, Web | Sunucunun içeriği göremediği şifreli ofis paketi. |
 | [Dashy](https://github.com/lissy93/dashy) | Start.me | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>MIT</sub> | Sunucu | Durum kontrollü kişisel pano. |
 | [Dawarich](https://github.com/Freika/dawarich) | Google Zaman Çizelgesi | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu | Konum geçmişini kaydedip haritada gösterme. |
+| [DeerFlow](https://github.com/bytedance/deer-flow) | ChatGPT Deep Research | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Sunucu, Docker | Araştırma, kod yazma ve içerik üretimi için uzun soluklu ajan sistemi. |
 | [Dify](https://github.com/langgenius/dify) | Zapier AI / Voiceflow | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | ⚠️ Kısıtlı<br><sub>Dify Open Source (Apache + ek şart)</sub> | Sunucu | Görsel AI ajan ve RAG akışları. |
 | [Directus](https://github.com/directus/directus) | Contentful | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | ⚠️ Kısıtlı<br><sub>BSL-1.1</sub> | Sunucu | Var olan SQL veritabanına anında API ve panel. |
 | [Discourse](https://github.com/discourse/discourse) | Forum yazılımları / Discord topluluk | [İletişim](../categories/iletisim.md) | OSI<br><sub>GPL-2.0</sub> | Sunucu | Modern tartışma forumu. |
@@ -129,6 +130,7 @@
 | [Node-RED](https://github.com/node-red/node-red) | IFTTT | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Akış tabanlı otomasyon ve IoT. |
 | [ntfy](https://github.com/binwiederhier/ntfy) | Pushover | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | HTTP ile telefona bildirim gönderme. |
 | [Odoo Community](https://github.com/odoo/odoo) | SAP / NetSuite | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>LGPL-3.0</sub> | Sunucu | ERP: muhasebe, stok, satış. |
+| [Odysseus](https://github.com/odysseus-dev/odysseus) | ChatGPT Team | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trend<br><sub>AGPL-3.0</sub> | Sunucu, Docker | Kendi sunucunda çalışan, ekipler için AI çalışma alanı. |
 | [Open Notebook](https://github.com/lfnovo/open-notebook) | NotebookLM | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT</sub> | Sunucu | Kaynaklarınla sohbet ve podcast üretimi. |
 | [OpenBao](https://github.com/openbao/openbao) | HashiCorp Vault | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>MPL-2.0</sub> | Sunucu | Vault'un açık kaynak çatalı, sır yönetimi. |
 | [OpenCloud](https://github.com/opencloud-eu/opencloud) | Dropbox | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Sunucu | Go ile yazılmış, veritabanı gerektirmeyen bulut. |
@@ -149,7 +151,7 @@
 | [Pinchflat](https://github.com/kieraneglin/pinchflat) | YouTube Premium (indirme) | [Medya Sunucu](../categories/medya-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu | Kanalları otomatik indirip medya sunucusuna aktarma. |
 | [Plausible CE](https://github.com/plausible/analytics) | Google Analytics | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu | Hafif analitik. |
 | [Pocket ID](https://github.com/pocket-id/pocket-id) | Auth0 (basit) | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>BSD-2</sub> | Sunucu | Passkey ile giriş yapan sade OIDC sağlayıcı. |
-| [PocketBase](https://github.com/pocketbase/pocketbase) | Firebase | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Sunucu | Tek dosyada backend (SQLite). |
+| [PocketBase](https://ganigeorgiev.com/pocketbase/pocketbase) | Firebase | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Sunucu | Tek dosyada backend (SQLite). |
 | [Portainer CE](https://github.com/portainer/portainer) | Docker Desktop (sunucu) | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>zlib</sub> | Sunucu | Konteyner yönetimi için web arayüz. |
 | [Postal](https://github.com/postalserver/postal) | SendGrid / Mailgun | [İletişim](../categories/iletisim.md) | OSI<br><sub>MIT</sub> | Sunucu | Toplu ve işlemsel e-posta gönderim sunucusu. |
 | [PostHog](https://github.com/PostHog/posthog) | Mixpanel / Hotjar | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | 🧩 Open-core<br><sub>MIT</sub> | Sunucu | Ürün analitiği, oturum kaydı, A/B test. |
@@ -172,6 +174,7 @@
 | [Speedtest Tracker](https://github.com/alexjustesen/speedtest-tracker) | Speedtest.net geçmişi | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>MIT</sub> | Docker | İnternet hızını düzenli ölçüp kaydeder. |
 | [Stalwart](https://github.com/stalwartlabs/stalwart) | Google Workspace Mail | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu | Rust ile yazılmış hepsi bir arada mail sunucusu. |
 | [Strapi](https://github.com/strapi/strapi) | Contentful | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | 🧩 Open-core<br><sub>MIT</sub> | Sunucu | Headless CMS. |
+| [Strix](https://github.com/usestrix/strix) | Ticari pentest servisleri | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | CLI, Docker | Uygulamandaki açıkları bulup doğrulayan AI sızma testi aracı. |
 | [Supabase](https://github.com/supabase/supabase) | Firebase | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Postgres + auth + storage + realtime. |
 | [Synapse](https://github.com/element-hq/synapse) | Discord / WhatsApp | [İletişim](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu | Kendi Matrix sunucunu kurmak için referans sunucu. |
 | [Tabby (TabbyML)](https://github.com/TabbyML/tabby) | GitHub Copilot (sunucu) | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Kendi sunucunda kod tamamlama. |
@@ -191,6 +194,7 @@
 | [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Bitwarden sunucusu | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu | Hafif Bitwarden uyumlu sunucu. |
 | [Vito](https://github.com/vitodeploy/vito) | Laravel Forge / Ploi | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Sunucu | PHP sunucusu kurma ve site dağıtma. |
 | [vLLM](https://github.com/vllm-project/vllm) | Barındırılan LLM API'leri | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Yüksek verimli LLM sunma motoru. |
+| [VoiceStudio](https://github.com/debpalash/VoiceStudio) | ElevenLabs | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trend<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Docker | Yerel ses klonlama ve TTS stüdyosu; varsayılan model ağırlıkları ticari kullanıma kapalı (CC-BY-NC). |
 | [wallabag](https://github.com/wallabag/wallabag) | Pocket / Instapaper | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>MIT</sub> | Sunucu | Sonra okumak için makale kaydetme. |
 | [Wallos](https://github.com/ellite/Wallos) | Bobby / Rocket Money | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-3.0</sub> | Sunucu | Abonelik ve tekrarlayan ödeme takibi. |
 | [Wazuh](https://github.com/wazuh/wazuh) | Splunk / CrowdStrike | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>GPL-2.0 / AGPL-3.0</sub> | Sunucu | SIEM ve uç nokta güvenlik izleme. |

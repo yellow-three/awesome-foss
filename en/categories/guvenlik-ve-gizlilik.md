@@ -2,7 +2,7 @@
 
 [← Home](../README.md)
 
-41 tools. **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
+42 tools. **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
 
 | Alternative | Replaces | License | Platform | Description |
 | --- | --- | --- | --- | --- |
@@ -35,6 +35,7 @@
 | [Privacy Badger](https://github.com/EFForg/privacybadger) | Ghostery | OSI<br><sub>GPL-3.0</sub> | Browser extension | Extension that learns trackers from their behavior and blocks them. |
 | [SearXNG](https://github.com/searxng/searxng) | Google Search | OSI<br><sub>AGPL-3.0</sub> | Web | Tracking-free metasearch engine. |
 | [Sniffnet](https://github.com/GyulyVGC/sniffnet) | GlassWire | OSI<br><sub>Apache-2.0</sub> | Desktop | Monitor network traffic with graphs. |
+| [Strix](https://github.com/usestrix/strix) | Commercial pentest services | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | CLI, Docker | AI penetration testing tool that finds and validates vulnerabilities in your app. |
 | [Technitium DNS](https://github.com/TechnitiumSoftware/DnsServer) | NextDNS / Cloudflare Gateway | OSI<br><sub>GPL-3.0</sub> | Server, Windows | DNS server with blocklists and DoH support. |
 | [Trivy](https://github.com/aquasecurity/trivy) | Snyk | OSI<br><sub>Apache-2.0</sub> | CLI | Container and dependency vulnerability scanning. |
 | [uBlock Origin](https://github.com/gorhill/uBlock) | AdBlock Plus | OSI<br><sub>GPL-3.0</sub> | Browser extension | Ad and tracker blocking. |

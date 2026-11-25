@@ -26,7 +26,7 @@
 | [KitchenOwl](https://github.com/TomBursch/kitchenowl) | AnyList | [Personal and Home](../categories/kisisel-ve-ev.md) | OSI<br><sub>AGPL-3.0</sub> | Server, Mobile | Shared shopping lists and recipes. |
 | [Kiwix](https://github.com/kiwix) | Wikipedia (offline) | [Personal and Home](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-3.0</sub> | All | Read Wikipedia without internet. |
 | [Kodi](https://github.com/xbmc/xbmc) | Plex client / Apple TV | [Media Servers](../categories/medya-sunucu.md) | OSI<br><sub>GPL-2.0</sub> | All | Home theater media center. |
-| [LocalSend](https://github.com/localsend/localsend) | AirDrop | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI<br><sub>MIT</sub> | All | Send files over the local network. |
+| [LocalSend](https://github.com/localsend/localsend) | AirDrop | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI<br><sub>Apache-2.0</sub> | All | Send files over the local network. |
 | [Logseq](https://github.com/logseq/logseq) | Roam Research | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Mobile | An outliner that works with markdown files. |
 | [Mattermost](https://github.com/mattermost/mattermost) | Slack | [Communication](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0 / Apache</sub> | Web, Desktop, Mobile | Team chat. |
 | [Moonlight](https://github.com/moonlight-stream/moonlight-qt) | Parsec | [Personal and Home](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-3.0</sub> | All | Client that connects to a Sunshine stream. |

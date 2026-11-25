@@ -2,7 +2,7 @@
 
 [← Home](../README.md)
 
-OSI-approved licenses such as MIT, GPL, AGPL, Apache, MPL and BSD. 595 tools.
+OSI-approved licenses such as MIT, GPL, AGPL, Apache, MPL and BSD. 606 tools.
 
 | Alternative | Replaces | Category | License | Platform | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -109,6 +109,7 @@ OSI-approved licenses such as MIT, GPL, AGPL, Apache, MPL and BSD. 595 tools.
 | [Dawarich](https://github.com/Freika/dawarich) | Google Timeline | [Personal and Home](../categories/kisisel-ve-ev.md) | OSI<br><sub>AGPL-3.0</sub> | Server | Record your location history and show it on a map. |
 | [DBeaver CE](https://github.com/dbeaver/dbeaver) | TablePlus / DataGrip | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS | Connects to almost any database. |
 | [DbGate](https://github.com/dbgate/dbgate) | TablePlus | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>GPL-3.0</sub> | Desktop, Web | SQL and NoSQL database client. |
+| [DeerFlow](https://github.com/bytedance/deer-flow) | ChatGPT Deep Research | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Server, Docker | Long-horizon agent harness for research, coding and content creation. |
 | [delta](https://github.com/dandavison/delta) | Beyond Compare (terminal) | [Linux and Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | Syntax-highlighting viewer for git diff. |
 | [Delta Chat](https://github.com/deltachat/deltachat-desktop) | WhatsApp | [Communication](../categories/iletisim.md) | OSI<br><sub>GPL-3.0</sub> | All | Encrypted chat over email infrastructure. |
 | [Deskflow](https://github.com/deskflow/deskflow) | Synergy / ShareMouse | [Linux and Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>GPL-2.0</sub> | Desktop | Use one keyboard and mouse across multiple computers. |
@@ -126,7 +127,7 @@ OSI-approved licenses such as MIT, GPL, AGPL, Apache, MPL and BSD. 595 tools.
 | [DocuSeal](https://github.com/docusealco/docuseal) | DocuSign | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Server | Fill in PDF documents and sign electronically. |
 | [Dokku](https://github.com/dokku/dokku) | Heroku | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>MIT</sub> | Server | Mini PaaS that deploys with git push. |
 | [Dolphin](https://github.com/dolphin-emu/dolphin) | Nintendo GameCube / Wii | [Personal and Home](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-2.0</sub> | Desktop, Android | GameCube and Wii emulator. |
-| [draw.io](https://github.com/jgraph/drawio-desktop) | Visio / Lucidchart | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, Web | Diagramming. |
+| [draw.io](https://github.com/jgraph/drawio-desktop) | Visio / Lucidchart | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS, Web | Diagramming. |
 | [drawDB](https://github.com/drawdb-io/drawdb) | dbdiagram.io | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>AGPL-3.0</sub> | Web | ER diagrams in the browser with SQL export. |
 | [Droid-ify](https://github.com/Droid-ify/client) | Google Play | [Android](../categories/android.md) | OSI<br><sub>GPL-3.0</sub> | Android | Modern F-Droid client. |
 | [dupeGuru](https://github.com/arsenetar/dupeguru) | Duplicate Cleaner | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI<br><sub>GPL-3.0</sub> | Desktop | Find duplicate files with similar names or content. |
@@ -214,6 +215,7 @@ OSI-approved licenses such as MIT, GPL, AGPL, Apache, MPL and BSD. 595 tools.
 | [HeidiSQL](https://github.com/HeidiSQL/HeidiSQL) | Navicat | [Windows](../categories/windows.md) | OSI<br><sub>GPL-2.0</sub> | Windows | Client for MySQL, PostgreSQL and SQL Server. |
 | [HeliBoard](https://github.com/HeliBorg/HeliBoard) | Gboard | [Android](../categories/android.md) | OSI<br><sub>GPL-3.0</sub> | Android | Keyboard that never connects to the internet. |
 | [Helix](https://github.com/helix-editor/helix) | PhpStorm (terminal) | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>MPL-2.0</sub> | CLI | Modal editor with LSP and tree-sitter out of the box, no config needed. |
+| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Commercial AI agents | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Linux, Windows, macOS, CLI | AI agent that creates skills from experience and improves with use, working with any model. |
 | [Heroic Games Launcher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) | Steam (other stores) | [Linux and Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Launcher for Epic, GOG and Amazon games. |
 | [HestiaCP](https://github.com/hestiacp/hestiacp) | cPanel / Plesk | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>GPL-3.0</sub> | Ubuntu/Debian | Nginx/Apache, PHP-FPM, mail and DNS. |
 | [Homarr](https://github.com/homarr-labs/homarr) | Start.me | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>Apache-2.0</sub> | Server | Drag-and-drop server dashboard. |
@@ -221,11 +223,11 @@ OSI-approved licenses such as MIT, GPL, AGPL, Apache, MPL and BSD. 595 tools.
 | [HomeBox](https://github.com/sysadminsmedia/homebox) | Sortly | [Personal and Home](../categories/kisisel-ve-ev.md) | OSI<br><sub>AGPL-3.0</sub> | Server | Home inventory. |
 | [Homepage](https://github.com/gethomepage/homepage) | Start.me | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>GPL-3.0</sub> | Server | App dashboard with service integrations. |
 | [Hoppscotch](https://github.com/hoppscotch/hoppscotch) | Postman (web) | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Web, Desktop | REST, GraphQL and WebSocket. |
-| [HTTPie](https://github.com/httpie/cli) | curl (readable) | [Linux and Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>BSD-3</sub> | CLI | Human-friendly HTTP client. |
 | [Huly](https://github.com/hcengineering/platform) | Linear + Slack + Notion | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>EPL-2.0</sub> | Web | All-in-one team platform. |
 | [humanizer](https://github.com/blader/humanizer) | Commercial AI text humanizers | [AI Agents: Skills, MCP and Plugins](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Repo | Skill that removes signs of AI writing from text. |
 | [Hurl](https://github.com/Orange-OpenSource/hurl) | Postman tests | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | CLI | HTTP requests and tests in plain text files. |
 | [Hydrogen](https://github.com/hydrogen-music/hydrogen) | Commercial drum machines | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-2.0</sub> | Desktop | Drum machine and rhythm programming. |
+| [HyperFrames](https://github.com/heygen-com/hyperframes) | Descript | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, CLI | AI video editor that builds videos from your footage or a prompt and lets you edit them frame by frame. |
 | [Ice](https://github.com/jordanbaird/Ice) | Bartender | [macOS](../categories/macos.md) | OSI<br><sub>GPL-3.0</sub> | macOS | Hide and arrange menu bar icons. |
 | [IINA](https://github.com/iina/iina) | Infuse | [macOS](../categories/macos.md) | OSI<br><sub>GPL-3.0</sub> | macOS | Modern mpv-based player for macOS. |
 | [Image Toolbox](https://github.com/T8RIN/ImageToolbox) | Snapseed / Picsart | [Android](../categories/android.md) | OSI<br><sub>Apache-2.0</sub> | Android | Comprehensive image editing tools. |
@@ -295,7 +297,7 @@ OSI-approved licenses such as MIT, GPL, AGPL, Apache, MPL and BSD. 595 tools.
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | OpenAI API | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT</sub> | CLI, Server | Inference engine that runs GGUF models on CPU and GPU. |
 | [LMMS](https://github.com/LMMS/lmms) | FL Studio | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Beat and music production. |
 | [LocalAI](https://github.com/mudler/LocalAI) | OpenAI API | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT</sub> | Server | OpenAI-compatible local AI API server. |
-| [LocalSend](https://github.com/localsend/localsend) | AirDrop | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI<br><sub>MIT</sub> | All | Send files over the local network. |
+| [LocalSend](https://github.com/localsend/localsend) | AirDrop | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI<br><sub>Apache-2.0</sub> | All | Send files over the local network. |
 | [Logseq](https://github.com/logseq/logseq) | Roam Research | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Mobile | An outliner that works with markdown files. |
 | [Logto](https://github.com/logto-io/logto) | Auth0 | [Security and Privacy](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>MPL-2.0</sub> | Server | Developer-focused authentication. |
 | [Loki](https://github.com/grafana/loki) | Splunk / Papertrail | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Server | Label-based log aggregation. |
@@ -373,16 +375,20 @@ OSI-approved licenses such as MIT, GPL, AGPL, Apache, MPL and BSD. 595 tools.
 | [Obsidian Skills](https://github.com/obsidianmd/obsidian-skills) | Agent skills | [AI Agents: Skills, MCP and Plugins](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Repo | Teaches agents the Obsidian Markdown, Bases and Canvas formats. |
 | [Obtainium](https://github.com/ImranR98/Obtainium) | Play Store (updates) | [Android](../categories/android.md) | OSI<br><sub>GPL-3.0</sub> | Android | Update apps directly from GitHub. |
 | [Odoo Community](https://github.com/odoo/odoo) | SAP / NetSuite | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>LGPL-3.0</sub> | Server | ERP: accounting, inventory and sales. |
+| [Odysseus](https://github.com/odysseus-dev/odysseus) | ChatGPT Team | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trending<br><sub>AGPL-3.0</sub> | Server, Docker | Self-hosted AI workspace for teams. |
 | [Official Claude Code plugin directory](https://github.com/anthropics/claude-plugins-official) | Agent plugins | [AI Agents: Skills, MCP and Plugins](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | Repo | Claude Code plugin directory maintained by Anthropic. |
 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Agent orchestration | [AI Agents: Skills, MCP and Plugins](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Repo | Multi-agent team orchestration for Claude Code. |
 | [Okular](https://okular.kde.org) | Adobe Reader | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows | KDE's document viewer. |
 | [Ollama](https://github.com/ollama/ollama) | OpenAI API (local) | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Run local models with a single command. |
 | [ONLYOFFICE](https://github.com/ONLYOFFICE/DesktopEditors) | Microsoft 365 (full compatibility) | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Web | Better DOCX/XLSX compatibility than LibreOffice. |
+| [Open Design](https://github.com/nexu-io/open-design) | Figma AI / Canva | [Design and Graphics](../categories/tasarim-ve-grafik.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, Web | Local-first, collaborative AI design agent workspace. |
 | [Open Notebook](https://github.com/lfnovo/open-notebook) | NotebookLM | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT</sub> | Server | Chat with your sources and generate podcasts. |
 | [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu) | Start11 / StartIsBack | [Windows](../categories/windows.md) | OSI<br><sub>MIT</sub> | Windows | Classic Start menu. |
 | [OpenBao](https://github.com/openbao/openbao) | HashiCorp Vault | [Security and Privacy](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>MPL-2.0</sub> | Server | Open source fork of Vault for secret management. |
+| [OpenClaw](https://github.com/openclaw/openclaw) | Commercial personal AI assistants | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Linux, Windows, macOS | Personal AI assistant that runs on your own computer and works through channels like WhatsApp, Telegram and Slack. |
 | [OpenCloud](https://github.com/opencloud-eu/opencloud) | Dropbox | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | Server | Cloud written in Go that needs no database. |
 | [OpenCode](https://github.com/anomalyco/opencode) | Claude Code / Cursor | [Developer Tools](../categories/gelistirici-araclari.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | CLI | Terminal coding agent. |
+| [OpenCut](https://github.com/OpenCut-app/OpenCut) | CapCut | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Web, Linux, Windows, macOS | Timeline-based video editor that runs in the browser and on desktop. |
 | [openHAB](https://github.com/openhab/openhab-core) | SmartThings | [Personal and Home](../categories/kisisel-ve-ev.md) | OSI<br><sub>EPL-2.0</sub> | Server | Vendor-neutral smart home platform. |
 | [OpenHands](https://github.com/OpenHands/OpenHands) | Devin | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Server, CLI | Autonomous software development agent. |
 | [OpenList](https://github.com/OpenListTeam/OpenList) | Cloud drive aggregators | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI · 🔥 Trending<br><sub>AGPL-3.0</sub> | Server | List different cloud storages in one interface. |
@@ -411,7 +417,9 @@ OSI-approved licenses such as MIT, GPL, AGPL, Apache, MPL and BSD. 595 tools.
 | [Penpot](https://github.com/penpot/penpot) | Figma | [Design and Graphics](../categories/tasarim-ve-grafik.md) | OSI<br><sub>MPL-2.0</sub> | Web | SVG-based UI design that can be self-hosted. |
 | [pgAdmin](https://github.com/pgadmin-org/pgadmin4) | DataGrip (PostgreSQL) | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>PostgreSQL</sub> | Desktop, Web | PostgreSQL administration tool. |
 | [Phaser](https://github.com/phaserjs/phaser) | Construct / GameMaker (web) | [Game Development](../categories/oyun-gelistirme.md) | OSI<br><sub>MIT</sub> | Web | HTML5 2D game framework, good for card and board games. |
+| [PhotoCraft](https://github.com/storytold/photocraft) | Photoshop / Lightroom | [Design and Graphics](../categories/tasarim-ve-grafik.md) | OSI · 🔥 Trending<br><sub>MIT / Apache-2.0</sub> | Linux, Windows, macOS | Layer-based photo editor written from scratch in Rust. |
 | [PhotoPrism](https://github.com/photoprism/photoprism) | Google Photos | [Media Servers](../categories/medya-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Server | Photo archive with AI tagging. |
+| [pi](https://github.com/earendil-works/pi) | Claude Code / Cursor | [Developer Tools](../categories/gelistirici-araclari.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | CLI | Minimal, extensible terminal coding agent and LLM toolkit. |
 | [Pi-hole](https://github.com/pi-hole/pi-hole) | NextDNS | [Security and Privacy](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>EUPL-1.2</sub> | Server | Network-wide ad and tracker blocking. |
 | [Pinchflat](https://github.com/kieraneglin/pinchflat) | YouTube Premium (downloads) | [Media Servers](../categories/medya-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Server | Automatically download channels into your media server. |
 | [Pinta](https://github.com/PintaProject/Pinta) | Paint.NET | [Design and Graphics](../categories/tasarim-ve-grafik.md) | OSI<br><sub>MIT</sub> | Desktop | Simple and fast image editor. |
@@ -425,7 +433,7 @@ OSI-approved licenses such as MIT, GPL, AGPL, Apache, MPL and BSD. 595 tools.
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Commercial browser agents | [AI Agents: Skills, MCP and Plugins](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | MCP server | Browser control for agents through Playwright. |
 | [PM Skills](https://github.com/phuryn/pm-skills) | Agent skills | [AI Agents: Skills, MCP and Plugins](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Repo | Discovery, strategy and PRD skills for product management. |
 | [Pocket ID](https://github.com/pocket-id/pocket-id) | Auth0 (simple) | [Security and Privacy](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>BSD-2</sub> | Server | Simple OIDC provider with passkey login. |
-| [PocketBase](https://github.com/pocketbase/pocketbase) | Firebase | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Server | Backend in a single file (SQLite). |
+| [PocketBase](https://ganigeorgiev.com/pocketbase/pocketbase) | Firebase | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Server | Backend in a single file (SQLite). |
 | [Podman Desktop](https://github.com/podman-desktop/podman-desktop) | Docker Desktop | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS | Same Podman base as Lerd. |
 | [Portainer CE](https://github.com/portainer/portainer) | Docker Desktop (server) | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>zlib</sub> | Server | Web interface for managing containers. |
 | [Portmaster](https://github.com/safing/portmaster) | GlassWire / Little Snitch | [Security and Privacy](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows | Per-app firewall and tracker blocking. |
@@ -498,6 +506,7 @@ OSI-approved licenses such as MIT, GPL, AGPL, Apache, MPL and BSD. 595 tools.
 | [Stats](https://github.com/exelban/stats) | iStat Menus | [macOS](../categories/macos.md) | OSI<br><sub>MIT</sub> | macOS | System monitoring in the menu bar. |
 | [Strawberry](https://github.com/strawberrymusicplayer/strawberry) | iTunes / MusicBee | [Media Servers](../categories/medya-sunucu.md) | OSI<br><sub>GPL-3.0</sub> | Desktop | Player for local music collections. |
 | [Stride](https://github.com/stride3d/stride) | Unity | [Game Development](../categories/oyun-gelistirme.md) | OSI<br><sub>MIT</sub> | Windows | 3D game engine written in C#. |
+| [Strix](https://github.com/usestrix/strix) | Commercial pentest services | [Security and Privacy](../categories/guvenlik-ve-gizlilik.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | CLI, Docker | AI penetration testing tool that finds and validates vulnerabilities in your app. |
 | [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit) | Commercial subtitle editors | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>MIT</sub> | Windows, Linux | Subtitle editing, syncing and translation. |
 | [Sunshine](https://github.com/SunshineStream/Sunshine) | Parsec | [Personal and Home](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Low-latency streaming server that streams your gaming PC. |
 | [Supabase](https://github.com/supabase/supabase) | Firebase | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Server | Postgres + auth + storage + realtime. |
@@ -550,12 +559,14 @@ OSI-approved licenses such as MIT, GPL, AGPL, Apache, MPL and BSD. 595 tools.
 | [Vane (formerly Perplexica)](https://github.com/ItzCrazyKns/Vane) | Perplexity | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT</sub> | Server | AI-powered search engine. |
 | [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Bitwarden server | [Security and Privacy](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>AGPL-3.0</sub> | Server | Lightweight Bitwarden-compatible server. |
 | [Ventoy](https://github.com/ventoy/Ventoy) | Ventoy (boot) | [Linux and Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows | Multiple ISOs on a single USB drive. |
+| [VibeVoice](https://github.com/microsoft/VibeVoice) | ElevenLabs / Whisper API | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Linux, CLI | Microsoft's open voice models: speech recognition in 50+ languages and real-time TTS. |
 | [Vicinae](https://github.com/vicinaehq/vicinae) | Raycast | [Linux and Terminal](../categories/linux-ve-terminal.md) | OSI · 🔥 Trending<br><sub>GPL-3.0</sub> | Linux | Launcher compatible with Raycast extensions. |
 | [Vikunja](https://github.com/go-vikunja/vikunja) | Todoist | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Web, Mobile | List, kanban and gantt views. |
 | [Vito](https://github.com/vitodeploy/vito) | Laravel Forge / Ploi | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Server | Provision PHP servers and deploy sites. |
 | [VLC](https://www.videolan.org/vlc/) | Players other than Kodi | [Media Servers](../categories/medya-sunucu.md) | OSI<br><sub>GPL-2.0</sub> | All | Plays almost any format without installing codecs. |
 | [vLLM](https://github.com/vllm-project/vllm) | Hosted LLM APIs | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>Apache-2.0</sub> | Server | High-throughput LLM serving engine. |
 | [Voicebox](https://github.com/jamiepine/voicebox) | ElevenLabs | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Linux, Windows, macOS | Local voice cloning and TTS studio. |
+| [VoiceStudio](https://github.com/debpalash/VoiceStudio) | ElevenLabs | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trending<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Docker | Local voice cloning and TTS studio; the default model weights are non-commercial (CC-BY-NC). |
 | [Vorta](https://github.com/borgbase/vorta) | Time Machine | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI<br><sub>GPL-3.0</sub> | Linux, macOS | Desktop interface for BorgBackup. |
 | [VSCodium](https://github.com/VSCodium/vscodium) | VS Code (with telemetry) | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | VS Code with telemetry removed. |
 | [Wails](https://github.com/wailsapp/wails) | Electron | [Game Development](../categories/oyun-gelistirme.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Desktop apps with Go and a web UI. |

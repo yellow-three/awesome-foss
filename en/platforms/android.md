@@ -49,7 +49,7 @@
 | [Kvaesitso](https://github.com/MM2-0/Kvaesitso) | Niagara Launcher | [Android](../categories/android.md) | OSI<br><sub>GPL-3.0</sub> | Android | Search-focused launcher. |
 | [Lawnchair](https://github.com/LawnchairLauncher/lawnchair) | Nova Launcher | [Android](../categories/android.md) | OSI<br><sub>Apache-2.0</sub> | Android | Pixel-style launcher. |
 | [LibreTube](https://github.com/libre-tube/LibreTube) | YouTube | [Android](../categories/android.md) | OSI<br><sub>GPL-3.0</sub> | Android | YouTube client powered by Piped. |
-| [LocalSend](https://github.com/localsend/localsend) | AirDrop | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI<br><sub>MIT</sub> | All | Send files over the local network. |
+| [LocalSend](https://github.com/localsend/localsend) | AirDrop | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI<br><sub>Apache-2.0</sub> | All | Send files over the local network. |
 | [Logseq](https://github.com/logseq/logseq) | Roam Research | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Mobile | An outliner that works with markdown files. |
 | [Markor](https://github.com/gsantner/markor) | Obsidian mobile | [Android](../categories/android.md) | OSI<br><sub>Apache-2.0</sub> | Android | Markdown notes and to-do editor. |
 | [Material Files](https://github.com/zhanghai/MaterialFiles) | ES File Explorer | [Android](../categories/android.md) | OSI<br><sub>GPL-3.0</sub> | Android | Ad-free file manager. |

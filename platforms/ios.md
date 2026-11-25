@@ -26,7 +26,7 @@
 | [KitchenOwl](https://github.com/TomBursch/kitchenowl) | AnyList | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu, Mobil | Ortak alışveriş listesi ve tarifler. |
 | [Kiwix](https://github.com/kiwix) | Wikipedia (çevrimdışı) | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-3.0</sub> | Tümü | Vikipedi'yi internetsiz okumak. |
 | [Kodi](https://github.com/xbmc/xbmc) | Plex istemcisi / Apple TV | [Medya Sunucu](../categories/medya-sunucu.md) | OSI<br><sub>GPL-2.0</sub> | Tümü | Ev sineması medya merkezi. |
-| [LocalSend](https://github.com/localsend/localsend) | AirDrop | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>MIT</sub> | Tümü | Yerel ağda dosya gönderme. |
+| [LocalSend](https://github.com/localsend/localsend) | AirDrop | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>Apache-2.0</sub> | Tümü | Yerel ağda dosya gönderme. |
 | [Logseq](https://github.com/logseq/logseq) | Roam Research | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Mobil | Outliner yapısında, markdown dosyalarla çalışıyor. |
 | [Mattermost](https://github.com/mattermost/mattermost) | Slack | [İletişim](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0 / Apache</sub> | Web, Masaüstü, Mobil | Ekip sohbeti. |
 | [Moonlight](https://github.com/moonlight-stream/moonlight-qt) | Parsec | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-3.0</sub> | Tümü | Sunshine yayınına bağlanan istemci. |

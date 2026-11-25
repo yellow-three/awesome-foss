@@ -2,7 +2,7 @@
 
 [← Home](../README.md)
 
-73 tools. **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
+77 tools. **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
 
 | Alternative | Replaces | Category | License | Platform | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -39,8 +39,9 @@
 | [graphify](https://github.com/Graphify-Labs/graphify) | Commercial code search / knowledge graph tools | [AI Agents: Skills, MCP and Plugins](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | Repo, CLI | Skill that turns code, docs and images into a queryable knowledge graph. |
 | [Headroom](https://github.com/headroomlabs-ai/headroom) | Token costs | [AI Agents: Skills, MCP and Plugins](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | CLI | Compresses tool output and logs before they reach the LLM. |
 | [Helix](https://github.com/helix-editor/helix) | PhpStorm (terminal) | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>MPL-2.0</sub> | CLI | Modal editor with LSP and tree-sitter out of the box, no config needed. |
-| [HTTPie](https://github.com/httpie/cli) | curl (readable) | [Linux and Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>BSD-3</sub> | CLI | Human-friendly HTTP client. |
+| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Commercial AI agents | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Linux, Windows, macOS, CLI | AI agent that creates skills from experience and improves with use, working with any model. |
 | [Hurl](https://github.com/Orange-OpenSource/hurl) | Postman tests | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | CLI | HTTP requests and tests in plain text files. |
+| [HyperFrames](https://github.com/heygen-com/hyperframes) | Descript | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, CLI | AI video editor that builds videos from your footage or a prompt and lets you edit them frame by frame. |
 | [jless](https://github.com/PaulJuliusMartinez/jless) | JSON viewing | [Linux and Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | Collapsible navigation for large JSON files. |
 | [jq](https://github.com/jqlang/jq) | JSON processing | [Linux and Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | Filter and transform JSON on the command line. |
 | [k6](https://github.com/grafana/k6) | LoadRunner / BlazeMeter | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>AGPL-3.0</sub> | CLI | Load testing with JavaScript. |
@@ -60,6 +61,7 @@
 | [OpenSpec](https://github.com/Fission-AI/OpenSpec) | Agent workflows | [AI Agents: Skills, MCP and Plugins](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | CLI | Agree on a spec with agents before writing code. |
 | [OpenTofu](https://github.com/opentofu/opentofu) | Terraform | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>MPL-2.0</sub> | CLI | The open fork of Terraform. |
 | [ouch](https://github.com/ouch-org/ouch) | tar/unzip flags | [Linux and Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | Extract and compress archives with a single command. |
+| [pi](https://github.com/earendil-works/pi) | Claude Code / Cursor | [Developer Tools](../categories/gelistirici-araclari.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | CLI | Minimal, extensible terminal coding agent and LLM toolkit. |
 | [Rclone](https://github.com/rclone/rclone) | MultCloud | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI<br><sub>MIT</sub> | CLI | Manage 70+ cloud providers with a single tool. |
 | [Renovate](https://github.com/renovatebot/renovate) | Dependabot | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>AGPL-3.0</sub> | CLI, Server | Dependency update PRs for Composer/npm. |
 | [Restic](https://github.com/restic/restic) | Backblaze / Time Machine | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI<br><sub>BSD-2</sub> | CLI | Encrypted backups that store duplicate data only once. |
@@ -68,10 +70,12 @@
 | [SkillSpector](https://github.com/NVIDIA/SkillSpector) | Commercial security scanners | [AI Agents: Skills, MCP and Plugins](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | CLI | Scans agent skills for malicious patterns and vulnerabilities. |
 | [Spec Kit](https://github.com/github/spec-kit) | Agent workflows | [AI Agents: Skills, MCP and Plugins](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | CLI | Agent workflow for spec-driven development. |
 | [Starship](https://github.com/starship/starship) | Oh My Zsh themes | [Linux and Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>ISC</sub> | CLI | Fast, customizable prompt that works in any shell. |
+| [Strix](https://github.com/usestrix/strix) | Commercial pentest services | [Security and Privacy](../categories/guvenlik-ve-gizlilik.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | CLI, Docker | AI penetration testing tool that finds and validates vulnerabilities in your app. |
 | [tldr](https://github.com/tldr-pages/tldr) | man | [Linux and Terminal](../categories/linux-ve-terminal.md) | 📄 Other open<br><sub>CC-BY-4.0</sub> | CLI | Short, example-based summaries of commands. |
 | [topgrade](https://github.com/topgrade-rs/topgrade) | Package manager GUIs | [Linux and Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>GPL-3.0</sub> | CLI | Update every package manager with a single command. |
 | [Trivy](https://github.com/aquasecurity/trivy) | Snyk | [Security and Privacy](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>Apache-2.0</sub> | CLI | Container and dependency vulnerability scanning. |
 | [Typst](https://github.com/typst/typst) | LaTeX / Word | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>Apache-2.0</sub> | CLI | Fast-compiling typesetting system that is easy to learn. |
+| [VibeVoice](https://github.com/microsoft/VibeVoice) | ElevenLabs / Whisper API | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Linux, CLI | Microsoft's open voice models: speech recognition in 50+ languages and real-time TTS. |
 | [Whisper (faster-whisper)](https://github.com/SYSTRAN/faster-whisper) | Otter.ai / Rev | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>MIT</sub> | CLI | Local speech-to-text and subtitles. |
 | [whisper.cpp](https://github.com/ggml-org/whisper.cpp) | OpenAI Whisper API | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>MIT</sub> | CLI | Fast C++ port of the Whisper model that runs on CPU. |
 | [yazi](https://github.com/sxyazi/yazi) | Dolphin (terminal) | [Linux and Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | Fast file manager with previews. |

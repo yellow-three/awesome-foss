@@ -20,7 +20,7 @@
 | [Docmost](https://github.com/docmost/docmost) | Confluence | OSI<br><sub>AGPL-3.0</sub> | Web | Ekip wikisi. |
 | [Documenso](https://github.com/documenso/documenso) | DocuSign | 🧩 Open-core<br><sub>AGPL-3.0 + EE</sub> | Sunucu | E-imza platformu. |
 | [DocuSeal](https://github.com/docusealco/docuseal) | DocuSign | OSI<br><sub>AGPL-3.0</sub> | Sunucu | PDF belgeleri doldurma ve e-imza. |
-| [draw.io](https://github.com/jgraph/drawio-desktop) | Visio / Lucidchart | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, Web | Diyagram çizimi. |
+| [draw.io](https://github.com/jgraph/drawio-desktop) | Visio / Lucidchart | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS, Web | Diyagram çizimi. |
 | [Etherpad](https://github.com/ether/etherpad) | Google Docs (basit) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Gerçek zamanlı ortak metin düzenleyici. |
 | [Excalidraw](https://github.com/excalidraw/excalidraw) | Miro (çizim) | OSI<br><sub>MIT</sub> | Web | El çizimi tarzı whiteboard. |
 | [Foliate](https://github.com/johnfactotum/foliate) | Apple Books | OSI<br><sub>GPL-3.0</sub> | Linux | Sade ve şık e-kitap okuyucu. |

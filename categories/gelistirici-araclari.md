@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-74 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
+75 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
 | Alternatif | Yerine geçtiği | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- |
@@ -58,7 +58,8 @@
 | [OpenHands](https://github.com/OpenHands/OpenHands) | Devin | OSI<br><sub>MIT</sub> | Sunucu, CLI | Otonom yazılım geliştirme ajanı. |
 | [OpenTofu](https://github.com/opentofu/opentofu) | Terraform | OSI<br><sub>MPL-2.0</sub> | CLI | Terraform'un açık fork'u. |
 | [pgAdmin](https://github.com/pgadmin-org/pgadmin4) | DataGrip (PostgreSQL) | OSI<br><sub>PostgreSQL</sub> | Masaüstü, Web | PostgreSQL yönetim aracı. |
-| [PocketBase](https://github.com/pocketbase/pocketbase) | Firebase | OSI<br><sub>MIT</sub> | Sunucu | Tek dosyada backend (SQLite). |
+| [pi](https://github.com/earendil-works/pi) | Claude Code / Cursor | OSI · 🔥 Trend<br><sub>MIT</sub> | CLI | Eklentilerle genişletilen minimal terminal kodlama ajanı ve LLM araç seti. |
+| [PocketBase](https://ganigeorgiev.com/pocketbase/pocketbase) | Firebase | OSI<br><sub>MIT</sub> | Sunucu | Tek dosyada backend (SQLite). |
 | [Podman Desktop](https://github.com/podman-desktop/podman-desktop) | Docker Desktop | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS | Lerd ile aynı Podman tabanı. |
 | [Pulsar](https://github.com/pulsar-edit/pulsar) | Sublime Text | OSI<br><sub>MIT</sub> | Masaüstü | Atom editörünün topluluk devamı. |
 | [Rancher Desktop](https://github.com/rancher-sandbox/rancher-desktop) | Docker Desktop | OSI<br><sub>Apache-2.0</sub> | Masaüstü | Konteyner ve yerel Kubernetes. |

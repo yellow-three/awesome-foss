@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-40 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
+39 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
 | Alternatif | Yerine geçtiği | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- |
@@ -26,7 +26,6 @@
 | [GitButler](https://github.com/gitbutlerapp/gitbutler) | GitKraken | ⚠️ Kısıtlı<br><sub>Fair Source</sub> | Linux, Windows, macOS | Sanal branch'lerle git istemcisi. |
 | [Glances](https://github.com/nicolargo/glances) | Ticari sistem izleyiciler | OSI<br><sub>LGPL-3.0</sub> | CLI, Web | Sistem kaynaklarını terminalde ve web'de izleme. |
 | [Heroic Games Launcher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) | Steam (diğer mağazalar) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Epic, GOG ve Amazon oyunları için başlatıcı. |
-| [HTTPie](https://github.com/httpie/cli) | curl (okunaklı) | OSI<br><sub>BSD-3</sub> | CLI | İnsan dostu HTTP istemcisi. |
 | [jless](https://github.com/PaulJuliusMartinez/jless) | JSON görüntüleme | OSI<br><sub>MIT</sub> | CLI | Büyük JSON dosyalarında katlanabilir gezinme. |
 | [jq](https://github.com/jqlang/jq) | JSON işleme | OSI<br><sub>MIT</sub> | CLI | Komut satırında JSON filtreleme ve dönüştürme. |
 | [KDE Connect](https://kdeconnect.kde.org) | Telefon eşleştirme | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, Android | Dosya, pano ve bildirim paylaşımı. |

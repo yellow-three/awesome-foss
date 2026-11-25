@@ -20,7 +20,7 @@
 | [Docmost](https://github.com/docmost/docmost) | Confluence | OSI<br><sub>AGPL-3.0</sub> | Web | Team wiki. |
 | [Documenso](https://github.com/documenso/documenso) | DocuSign | 🧩 Open-core<br><sub>AGPL-3.0 + EE</sub> | Server | E-signature platform. |
 | [DocuSeal](https://github.com/docusealco/docuseal) | DocuSign | OSI<br><sub>AGPL-3.0</sub> | Server | Fill in PDF documents and sign electronically. |
-| [draw.io](https://github.com/jgraph/drawio-desktop) | Visio / Lucidchart | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, Web | Diagramming. |
+| [draw.io](https://github.com/jgraph/drawio-desktop) | Visio / Lucidchart | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS, Web | Diagramming. |
 | [Etherpad](https://github.com/ether/etherpad) | Google Docs (simple) | OSI<br><sub>Apache-2.0</sub> | Server | Real-time collaborative text editor. |
 | [Excalidraw](https://github.com/excalidraw/excalidraw) | Miro (drawing) | OSI<br><sub>MIT</sub> | Web | Hand-drawn style whiteboard. |
 | [Foliate](https://github.com/johnfactotum/foliate) | Apple Books | OSI<br><sub>GPL-3.0</sub> | Linux | Clean and elegant e-book reader. |

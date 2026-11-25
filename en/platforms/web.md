@@ -2,7 +2,7 @@
 
 [← Home](../README.md)
 
-76 tools. **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
+78 tools. **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
 
 | Alternative | Replaces | Category | License | Platform | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -19,7 +19,7 @@
 | [CryptPad](https://github.com/cryptpad/cryptpad) | Google Workspace | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Server, Web | Encrypted office suite whose server cannot see your content. |
 | [DbGate](https://github.com/dbgate/dbgate) | TablePlus | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>GPL-3.0</sub> | Desktop, Web | SQL and NoSQL database client. |
 | [Docmost](https://github.com/docmost/docmost) | Confluence | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Web | Team wiki. |
-| [draw.io](https://github.com/jgraph/drawio-desktop) | Visio / Lucidchart | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, Web | Diagramming. |
+| [draw.io](https://github.com/jgraph/drawio-desktop) | Visio / Lucidchart | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS, Web | Diagramming. |
 | [drawDB](https://github.com/drawdb-io/drawdb) | dbdiagram.io | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>AGPL-3.0</sub> | Web | ER diagrams in the browser with SQL export. |
 | [Element](https://github.com/element-hq/element-web) | Discord / WhatsApp | [Communication](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0</sub> | Web, Desktop, Mobile | Encrypted messaging client for the Matrix network. |
 | [Excalidraw](https://github.com/excalidraw/excalidraw) | Miro (drawing) | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>MIT</sub> | Web | Hand-drawn style whiteboard. |
@@ -53,7 +53,9 @@
 | [NocoDB](https://github.com/nocodb/nocodb) | Airtable | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | ⚠️ Restricted<br><sub>Sustainable Use</sub> | Web | A spreadsheet interface on top of an existing MySQL/Postgres. |
 | [Notesnook](https://github.com/streetwriters/notesnook) | Evernote / Apple Notes | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-3.0</sub> | All, Web | End-to-end encrypted note-taking app. |
 | [ONLYOFFICE](https://github.com/ONLYOFFICE/DesktopEditors) | Microsoft 365 (full compatibility) | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Web | Better DOCX/XLSX compatibility than LibreOffice. |
+| [Open Design](https://github.com/nexu-io/open-design) | Figma AI / Canva | [Design and Graphics](../categories/tasarim-ve-grafik.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, Web | Local-first, collaborative AI design agent workspace. |
 | [Open WebUI](https://github.com/open-webui/open-webui) | ChatGPT interface | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | ⚠️ Restricted<br><sub>Branding-restricted BSD</sub> | Web | Chat interface for Ollama and cloud models. |
+| [OpenCut](https://github.com/OpenCut-app/OpenCut) | CapCut | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Web, Linux, Windows, macOS | Timeline-based video editor that runs in the browser and on desktop. |
 | [OpenProject](https://github.com/opf/openproject) | MS Project | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-3.0</sub> | Web | Gantt charts and classic project management. |
 | [Outline](https://github.com/outline/outline) | Notion (team wiki) | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | ⚠️ Restricted<br><sub>BSL-1.1</sub> | Web | Fast and polished, but with a restrictive license. |
 | [PairDrop](https://github.com/schlagmichdoch/PairDrop) | AirDrop (browser) | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI<br><sub>GPL-3.0</sub> | Web | No-install file sharing from the browser. |

@@ -2,7 +2,7 @@
 
 [← Home](../README.md)
 
-215 tools. **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
+222 tools. **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
 
 | Alternative | Replaces | Category | License | Platform | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -44,7 +44,7 @@
 | [digiKam](https://www.digikam.org) | Lightroom Classic (catalog) | [Design and Graphics](../categories/tasarim-ve-grafik.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Managing large photo libraries. |
 | [Ditto](https://github.com/sabrogden/Ditto) | ClipboardFusion | [Windows](../categories/windows.md) | OSI<br><sub>GPL-3.0</sub> | Windows | Clipboard history manager. |
 | [Dolphin](https://github.com/dolphin-emu/dolphin) | Nintendo GameCube / Wii | [Personal and Home](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-2.0</sub> | Desktop, Android | GameCube and Wii emulator. |
-| [draw.io](https://github.com/jgraph/drawio-desktop) | Visio / Lucidchart | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, Web | Diagramming. |
+| [draw.io](https://github.com/jgraph/drawio-desktop) | Visio / Lucidchart | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS, Web | Diagramming. |
 | [dupeGuru](https://github.com/arsenetar/dupeguru) | Duplicate Cleaner | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI<br><sub>GPL-3.0</sub> | Desktop | Find duplicate files with similar names or content. |
 | [Duplicati](https://github.com/duplicati/duplicati) | Acronis | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Backups with a web interface. |
 | [Dyad](https://github.com/dyad-sh/dyad) | Lovable / Bolt / v0 | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | 🧩 Open-core · 🔥 Trending<br><sub>Apache-2.0 + Pro</sub> | Desktop | AI app builder that runs locally. |
@@ -81,9 +81,11 @@
 | [Handy](https://github.com/cjpais/Handy) | Wispr Flow | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Linux, Windows, macOS | Local dictation with a shortcut, in any app. |
 | [Headlamp](https://github.com/kubernetes-sigs/headlamp) | Lens / Rancher UI | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Desktop, Web | Kubernetes UI with plugins. |
 | [HeidiSQL](https://github.com/HeidiSQL/HeidiSQL) | Navicat | [Windows](../categories/windows.md) | OSI<br><sub>GPL-2.0</sub> | Windows | Client for MySQL, PostgreSQL and SQL Server. |
+| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Commercial AI agents | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Linux, Windows, macOS, CLI | AI agent that creates skills from experience and improves with use, working with any model. |
 | [Heroic Games Launcher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) | Steam (other stores) | [Linux and Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Launcher for Epic, GOG and Amazon games. |
 | [Hoppscotch](https://github.com/hoppscotch/hoppscotch) | Postman (web) | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Web, Desktop | REST, GraphQL and WebSocket. |
 | [Hydrogen](https://github.com/hydrogen-music/hydrogen) | Commercial drum machines | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-2.0</sub> | Desktop | Drum machine and rhythm programming. |
+| [HyperFrames](https://github.com/heygen-com/hyperframes) | Descript | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, CLI | AI video editor that builds videos from your footage or a prompt and lets you edit them frame by frame. |
 | [ImageGlass](https://github.com/d2phap/ImageGlass) | Windows Photos | [Windows](../categories/windows.md) | OSI<br><sub>GPL-3.0</sub> | Windows | Fast image viewer. |
 | [ImHex](https://github.com/WerWolv/ImHex) | 010 Editor | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>GPL-2.0</sub> | Desktop | Hex editor with a pattern language. |
 | [Inkscape](https://inkscape.org) | Illustrator | [Design and Graphics](../categories/tasarim-ve-grafik.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Vector drawing. |
@@ -106,7 +108,7 @@
 | [LibreSprite](https://github.com/LibreSprite/LibreSprite) | Aseprite | [Design and Graphics](../categories/tasarim-ve-grafik.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | The old open source fork of Aseprite. |
 | [LibreWolf](https://librewolf.net) | Chrome | [Security and Privacy](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>MPL-2.0</sub> | Linux, Windows, macOS | Firefox build with telemetry disabled and hardened privacy settings. |
 | [LMMS](https://github.com/LMMS/lmms) | FL Studio | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Beat and music production. |
-| [LocalSend](https://github.com/localsend/localsend) | AirDrop | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI<br><sub>MIT</sub> | All | Send files over the local network. |
+| [LocalSend](https://github.com/localsend/localsend) | AirDrop | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI<br><sub>Apache-2.0</sub> | All | Send files over the local network. |
 | [Logseq](https://github.com/logseq/logseq) | Roam Research | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Mobile | An outliner that works with markdown files. |
 | [LosslessCut](https://github.com/mifi/lossless-cut) | Video trimming tools | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-2.0</sub> | Desktop | Cut video and audio without re-encoding. |
 | [LÖVE](https://github.com/love2d/love) | GameMaker | [Game Development](../categories/oyun-gelistirme.md) | OSI<br><sub>zlib</sub> | Linux, Windows, macOS | 2D games in Lua. |
@@ -134,13 +136,17 @@
 | [Okular](https://okular.kde.org) | Adobe Reader | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows | KDE's document viewer. |
 | [Ollama](https://github.com/ollama/ollama) | OpenAI API (local) | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Run local models with a single command. |
 | [ONLYOFFICE](https://github.com/ONLYOFFICE/DesktopEditors) | Microsoft 365 (full compatibility) | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Web | Better DOCX/XLSX compatibility than LibreOffice. |
+| [Open Design](https://github.com/nexu-io/open-design) | Figma AI / Canva | [Design and Graphics](../categories/tasarim-ve-grafik.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, Web | Local-first, collaborative AI design agent workspace. |
 | [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu) | Start11 / StartIsBack | [Windows](../categories/windows.md) | OSI<br><sub>MIT</sub> | Windows | Classic Start menu. |
+| [OpenClaw](https://github.com/openclaw/openclaw) | Commercial personal AI assistants | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Linux, Windows, macOS | Personal AI assistant that runs on your own computer and works through channels like WhatsApp, Telegram and Slack. |
+| [OpenCut](https://github.com/OpenCut-app/OpenCut) | CapCut | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Web, Linux, Windows, macOS | Timeline-based video editor that runs in the browser and on desktop. |
 | [OpenSCAD](https://github.com/openscad/openscad) | Fusion 360 (parametric) | [Design and Graphics](../categories/tasarim-ve-grafik.md) | OSI<br><sub>GPL-2.0</sub> | Desktop | Design solid 3D models with code. |
 | [OpenShot](https://github.com/OpenShot/openshot-qt) | iMovie | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-3.0</sub> | Desktop | Easy-to-use video editor. |
 | [OpenToonz](https://github.com/opentoonz/opentoonz) | Toon Boom | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>BSD-3</sub> | Linux, Windows, macOS | 2D animation (the open version of Toonz, used by Studio Ghibli). |
 | [Orca](https://github.com/stablyai/orca) | Commercial agent managers | [AI Agents: Skills, MCP and Plugins](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Desktop | Manage multiple coding agents in worktrees. |
 | [Paseo](https://github.com/getpaseo/paseo) | Remote access to agents | [AI Agents: Skills, MCP and Plugins](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | Desktop, Mobile | Manage coding agents from desktop and phone. |
 | [pgAdmin](https://github.com/pgadmin-org/pgadmin4) | DataGrip (PostgreSQL) | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>PostgreSQL</sub> | Desktop, Web | PostgreSQL administration tool. |
+| [PhotoCraft](https://github.com/storytold/photocraft) | Photoshop / Lightroom | [Design and Graphics](../categories/tasarim-ve-grafik.md) | OSI · 🔥 Trending<br><sub>MIT / Apache-2.0</sub> | Linux, Windows, macOS | Layer-based photo editor written from scratch in Rust. |
 | [Pinta](https://github.com/PintaProject/Pinta) | Paint.NET | [Design and Graphics](../categories/tasarim-ve-grafik.md) | OSI<br><sub>MIT</sub> | Desktop | Simple and fast image editor. |
 | [Pixelorama](https://github.com/Orama-Interactive/Pixelorama) | Aseprite | [Design and Graphics](../categories/tasarim-ve-grafik.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Pixel art, also suitable for perler bead patterns. |
 | [Playnite](https://github.com/JosefNemec/Playnite) | Steam / GOG Galaxy library | [Windows](../categories/windows.md) | OSI<br><sub>MIT</sub> | Windows | Gather every game store into one library. |
@@ -202,6 +208,7 @@
 | [VeraCrypt](https://github.com/veracrypt/VeraCrypt) | BitLocker (portable) | [Security and Privacy](../categories/guvenlik-ve-gizlilik.md) | 📄 Other open<br><sub>Apache-2.0 / TrueCrypt</sub> | Linux, Windows, macOS | Encrypted disks and containers. |
 | [VLC](https://www.videolan.org/vlc/) | Players other than Kodi | [Media Servers](../categories/medya-sunucu.md) | OSI<br><sub>GPL-2.0</sub> | All | Plays almost any format without installing codecs. |
 | [Voicebox](https://github.com/jamiepine/voicebox) | ElevenLabs | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Linux, Windows, macOS | Local voice cloning and TTS studio. |
+| [VoiceStudio](https://github.com/debpalash/VoiceStudio) | ElevenLabs | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trending<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Docker | Local voice cloning and TTS studio; the default model weights are non-commercial (CC-BY-NC). |
 | [VSCodium](https://github.com/VSCodium/vscodium) | VS Code (with telemetry) | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | VS Code with telemetry removed. |
 | [Wails](https://github.com/wailsapp/wails) | Electron | [Game Development](../categories/oyun-gelistirme.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Desktop apps with Go and a web UI. |
 | [Warp](https://github.com/warpdotdev/warp) | Commercial AI terminals | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>AGPL-3.0</sub> | Desktop | AI-powered terminal. |

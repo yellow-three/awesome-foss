@@ -2,7 +2,7 @@
 
 [← Home](../README.md)
 
-24 tools. **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
+26 tools. **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
 
 | Alternative | Replaces | License | Platform | Description |
 | --- | --- | --- | --- | --- |
@@ -22,8 +22,10 @@
 | [LibreSprite](https://github.com/LibreSprite/LibreSprite) | Aseprite | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | The old open source fork of Aseprite. |
 | [miniPaint](https://github.com/viliusle/miniPaint) | Photopea | OSI<br><sub>MIT</sub> | Web | Image editor that runs in the browser. |
 | [MyPaint](https://github.com/mypaint/mypaint) | Procreate | OSI<br><sub>GPL-2.0</sub> | Linux, Windows | Digital painting with a clean interface. |
+| [Open Design](https://github.com/nexu-io/open-design) | Figma AI / Canva | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, Web | Local-first, collaborative AI design agent workspace. |
 | [OpenSCAD](https://github.com/openscad/openscad) | Fusion 360 (parametric) | OSI<br><sub>GPL-2.0</sub> | Desktop | Design solid 3D models with code. |
 | [Penpot](https://github.com/penpot/penpot) | Figma | OSI<br><sub>MPL-2.0</sub> | Web | SVG-based UI design that can be self-hosted. |
+| [PhotoCraft](https://github.com/storytold/photocraft) | Photoshop / Lightroom | OSI · 🔥 Trending<br><sub>MIT / Apache-2.0</sub> | Linux, Windows, macOS | Layer-based photo editor written from scratch in Rust. |
 | [Pinta](https://github.com/PintaProject/Pinta) | Paint.NET | OSI<br><sub>MIT</sub> | Desktop | Simple and fast image editor. |
 | [Pixelorama](https://github.com/Orama-Interactive/Pixelorama) | Aseprite | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Pixel art, also suitable for perler bead patterns. |
 | [QGIS](https://github.com/qgis/QGIS) | ArcGIS | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Geographic information system. |

@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-76 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
+78 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
@@ -19,7 +19,7 @@
 | [CryptPad](https://github.com/cryptpad/cryptpad) | Google Workspace | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu, Web | Sunucunun içeriği göremediği şifreli ofis paketi. |
 | [DbGate](https://github.com/dbgate/dbgate) | TablePlus | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>GPL-3.0</sub> | Masaüstü, Web | SQL ve NoSQL veritabanı istemcisi. |
 | [Docmost](https://github.com/docmost/docmost) | Confluence | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Web | Ekip wikisi. |
-| [draw.io](https://github.com/jgraph/drawio-desktop) | Visio / Lucidchart | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, Web | Diyagram çizimi. |
+| [draw.io](https://github.com/jgraph/drawio-desktop) | Visio / Lucidchart | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS, Web | Diyagram çizimi. |
 | [drawDB](https://github.com/drawdb-io/drawdb) | dbdiagram.io | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>AGPL-3.0</sub> | Web | Tarayıcıda ER diyagramı, SQL çıktı. |
 | [Element](https://github.com/element-hq/element-web) | Discord / WhatsApp | [İletişim](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0</sub> | Web, Masaüstü, Mobil | Matrix ağı için şifreli mesajlaşma istemcisi. |
 | [Excalidraw](https://github.com/excalidraw/excalidraw) | Miro (çizim) | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>MIT</sub> | Web | El çizimi tarzı whiteboard. |
@@ -53,7 +53,9 @@
 | [NocoDB](https://github.com/nocodb/nocodb) | Airtable | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | ⚠️ Kısıtlı<br><sub>Sustainable Use</sub> | Web | Var olan MySQL/Postgres'e tablo arayüzü. |
 | [Notesnook](https://github.com/streetwriters/notesnook) | Evernote / Apple Notes | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-3.0</sub> | Tümü, Web | Uçtan uca şifreli not uygulaması. |
 | [ONLYOFFICE](https://github.com/ONLYOFFICE/DesktopEditors) | Microsoft 365 (tam uyum) | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Web | DOCX/XLSX uyumu LibreOffice'ten daha iyi. |
+| [Open Design](https://github.com/nexu-io/open-design) | Figma AI / Canva | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, Web | Yerel öncelikli, ortak çalışmalı AI tasarım ajanı çalışma alanı. |
 | [Open WebUI](https://github.com/open-webui/open-webui) | ChatGPT arayüzü | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | ⚠️ Kısıtlı<br><sub>Marka kısıtlı BSD</sub> | Web | Ollama ve bulut modelleri için sohbet arayüzü. |
+| [OpenCut](https://github.com/OpenCut-app/OpenCut) | CapCut | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Web, Linux, Windows, macOS | Tarayıcıda ve masaüstünde çalışan, zaman çizelgeli video düzenleyici. |
 | [OpenProject](https://github.com/opf/openproject) | MS Project | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-3.0</sub> | Web | Gantt ve klasik proje yönetimi. |
 | [Outline](https://github.com/outline/outline) | Notion (ekip wikisi) | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | ⚠️ Kısıtlı<br><sub>BSL-1.1</sub> | Web | Hızlı ve şık, ama lisansı kısıtlı. |
 | [PairDrop](https://github.com/schlagmichdoch/PairDrop) | AirDrop (tarayıcı) | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>GPL-3.0</sub> | Web | Kurulumsuz, tarayıcıdan dosya paylaşımı. |
