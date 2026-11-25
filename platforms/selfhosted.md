@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-193 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
+197 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
@@ -33,6 +33,7 @@
 | [Cloudreve](https://github.com/cloudreve/cloudreve) | Google Drive | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>GPL-3.0</sub> | Sunucu | Çoklu depolama arka uçlu bulut sürücü. |
 | [code-server](https://github.com/coder/code-server) | GitHub Codespaces | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Sunucu | VS Code'u tarayıcıda çalıştırma. |
 | [Coder](https://github.com/coder/coder) | GitHub Codespaces / Gitpod | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | 🧩 Open-core<br><sub>AGPL-3.0 + Enterprise</sub> | Sunucu | Kendi altyapında geliştirme ortamları. |
+| [cognee](https://github.com/topoteretes/cognee) | Ajan hafızası | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Ajanlar için bilgi grafiği tabanlı uzun süreli hafıza. |
 | [Colyseus](https://github.com/colyseus/colyseus) | Photon / PlayFab | [Oyun Geliştirme](../categories/oyun-gelistirme.md) | OSI<br><sub>MIT</sub> | Sunucu | Node.js çok oyunculu oyun sunucusu, oda ve durum senkronu. |
 | [Coolify](https://github.com/coollabsio/coolify) | Laravel Forge / Ploi | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>Apache-2.0</sub> | Sunucu | Git push ile deploy, SSL, veritabanı. |
 | [copyparty](https://github.com/9001/copyparty) | Dropbox / FTP sunucu | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>MIT</sub> | Sunucu | Tek dosyalık, her protokolü destekleyen dosya sunucusu. |
@@ -66,6 +67,7 @@
 | [GlitchTip](https://gitlab.com/glitchtip) | Sentry | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Sunucu | Sentry SDK'larıyla uyumlu hata takibi. |
 | [Gogs](https://github.com/gogs/gogs) | GitHub (self-host) | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Sunucu | Çok hafif Git sunucusu. |
 | [Gotify](https://github.com/gotify/server) | Pushover | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>MIT</sub> | Sunucu | Kendi bildirim sunucun. |
+| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | ChatGPT Deep Research | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Kaynaklı derin araştırma raporu üreten ajan. |
 | [Grafana](https://github.com/grafana/grafana) | Datadog / New Relic | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu | Metrik, log ve trace için dashboard aracı. |
 | [Grist](https://github.com/gristlabs/grist-core) | Airtable / Excel | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu, Web | Formülleri Python olan ilişkisel tablo uygulaması. |
 | [Grocy](https://github.com/grocy/grocy) | Ev envanteri | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>MIT</sub> | Sunucu | Mutfak stok ve son kullanma takibi (PHP). |
@@ -94,6 +96,7 @@
 | [Langflow](https://github.com/langflow-ai/langflow) | Ticari ajan oluşturucular | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT</sub> | Sunucu | Görsel AI iş akışı ve ajan oluşturucu. |
 | [Langfuse](https://github.com/langfuse/langfuse) | LangSmith | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | 🧩 Open-core<br><sub>MIT + EE</sub> | Sunucu | LLM uygulamaları için izleme ve değerlendirme. |
 | [Lemmy](https://github.com/LemmyNet/lemmy) | Reddit | [İletişim](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu | Federe bağlantı paylaşım ve tartışma platformu. |
+| [Letta](https://github.com/letta-ai/letta) | Ajan hafızası | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Kalıcı hafızalı ajan platformu (eski MemGPT). |
 | [LinkAce](https://github.com/Kovah/LinkAce) | Raindrop.io | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI · 🟥 Laravel<br><sub>GPL-3.0</sub> | Sunucu | Arşivlemeli yer imi yöneticisi. |
 | [linkding](https://github.com/sissbruecker/linkding) | Pocket / Raindrop | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>MIT</sub> | Sunucu | Sade yer imi yöneticisi. |
 | [LinkStack](https://github.com/LinkStackOrg/LinkStack) | Linktree | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Sunucu | Biyografi link sayfası. |
@@ -112,6 +115,7 @@
 | [Mealie](https://github.com/mealie-recipes/mealie) | Tarif uygulamaları | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>AGPL-3.0</sub> | Sunucu | Tarif, haftalık menü, alışveriş listesi. |
 | [Medusa](https://github.com/medusajs/medusa) | Shopify | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | 🧩 Open-core<br><sub>MIT + Enterprise</sub> | Sunucu | Modüler headless e-ticaret. |
 | [Meilisearch](https://github.com/meilisearch/meilisearch) | Algolia | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Sunucu | Laravel Scout ile doğrudan çalışıyor. |
+| [Mem0](https://github.com/mem0ai/mem0) | Ajan hafızası | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | AI uygulamaları için hafıza katmanı. |
 | [Metabase](https://github.com/metabase/metabase) | Tableau / Power BI | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | 🧩 Open-core<br><sub>AGPL-3.0 + Commercial</sub> | Sunucu | SQL bilmeden veri sorgulama ve dashboard. |
 | [Miniflux](https://github.com/miniflux/v2) | Feedly | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Minimalist RSS okuyucu. |
 | [Monica](https://github.com/monicahq/monica) | Kişisel CRM | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Sunucu | Kişiler, doğum günleri, notlar. |

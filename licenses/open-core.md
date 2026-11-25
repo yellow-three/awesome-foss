@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-Çekirdeği OSI onaylı lisanslı, bazı klasör veya dosyaları (enterprise/premium) ticari lisanslı projeler. Self-hosted topluluk sürümü serbestçe kullanılabilir. 24 araç.
+Çekirdeği OSI onaylı lisanslı, bazı klasör veya dosyaları (enterprise/premium) ticari lisanslı projeler. Self-hosted topluluk sürümü serbestçe kullanılabilir. 26 araç.
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
@@ -13,9 +13,11 @@
 | [Bitwarden](https://github.com/bitwarden) | 1Password / LastPass | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | 🧩 Open-core<br><sub>GPL/AGPL + Bitwarden License</sub> | Tümü | Parola yöneticisi. |
 | [Budibase](https://github.com/Budibase/budibase) | Retool / PowerApps | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | 🧩 Open-core<br><sub>GPL-3.0 + BSL (pro)</sub> | Sunucu | Düşük kodlu iş uygulamaları. |
 | [Chatwoot](https://github.com/chatwoot/chatwoot) | Intercom / Zendesk | [İletişim](../categories/iletisim.md) | 🧩 Open-core<br><sub>MIT</sub> | Web | Müşteri destek kutusu ve canlı sohbet. |
+| [cmux](https://github.com/manaflow-ai/cmux) | Ajan terminalleri | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | 🧩 Open-core · 🔥 Trend<br><sub>GPL-3.0 + BSL (sunucu)</sub> | macOS | Kodlama ajanları için dikey sekmeli terminal. |
 | [Coder](https://github.com/coder/coder) | GitHub Codespaces / Gitpod | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | 🧩 Open-core<br><sub>AGPL-3.0 + Enterprise</sub> | Sunucu | Kendi altyapında geliştirme ortamları. |
 | [Documenso](https://github.com/documenso/documenso) | DocuSign | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | 🧩 Open-core<br><sub>AGPL-3.0 + EE</sub> | Sunucu | E-imza platformu. |
 | [Dokploy](https://github.com/Dokploy/dokploy) | Vercel / Heroku | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | 🧩 Open-core<br><sub>Apache-2.0 + proprietary</sub> | Sunucu | Docker Swarm tabanlı PaaS. |
+| [Dyad](https://github.com/dyad-sh/dyad) | Lovable / Bolt / v0 | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | 🧩 Open-core · 🔥 Trend<br><sub>Apache-2.0 + Pro</sub> | Masaüstü | Yerel çalışan AI uygulama oluşturucu. |
 | [Formbricks](https://github.com/formbricks/formbricks) | Typeform / Google Forms | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | 🧩 Open-core<br><sub>AGPL-3.0</sub> | Web | Anket ve form. |
 | [Infisical](https://github.com/Infisical/infisical) | Doppler / Vault | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | 🧩 Open-core<br><sub>MIT</sub> | Sunucu | .env ve gizli anahtar yönetimi. |
 | [Langfuse](https://github.com/langfuse/langfuse) | LangSmith | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | 🧩 Open-core<br><sub>MIT + EE</sub> | Sunucu | LLM uygulamaları için izleme ve değerlendirme. |

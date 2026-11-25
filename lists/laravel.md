@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-Kaynak kodu Laravel olan, kendin barındırabileceğin ve inceleyip katkı verebileceğin 26 uygulama.
+Kaynak kodu Laravel olan, kendin barındırabileceğin ve inceleyip katkı verebileceğin 27 uygulama.
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
@@ -18,6 +18,7 @@ Kaynak kodu Laravel olan, kendin barındırabileceğin ve inceleyip katkı vereb
 | [Invoice Ninja](https://github.com/invoiceninja/invoiceninja) | FreshBooks | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | ⚠️ Kısıtlı · 🟥 Laravel<br><sub>Elastic License</sub> | Sunucu | Fatura ve teklif. |
 | [Koel](https://github.com/koel/koel) | Spotify (kendi arşivin) | [Medya Sunucu](../categories/medya-sunucu.md) | OSI · 🟥 Laravel<br><sub>MIT</sub> | Sunucu | Web müzik çalar. |
 | [Krayin CRM](https://github.com/krayin/laravel-crm) | HubSpot CRM / Pipedrive | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>MIT</sub> | Sunucu | Satış süreci ve müşteri yönetimi. |
+| [Laravel Boost](https://github.com/laravel/boost) | Ticari Laravel AI araçları | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🟥 Laravel<br><sub>MIT</sub> | Laravel paketi, MCP sunucusu | Ajanlara Laravel projesine özel MCP araçları ve kurallar. |
 | [LinkAce](https://github.com/Kovah/LinkAce) | Raindrop.io | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI · 🟥 Laravel<br><sub>GPL-3.0</sub> | Sunucu | Arşivlemeli yer imi yöneticisi. |
 | [LinkStack](https://github.com/LinkStackOrg/LinkStack) | Linktree | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Sunucu | Biyografi link sayfası. |
 | [Lychee](https://github.com/LycheeOrg/Lychee) | Google Photos albümleri | [Medya Sunucu](../categories/medya-sunucu.md) | OSI · 🟥 Laravel<br><sub>MIT</sub> | Sunucu | Fotoğraf albümü yönetimi ve paylaşımı. |

@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-73 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
+76 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
@@ -47,6 +47,8 @@
 | [Mermaid](https://github.com/mermaid-js/mermaid) | Lucidchart (kodla) | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>MIT</sub> | Web | Metinden diyagram üretme. |
 | [miniPaint](https://github.com/viliusle/miniPaint) | Photopea | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>MIT</sub> | Web | Tarayıcıda çalışan resim editörü. |
 | [Mixpost](https://github.com/inovector/mixpost) | Buffer | [İletişim](../categories/iletisim.md) | OSI · 🟥 Laravel<br><sub>MIT</sub> | Web | Sosyal medya planlama. |
+| [Next AI Draw.io](https://github.com/DayuanJiang/next-ai-draw-io) | Lucidchart AI | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Web, MCP sunucusu | Sohbet ederek draw.io diyagramı çizme. |
+| [NextChat](https://github.com/ChatGPTNextWeb/NextChat) | ChatGPT web | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT</sub> | Web, Masaüstü | Hafif, kendin barındırabileceğin sohbet arayüzü. |
 | [NocoBase](https://github.com/nocobase/nocobase) | Retool / Airtable | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>AGPL-3.0</sub> | Web | Eklenti tabanlı no-code platform. |
 | [NocoDB](https://github.com/nocodb/nocodb) | Airtable | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | ⚠️ Kısıtlı<br><sub>Sustainable Use</sub> | Web | Var olan MySQL/Postgres'e tablo arayüzü. |
 | [Notesnook](https://github.com/streetwriters/notesnook) | Evernote / Apple Notes | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-3.0</sub> | Tümü, Web | Uçtan uca şifreli not uygulaması. |
@@ -70,6 +72,7 @@
 | [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) | Slack | [İletişim](../categories/iletisim.md) | 🧩 Open-core<br><sub>MIT</sub> | Web, Masaüstü, Mobil | Ekip sohbeti, omnichannel. |
 | [SearXNG](https://github.com/searxng/searxng) | Google arama | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>AGPL-3.0</sub> | Web | İzlemesiz meta arama motoru. |
 | [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | Adobe Acrobat | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | 🧩 Open-core<br><sub>MIT</sub> | Web | PDF birleştirme, bölme, OCR, imzalama. |
+| [T3 Code](https://github.com/pingdotgg/t3code) | Ajanlara uzaktan erişim | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Masaüstü, Web | Claude Code ve Codex'i her cihazdan kontrol etme. |
 | [ToolJet](https://github.com/ToolJet/ToolJet) | Retool | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>AGPL-3.0</sub> | Web | İç araç ve admin paneli oluşturucu. |
 | [Trilium Notes](https://github.com/TriliumNext/Trilium) | Evernote | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Masaüstü, Web | Hiyerarşik notlar, ilişki haritası ve betik desteği olan kişisel bilgi tabanı. |
 | [Tuta](https://github.com/tutao/tutanota) | Gmail / Outlook | [İletişim](../categories/iletisim.md) | OSI<br><sub>GPL-3.0</sub> | Tümü, Web | Uçtan uca şifreli e-posta ve takvim istemcisi. |

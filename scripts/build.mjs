@@ -21,6 +21,8 @@ const PLATFORM_MAP = {
   "CLI": ["cli"],
   "VS Code": ["extensions"], "JetBrains": ["extensions"], "Tarayıcı eklentisi": ["extensions"],
   "Laravel paketi": ["extensions"], "Repo": ["extensions"],
+  "MCP sunucusu": ["extensions"], "Obsidian eklentisi": ["extensions"],
+  "Thunderbird eklentisi": ["extensions"], "Zotero eklentisi": ["extensions"],
 };
 const PLATFORMS = {
   linux: "Linux", windows: "Windows", macos: "macOS", android: "Android", ios: "iOS",

@@ -2,7 +2,7 @@
 
 > Ücretli veya kapalı kaynak uygulamaların yerine kullanılabilecek açık kaynak alternatifler; alana, işletim sistemine ve lisansa göre düzenlenmiş.
 
-**568 araç · 16 kategori · 526 OSI lisanslı**
+**641 araç · 17 kategori · 594 OSI lisanslı**
 
 **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
@@ -27,8 +27,9 @@
 | [Tasarım ve Grafik](categories/tasarim-ve-grafik.md) | 24 |
 | [Video, Ses ve 3D](categories/video-ses-ve-3d.md) | 31 |
 | [Oyun Geliştirme](categories/oyun-gelistirme.md) | 19 |
-| [Geliştirici Araçları](categories/gelistirici-araclari.md) | 76 |
-| [AI ve Yerel Modeller](categories/ai-ve-yerel-modeller.md) | 21 |
+| [Geliştirici Araçları](categories/gelistirici-araclari.md) | 74 |
+| [AI Ajanları: Skill, MCP ve Eklentiler](categories/ai-ajan-araclari.md) | 71 |
+| [AI ve Yerel Modeller](categories/ai-ve-yerel-modeller.md) | 25 |
 | [Self-hosted ve Sunucu](categories/self-hosted-ve-sunucu.md) | 68 |
 | [Kişisel ve Ev](categories/kisisel-ve-ev.md) | 34 |
 | [Linux ve Terminal](categories/linux-ve-terminal.md) | 40 |
@@ -40,29 +41,29 @@
 
 | Platform | Araç sayısı |
 | --- | --- |
-| [Linux](platforms/linux.md) | 190 |
-| [Windows](platforms/windows.md) | 207 |
-| [macOS](platforms/macos.md) | 182 |
-| [Android](platforms/android.md) | 80 |
-| [iOS](platforms/ios.md) | 42 |
-| [Web](platforms/web.md) | 73 |
-| [Self-hosted (sunucu)](platforms/selfhosted.md) | 193 |
-| [Komut satırı (CLI)](platforms/cli.md) | 60 |
-| [Eklenti, paket ve repolar](platforms/extensions.md) | 10 |
+| [Linux](platforms/linux.md) | 198 |
+| [Windows](platforms/windows.md) | 215 |
+| [macOS](platforms/macos.md) | 191 |
+| [Android](platforms/android.md) | 82 |
+| [iOS](platforms/ios.md) | 44 |
+| [Web](platforms/web.md) | 76 |
+| [Self-hosted (sunucu)](platforms/selfhosted.md) | 197 |
+| [Komut satırı (CLI)](platforms/cli.md) | 73 |
+| [Eklenti, paket ve repolar](platforms/extensions.md) | 61 |
 
 ## Lisansa göre
 
 | Lisans türü | Araç sayısı | Açıklama |
 | --- | --- | --- |
-| [OSI onaylı açık kaynak](licenses/osi.md) | 526 | MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. |
-| [Open-core](licenses/open-core.md) | 24 | Çekirdeği OSI onaylı lisanslı, bazı klasör veya dosyaları (enterprise/premium) ticari lisanslı projeler. Self-hosted topluluk sürümü serbestçe kullanılabilir. |
+| [OSI onaylı açık kaynak](licenses/osi.md) | 594 | MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. |
+| [Open-core](licenses/open-core.md) | 26 | Çekirdeği OSI onaylı lisanslı, bazı klasör veya dosyaları (enterprise/premium) ticari lisanslı projeler. Self-hosted topluluk sürümü serbestçe kullanılabilir. |
 | [Diğer açık lisanslar](licenses/other.md) | 4 | OSI listesinde olmayan ama serbest kullanıma izin veren lisanslar (CC0, Creative Commons, TrueCrypt License vb.). |
-| [Kısıtlı lisans](licenses/restricted.md) | 14 | Source-available veya fair-code (BSL, FSL, Sustainable Use, Elastic vb.). Kodu okuyabilir ve kendin barındırabilirsin ama ticari kullanım sınırlı olabilir. |
+| [Kısıtlı lisans](licenses/restricted.md) | 17 | Source-available veya fair-code (BSL, FSL, Sustainable Use, Elastic vb.). Kodu okuyabilir ve kendin barındırabilirsin ama ticari kullanım sınırlı olabilir. |
 
 ## Özel listeler
 
-- [🟥 Laravel ile yazılmış uygulamalar](lists/laravel.md) (26)
-- [🔥 Trend ve yeni projeler](lists/trending.md) (17)
+- [🟥 Laravel ile yazılmış uygulamalar](lists/laravel.md) (27)
+- [🔥 Trend ve yeni projeler](lists/trending.md) (71)
 
 ## Benzer listeler
 

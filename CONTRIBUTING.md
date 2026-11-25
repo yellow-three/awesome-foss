@@ -30,7 +30,7 @@ Markdown dosyaları (`README.md`, `categories/`, `platforms/`, `licenses/`, `lis
 | Alan | Değerler |
 | --- | --- |
 | `license_type` | `osi` (OSI onaylı), `open-core` (OSI çekirdek + `ee/`, `enterprise/` gibi ticari lisanslı klasörler), `other` (CC-BY gibi OSI dışı serbest lisanslar) veya `restricted` (BSL, FSL, Sustainable Use, Elastic, Commons Clause vb.) |
-| `platforms` | `Linux`, `Windows`, `macOS`, `Android`, `iOS`, `Mobil`, `Masaüstü`, `Tümü`, `Web`, `Sunucu`, `Docker`, `CLI`, `VS Code`, `JetBrains`, `Tarayıcı eklentisi`, `Laravel paketi`, `Repo` |
+| `platforms` | `Linux`, `Windows`, `macOS`, `Android`, `iOS`, `Mobil`, `Masaüstü`, `Tümü`, `Web`, `Sunucu`, `Docker`, `CLI`, `VS Code`, `JetBrains`, `Tarayıcı eklentisi`, `Laravel paketi`, `Repo` (skill ve plugin koleksiyonları), `MCP sunucusu`, `Obsidian eklentisi`, `Thunderbird eklentisi`, `Zotero eklentisi` |
 | `laravel` | Uygulamanın kendisi Laravel ile yazılmışsa `true` |
 | `trending` | Repo 2025 veya sonrasında açıldıysa ve 5000+ yıldızı varsa `true` |
 

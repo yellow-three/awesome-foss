@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-76 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
+74 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
 | Alternatif | Yerine geçtiği | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- |
@@ -16,10 +16,10 @@
 | [Bruno](https://github.com/usebruno/bruno) | Postman | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Koleksiyonlar git'te düz dosya olarak duruyor. |
 | [Budibase](https://github.com/Budibase/budibase) | Retool / PowerApps | 🧩 Open-core<br><sub>GPL-3.0 + BSL (pro)</sub> | Sunucu | Düşük kodlu iş uygulamaları. |
 | [ChartDB](https://github.com/chartdb/chartdb) | dbdiagram.io | OSI<br><sub>AGPL-3.0</sub> | Web | Var olan veritabanından tek sorguyla diyagram. |
-| [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Masaüstü otomasyonu | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | CLI | Uygulamaları ajanların kullanabileceği CLI'lara çeviriyor. |
 | [Cline](https://github.com/cline/cline) | Cursor (ajan) | OSI<br><sub>Apache-2.0</sub> | VS Code | Editör içi kodlama ajanı. |
 | [code-server](https://github.com/coder/code-server) | GitHub Codespaces | OSI<br><sub>MIT</sub> | Sunucu | VS Code'u tarayıcıda çalıştırma. |
 | [Coder](https://github.com/coder/coder) | GitHub Codespaces / Gitpod | 🧩 Open-core<br><sub>AGPL-3.0 + Enterprise</sub> | Sunucu | Kendi altyapında geliştirme ortamları. |
+| [Codex CLI](https://github.com/openai/codex) | Claude Code / Cursor | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | CLI | OpenAI'ın terminal kodlama ajanı. |
 | [Colima](https://github.com/abiosoft/colima) | Docker Desktop | OSI<br><sub>MIT</sub> | macOS, Linux | Minimum ayarla konteyner çalıştırma. |
 | [Continue](https://github.com/continuedev/continue) | GitHub Copilot | OSI<br><sub>Apache-2.0</sub> | VS Code, JetBrains | Yerel modelle kod tamamlama. |
 | [DBeaver CE](https://github.com/dbeaver/dbeaver) | TablePlus / DataGrip | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS | Neredeyse her veritabanına bağlanıyor. |
@@ -32,6 +32,7 @@
 | [Forgejo](https://codeberg.org/forgejo/forgejo) | GitHub | OSI<br><sub>GPL-3.0</sub> | Sunucu | Gitea'nın topluluk fork'u. |
 | [Freelens](https://github.com/freelensapp/freelens) | Lens | OSI<br><sub>MIT</sub> | Masaüstü | Kubernetes masaüstü IDE'si. |
 | [frp](https://github.com/fatedier/frp) | ngrok | OSI<br><sub>Apache-2.0</sub> | CLI | Yerel servisi kendi VPS'in üzerinden dışarı açma. |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Claude Code / Cursor | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | CLI | Google'ın terminal kodlama ajanı. |
 | [Ghostty](https://github.com/ghostty-org/ghostty) | Warp | OSI<br><sub>MIT</sub> | Linux, macOS | GPU hızlandırmalı terminal. |
 | [Gitea](https://github.com/go-gitea/gitea) | GitHub | OSI<br><sub>MIT</sub> | Sunucu | Hafif Git sunucusu, Actions destekli. |
 | [GitHub Desktop](https://github.com/desktop/desktop) | GitKraken | OSI<br><sub>MIT</sub> | Windows, macOS | Basit Git istemcisi. |
@@ -50,9 +51,7 @@
 | [Lapce](https://github.com/lapce/lapce) | Sublime Text | OSI<br><sub>Apache-2.0</sub> | Masaüstü | Rust ile yazılmış hızlı kod editörü. |
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | Docker Desktop (TUI) | OSI<br><sub>MIT</sub> | CLI | Konteynerleri terminalden yönetme. |
 | [Mailpit](https://github.com/axllent/mailpit) | Mailtrap | OSI<br><sub>MIT</sub> | CLI, Docker | Yerelde e-posta yakalama. |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | Ajan skill'leri | OSI · 🔥 Trend<br><sub>MIT</sub> | Repo | Küçük, birleştirilebilir ajan skill'leri. |
 | [Meilisearch](https://github.com/meilisearch/meilisearch) | Algolia | OSI<br><sub>MIT</sub> | Sunucu | Laravel Scout ile doğrudan çalışıyor. |
-| [modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance-src) | Web best-practice rehberleri | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Repo | Kodlama ajanlarına güncel web pratiklerini öğreten Chrome rehberi. |
 | [Neovim](https://github.com/neovim/neovim) | PhpStorm (terminal) | OSI<br><sub>Apache-2.0 / Vim</sub> | CLI | Lua ile genişletilen Vim türevi, yerleşik LSP desteği var. |
 | [NocoBase](https://github.com/nocobase/nocobase) | Retool / Airtable | OSI<br><sub>AGPL-3.0</sub> | Web | Eklenti tabanlı no-code platform. |
 | [OpenCode](https://github.com/anomalyco/opencode) | Claude Code / Cursor | OSI · 🔥 Trend<br><sub>MIT</sub> | CLI | Terminal kodlama ajanı. |
@@ -67,7 +66,6 @@
 | [SourceGit](https://github.com/sourcegit-org/sourcegit) | GitKraken / Fork | OSI<br><sub>MIT</sub> | Masaüstü | Git grafik arayüzü. |
 | [Strapi](https://github.com/strapi/strapi) | Contentful | 🧩 Open-core<br><sub>MIT</sub> | Sunucu | Headless CMS. |
 | [Supabase](https://github.com/supabase/supabase) | Firebase | OSI<br><sub>Apache-2.0</sub> | Sunucu | Postgres + auth + storage + realtime. |
-| [superpowers](https://github.com/obra/superpowers) | Ajan iş akışı | OSI · 🔥 Trend<br><sub>MIT</sub> | Repo | Kodlama ajanları için TDD, plan ve debug skill'leri. |
 | [Tabby](https://github.com/Eugeny/tabby) | Termius | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | SSH profilleri ve serial bağlantı. |
 | [Tabby (TabbyML)](https://github.com/TabbyML/tabby) | GitHub Copilot (sunucu) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Kendi sunucunda kod tamamlama. |
 | [ToolJet](https://github.com/ToolJet/ToolJet) | Retool | OSI<br><sub>AGPL-3.0</sub> | Web | İç araç ve admin paneli oluşturucu. |

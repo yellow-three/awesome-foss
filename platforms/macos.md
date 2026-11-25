@@ -2,13 +2,14 @@
 
 [← Ana sayfa](../README.md)
 
-182 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
+191 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
 | [Actual Budget](https://github.com/actualbudget/actual) | YNAB | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>MIT</sub> | Web, Masaüstü | Zarf usulü bütçe. |
 | [AeroSpace](https://github.com/nikitabobko/AeroSpace) | Ticari pencere yöneticileri | [macOS](../categories/macos.md) | OSI<br><sub>MIT</sub> | macOS | i3 tarzı döşemeli pencere yöneticisi. |
 | [AFFiNE](https://github.com/toeverything/AFFiNE) | Notion + Miro | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | 🧩 Open-core<br><sub>MIT + EE (backend)</sub> | Linux, Windows, macOS, Web | Belge, whiteboard ve veritabanı bir arada. Self-hosted sürümü henüz 1.0 değil. |
+| [AionUi](https://github.com/iOfficeAI/AionUi) | Claude Desktop | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Masaüstü | Birçok CLI ajanı için ortak masaüstü arayüzü. |
 | [Alacritty](https://github.com/alacritty/alacritty) | iTerm2 / Windows Terminal | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Masaüstü | Minimal ve hızlı GPU terminali. |
 | [AltTab](https://github.com/lwouis/alt-tab-macos) | Windows tarzı Alt-Tab | [macOS](../categories/macos.md) | OSI<br><sub>GPL-3.0</sub> | macOS | Pencere önizlemeli uygulama geçişi. |
 | [Anki](https://github.com/ankitects/anki) | Quizlet | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Android | Aralıklı tekrar kartları (KPSS için ideal). |
@@ -27,7 +28,10 @@
 | [Buzz](https://github.com/chidiwilliams/buzz) | Otter.ai / MacWhisper | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>MIT</sub> | Masaüstü | Whisper ile yerel ses yazıya dökme. |
 | [Calibre](https://github.com/kovidgoyal/calibre) | Kindle uygulaması | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | E-kitap kütüphanesi ve format dönüştürme. |
 | [Cap](https://github.com/CapSoftware/Cap) | Loom | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>AGPL-3.0</sub> | Masaüstü | Ekran kaydı ve paylaşım linki. |
+| [CC Switch](https://github.com/farion1231/cc-switch) | Ajan yapılandırma araçları | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Masaüstü | Claude Code, Codex ve OpenCode sağlayıcı ayarlarını tek yerden değiştirme. |
+| [Chatbox](https://github.com/chatboxai/chatbox) | ChatGPT masaüstü | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>GPL-3.0</sub> | Tümü | Birçok sağlayıcıyı destekleyen AI sohbet istemcisi. |
 | [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | ChatGPT masaüstü | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>AGPL-3.0</sub> | Masaüstü | Birçok model sağlayıcısını tek arayüzde toplayan istemci. |
+| [cmux](https://github.com/manaflow-ai/cmux) | Ajan terminalleri | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | 🧩 Open-core · 🔥 Trend<br><sub>GPL-3.0 + BSL (sunucu)</sub> | macOS | Kodlama ajanları için dikey sekmeli terminal. |
 | [Colima](https://github.com/abiosoft/colima) | Docker Desktop | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | macOS, Linux | Minimum ayarla konteyner çalıştırma. |
 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Midjourney | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Yerel görsel üretimi, düğüm tabanlı. |
 | [CopyQ](https://github.com/hluk/CopyQ) | Pano yöneticileri | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Gelişmiş pano geçmişi. |
@@ -44,6 +48,7 @@
 | [draw.io](https://github.com/jgraph/drawio-desktop) | Visio / Lucidchart | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, Web | Diyagram çizimi. |
 | [dupeGuru](https://github.com/arsenetar/dupeguru) | Duplicate Cleaner | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>GPL-3.0</sub> | Masaüstü | Benzer adlı veya içerikli kopya dosyaları bulma. |
 | [Duplicati](https://github.com/duplicati/duplicati) | Acronis | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Web arayüzlü yedekleme. |
+| [Dyad](https://github.com/dyad-sh/dyad) | Lovable / Bolt / v0 | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | 🧩 Open-core · 🔥 Trend<br><sub>Apache-2.0 + Pro</sub> | Masaüstü | Yerel çalışan AI uygulama oluşturucu. |
 | [Element](https://github.com/element-hq/element-web) | Discord / WhatsApp | [İletişim](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0</sub> | Web, Masaüstü, Mobil | Matrix ağı için şifreli mesajlaşma istemcisi. |
 | [Ente Auth](https://github.com/ente/ente) | Authy / Google Authenticator | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>AGPL-3.0</sub> | Tümü | 2FA kodları, şifreli bulut yedek. |
 | [Ente Photos](https://github.com/ente/ente) | Google Photos | [Medya Sunucu](../categories/medya-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Tümü | Uçtan uca şifreli foto yedekleme. |
@@ -118,6 +123,7 @@
 | [MuseScore](https://github.com/musescore/MuseScore) | Sibelius / Finale | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Nota yazımı. |
 | [Natron](https://github.com/NatronGitHub/Natron) | After Effects / Nuke | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Düğüm tabanlı compositing. |
 | [NetBird](https://github.com/netbirdio/netbird) | Tailscale | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>BSD-3</sub> | Tümü | WireGuard tabanlı mesh VPN, kendi sunucunda. |
+| [NextChat](https://github.com/ChatGPTNextWeb/NextChat) | ChatGPT web | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT</sub> | Web, Masaüstü | Hafif, kendin barındırabileceğin sohbet arayüzü. |
 | [Notesnook](https://github.com/streetwriters/notesnook) | Evernote / Apple Notes | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-3.0</sub> | Tümü, Web | Uçtan uca şifreli not uygulaması. |
 | [O3DE](https://github.com/o3de/o3de) | Unreal Engine | [Oyun Geliştirme](../categories/oyun-gelistirme.md) | OSI<br><sub>Apache-2.0 / MIT</sub> | Masaüstü | Linux Foundation'ın AAA odaklı 3D motoru. |
 | [OBS Studio](https://github.com/obsproject/obs-studio) | Camtasia / Streamlabs | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Ekran kaydı ve canlı yayın. |
@@ -126,6 +132,8 @@
 | [OpenSCAD](https://github.com/openscad/openscad) | Fusion 360 (parametrik) | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>GPL-2.0</sub> | Masaüstü | Kodla 3D katı model tasarımı. |
 | [OpenShot](https://github.com/OpenShot/openshot-qt) | iMovie | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-3.0</sub> | Masaüstü | Kolay kullanımlı video düzenleyici. |
 | [OpenToonz](https://github.com/opentoonz/opentoonz) | Toon Boom | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>BSD-3</sub> | Linux, Windows, macOS | 2D animasyon (Studio Ghibli'nin kullandığı Toonz'un açık sürümü). |
+| [Orca](https://github.com/stablyai/orca) | Ticari ajan yöneticileri | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Masaüstü | Birden çok kodlama ajanını worktree'lerde yönetme. |
+| [Paseo](https://github.com/getpaseo/paseo) | Ajanlara uzaktan erişim | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Masaüstü, Mobil | Kodlama ajanlarını masaüstü ve telefondan yönetme. |
 | [pgAdmin](https://github.com/pgadmin-org/pgadmin4) | DataGrip (PostgreSQL) | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>PostgreSQL</sub> | Masaüstü, Web | PostgreSQL yönetim aracı. |
 | [Pinta](https://github.com/PintaProject/Pinta) | Paint.NET | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>MIT</sub> | Masaüstü | Basit ve hızlı resim düzenleyici. |
 | [Pixelorama](https://github.com/Orama-Interactive/Pixelorama) | Aseprite | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Piksel sanatı, perler bead desenleri için de uygun. |
@@ -160,6 +168,7 @@
 | [Surge XT](https://github.com/surge-synthesizer/surge) | Serum / ticari synth'ler | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-3.0</sub> | Masaüstü | Hibrit yazılım synthesizer. |
 | [Syncthing](https://github.com/syncthing/syncthing) | Dropbox (sadece senkron) | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>MPL-2.0</sub> | Tümü | Sunucusuz, cihazdan cihaza senkron. |
 | [Synfig](https://github.com/synfig/synfig) | Animate CC | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Vektör 2D animasyon. |
+| [T3 Code](https://github.com/pingdotgg/t3code) | Ajanlara uzaktan erişim | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Masaüstü, Web | Claude Code ve Codex'i her cihazdan kontrol etme. |
 | [Tabby](https://github.com/Eugeny/tabby) | Termius | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | SSH profilleri ve serial bağlantı. |
 | [Tauri](https://github.com/tauri-apps/tauri) | Electron | [Oyun Geliştirme](../categories/oyun-gelistirme.md) | OSI<br><sub>MIT / Apache</sub> | Linux, Windows, macOS, Mobil | Çok daha küçük masaüstü paketleri. |
 | [Thunderbird](https://www.thunderbird.net) | Outlook | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>MPL-2.0</sub> | Linux, Windows, macOS, Android | Çoklu hesap, takvim, kişiler. |

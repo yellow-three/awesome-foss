@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-42 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
+44 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
@@ -11,6 +11,7 @@
 | [Audiobookshelf](https://github.com/advplyr/audiobookshelf) | Audible | [Medya Sunucu](../categories/medya-sunucu.md) | OSI<br><sub>GPL-3.0</sub> | Sunucu, Mobil | Sesli kitap ve podcast sunucusu. |
 | [Bitwarden](https://github.com/bitwarden) | 1Password / LastPass | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | 🧩 Open-core<br><sub>GPL/AGPL + Bitwarden License</sub> | Tümü | Parola yöneticisi. |
 | [Brave](https://github.com/brave/brave-browser) | Chrome | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>MPL-2.0</sub> | Tümü | Yerleşik reklam engelleyicili Chromium tabanlı tarayıcı. |
+| [Chatbox](https://github.com/chatboxai/chatbox) | ChatGPT masaüstü | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>GPL-3.0</sub> | Tümü | Birçok sağlayıcıyı destekleyen AI sohbet istemcisi. |
 | [Cryptomator](https://github.com/cryptomator/cryptomator) | Boxcryptor | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>GPL-3.0</sub> | Tümü | Bulut klasörlerini istemci tarafında şifreleme. |
 | [Delta Chat](https://github.com/deltachat/deltachat-desktop) | WhatsApp | [İletişim](../categories/iletisim.md) | OSI<br><sub>GPL-3.0</sub> | Tümü | E-posta altyapısı üzerinden şifreli sohbet. |
 | [Element](https://github.com/element-hq/element-web) | Discord / WhatsApp | [İletişim](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0</sub> | Web, Masaüstü, Mobil | Matrix ağı için şifreli mesajlaşma istemcisi. |
@@ -33,6 +34,7 @@
 | [Notesnook](https://github.com/streetwriters/notesnook) | Evernote / Apple Notes | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-3.0</sub> | Tümü, Web | Uçtan uca şifreli not uygulaması. |
 | [Organic Maps](https://organicmaps.app) | Google Maps (çevrimdışı) | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>Apache-2.0</sub> | Android, iOS | Çevrimdışı harita, kamp ve yürüyüş için. |
 | [OsmAnd](https://github.com/osmandapp/OsmAnd) | Google Maps (detaylı) | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-3.0</sub> | Android, iOS | Topoğrafya ve rota kaydı. |
+| [Paseo](https://github.com/getpaseo/paseo) | Ajanlara uzaktan erişim | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Masaüstü, Mobil | Kodlama ajanlarını masaüstü ve telefondan yönetme. |
 | [Pixelfed](https://github.com/pixelfed/pixelfed) | Instagram | [İletişim](../categories/iletisim.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Web, Mobil | Fediverse fotoğraf paylaşımı. |
 | [Readest](https://github.com/readest/readest) | Apple Books / Kindle | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Tümü, Web | Senkronlu, platformlar arası e-kitap okuyucu. |
 | [RetroArch](https://github.com/libretro/RetroArch) | Ticari emülatör arayüzleri | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-3.0</sub> | Tümü | Birçok emülatörü tek arayüzde toplayan ön uç. |

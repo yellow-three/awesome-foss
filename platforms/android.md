@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-80 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
+82 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
@@ -19,6 +19,7 @@
 | [Brave](https://github.com/brave/brave-browser) | Chrome | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>MPL-2.0</sub> | Tümü | Yerleşik reklam engelleyicili Chromium tabanlı tarayıcı. |
 | [Breezy Weather](https://github.com/breezy-weather/breezy-weather) | AccuWeather | [Android](../categories/android.md) | OSI<br><sub>LGPL-3.0</sub> | Android | Reklamsız hava durumu. |
 | [Catima](https://github.com/CatimaLoyalty/Android) | Stocard | [Android](../categories/android.md) | OSI<br><sub>GPL-3.0</sub> | Android | Sadakat kartı cüzdanı. |
+| [Chatbox](https://github.com/chatboxai/chatbox) | ChatGPT masaüstü | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>GPL-3.0</sub> | Tümü | Birçok sağlayıcıyı destekleyen AI sohbet istemcisi. |
 | [Cryptomator](https://github.com/cryptomator/cryptomator) | Boxcryptor | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>GPL-3.0</sub> | Tümü | Bulut klasörlerini istemci tarafında şifreleme. |
 | [Delta Chat](https://github.com/deltachat/deltachat-desktop) | WhatsApp | [İletişim](../categories/iletisim.md) | OSI<br><sub>GPL-3.0</sub> | Tümü | E-posta altyapısı üzerinden şifreli sohbet. |
 | [Dolphin](https://github.com/dolphin-emu/dolphin) | Nintendo GameCube / Wii | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-2.0</sub> | Masaüstü, Android | GameCube ve Wii emülatörü. |
@@ -63,6 +64,7 @@
 | [Obtainium](https://github.com/ImranR98/Obtainium) | Play Store (güncelleme) | [Android](../categories/android.md) | OSI<br><sub>GPL-3.0</sub> | Android | Uygulamaları doğrudan GitHub'dan güncelleme. |
 | [Organic Maps](https://organicmaps.app) | Google Maps (çevrimdışı) | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>Apache-2.0</sub> | Android, iOS | Çevrimdışı harita, kamp ve yürüyüş için. |
 | [OsmAnd](https://github.com/osmandapp/OsmAnd) | Google Maps (detaylı) | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-3.0</sub> | Android, iOS | Topoğrafya ve rota kaydı. |
+| [Paseo](https://github.com/getpaseo/paseo) | Ajanlara uzaktan erişim | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Masaüstü, Mobil | Kodlama ajanlarını masaüstü ve telefondan yönetme. |
 | [Pixelfed](https://github.com/pixelfed/pixelfed) | Instagram | [İletişim](../categories/iletisim.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Web, Mobil | Fediverse fotoğraf paylaşımı. |
 | [Read You](https://github.com/ReadYouApp/ReadYou) | Feedly | [Android](../categories/android.md) | OSI<br><sub>GPL-3.0</sub> | Android | Material You RSS okuyucu. |
 | [Readest](https://github.com/readest/readest) | Apple Books / Kindle | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Tümü, Web | Senkronlu, platformlar arası e-kitap okuyucu. |

@@ -3135,8 +3135,8 @@
     "trending": false
   },
   {
-    "category": "Geliştirici Araçları",
-    "category_slug": "gelistirici-araclari",
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
     "replaces": "Web best-practice rehberleri",
     "name": "modern-web-guidance",
     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
@@ -3150,8 +3150,8 @@
     "trending": true
   },
   {
-    "category": "Geliştirici Araçları",
-    "category_slug": "gelistirici-araclari",
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
     "replaces": "Ajan iş akışı",
     "name": "superpowers",
     "url": "https://github.com/obra/superpowers",
@@ -3165,8 +3165,8 @@
     "trending": true
   },
   {
-    "category": "Geliştirici Araçları",
-    "category_slug": "gelistirici-araclari",
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
     "replaces": "Ajan skill'leri",
     "name": "mattpocock/skills",
     "url": "https://github.com/mattpocock/skills",
@@ -3180,8 +3180,8 @@
     "trending": true
   },
   {
-    "category": "Geliştirici Araçları",
-    "category_slug": "gelistirici-araclari",
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
     "replaces": "Masaüstü otomasyonu",
     "name": "CLI-Anything",
     "url": "https://github.com/HKUDS/CLI-Anything",
@@ -8763,6 +8763,1110 @@
       "Android"
     ],
     "description": "Kapsamlı resim düzenleme araçları.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan skill'leri",
+    "name": "Anthropic Agent Skills",
+    "url": "https://github.com/anthropics/skills",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Anthropic'in resmi örnek skill koleksiyonu.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan skill'leri",
+    "name": "Agent Skills spesifikasyonu",
+    "url": "https://github.com/agentskills/agentskills",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Ajanlar arası taşınabilir skill formatının açık standardı.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan skill'leri",
+    "name": "agent-skills (Addy Osmani)",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Test, inceleme ve performans gibi mühendislik işleri için skill'ler.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan skill'leri",
+    "name": "Everything Claude Code",
+    "url": "https://github.com/affaan-m/ECC",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Kodlama ajanları için agent, skill, hook ve komut paketi.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ticari kod arama / bilgi grafiği araçları",
+    "name": "graphify",
+    "url": "https://github.com/Graphify-Labs/graphify",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Repo",
+      "CLI"
+    ],
+    "description": "Kod, doküman ve görselleri sorgulanabilir bilgi grafiğine çeviren skill.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "IDA Pro / Binary Ninja (ajanla)",
+    "name": "REA",
+    "url": "https://github.com/morluto/rea",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "MCP sunucusu"
+    ],
+    "description": "Ajanlarla binary, uygulama ve web sayfası tersine mühendisliği.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan skill'leri",
+    "name": "UI UX Pro Max",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Arayüz tasarımı için stil, renk ve tipografi rehberi skill'i.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan skill'leri",
+    "name": "Impeccable",
+    "url": "https://github.com/pbakaus/impeccable",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Ajanlara tasarım dili ve arayüz eleştirisi komutları.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan skill'leri",
+    "name": "taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Ajanların ürettiği arayüzlere sanat yönetimi ve görsel kontrol.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan skill'leri",
+    "name": "Emil Kowalski skills",
+    "url": "https://github.com/emilkowalski/skills",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Animasyon ve arayüz detayları için tasarımcı skill'leri.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan skill'leri",
+    "name": "Scientific Agent Skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Biyoloji, kimya ve veri bilimi için bilimsel araştırma skill'leri.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan skill'leri",
+    "name": "Marketing Skills",
+    "url": "https://github.com/coreyhaines31/marketingskills",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Metin yazarlığı, SEO ve dönüşüm optimizasyonu skill'leri.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan skill'leri",
+    "name": "PM Skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Ürün yönetimi için keşif, strateji ve PRD skill'leri.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan skill'leri",
+    "name": "Obsidian Skills",
+    "url": "https://github.com/obsidianmd/obsidian-skills",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Ajanlara Obsidian Markdown, Bases ve Canvas formatlarını öğretir.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ticari AI metin insanlaştırıcılar",
+    "name": "humanizer",
+    "url": "https://github.com/blader/humanizer",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Metindeki yapay zekâ yazım izlerini temizleyen skill.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Perplexity araştırma",
+    "name": "last30days",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Bir konuyu son 30 günün Reddit, HN ve web içeriğinden araştırır.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ticari diyagram araçları",
+    "name": "archify",
+    "url": "https://github.com/tt-a1i/archify",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Plan veya kod tabanından etkileşimli diyagram üreten skill.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Token maliyeti",
+    "name": "caveman",
+    "url": "https://github.com/JuliusBrussee/caveman",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Repo",
+      "CLI"
+    ],
+    "description": "Ajan yanıtlarını kısaltıp token harcamasını düşürür.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan skill'leri",
+    "name": "planning-with-files",
+    "url": "https://github.com/OthmanAdi/planning-with-files",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Uzun görevler için dosya tabanlı, kalıcı plan tutma.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan skill'leri",
+    "name": "wshobson/agents",
+    "url": "https://github.com/wshobson/agents",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Birçok kodlama ajanı için plugin, agent ve komut koleksiyonu.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan skill'leri",
+    "name": "Awesome Copilot",
+    "url": "https://github.com/github/awesome-copilot",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Copilot ve diğer ajanlar için talimat, agent ve skill'ler.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan eklentileri",
+    "name": "Claude Code resmi plugin dizini",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Anthropic'in yönettiği Claude Code plugin dizini.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan eklentileri",
+    "name": "Claude Code Templates",
+    "url": "https://github.com/davila7/claude-code-templates",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Agent, komut, hook ve MCP bileşenlerini kuran CLI.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ticari güvenlik tarayıcıları",
+    "name": "SkillSpector",
+    "url": "https://github.com/NVIDIA/SkillSpector",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Ajan skill'lerinde zararlı desen ve güvenlik açığı tarama.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan orkestrasyonu",
+    "name": "oh-my-claudecode",
+    "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Claude Code için çok ajanlı ekip orkestrasyonu.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan orkestrasyonu",
+    "name": "oh-my-openagent",
+    "url": "https://github.com/code-yeongyu/oh-my-openagent",
+    "license_type": "restricted",
+    "license": "Sustainable Use",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "OpenCode için ajan ve kategori yönlendirme eklentisi.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan iş akışları",
+    "name": "Spec Kit",
+    "url": "https://github.com/github/spec-kit",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Şartname odaklı geliştirme için ajan iş akışı.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan iş akışları",
+    "name": "OpenSpec",
+    "url": "https://github.com/Fission-AI/OpenSpec",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Ajanlarla kod yazmadan önce şartname üzerinde anlaşma.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan iş akışları",
+    "name": "BMAD Method",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Rollere ayrılmış ajanlarla çevik geliştirme yöntemi.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ticari GitHub entegrasyonları",
+    "name": "GitHub MCP Server",
+    "url": "https://github.com/github/github-mcp-server",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "MCP sunucusu"
+    ],
+    "description": "Ajanlara issue, PR ve repo erişimi.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ticari tarayıcı ajanları",
+    "name": "Chrome DevTools MCP",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "MCP sunucusu"
+    ],
+    "description": "Ajanlara Chrome DevTools ile sayfa hata ayıklama.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ticari tarayıcı ajanları",
+    "name": "Playwright MCP",
+    "url": "https://github.com/microsoft/playwright-mcp",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "MCP sunucusu"
+    ],
+    "description": "Ajanlara Playwright ile tarayıcı kontrolü.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ticari doküman araçları",
+    "name": "Context7",
+    "url": "https://github.com/upstash/context7",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "MCP sunucusu"
+    ],
+    "description": "Ajanlara kütüphanelerin güncel dokümanlarını getirir.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Cursor (kod anlama)",
+    "name": "Serena",
+    "url": "https://github.com/oraios/serena",
+    "license_type": "osi",
+    "license": "GPL-3.0 / MIT",
+    "platforms": [
+      "MCP sunucusu"
+    ],
+    "description": "LSP tabanlı anlamsal kod arama ve düzenleme.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Sourcegraph",
+    "name": "codebase-memory-mcp",
+    "url": "https://github.com/DeusData/codebase-memory-mcp",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "MCP sunucusu"
+    ],
+    "description": "Kod tabanını yerel bilgi grafiğinde tutan MCP sunucusu.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Zapier AI",
+    "name": "n8n-MCP",
+    "url": "https://github.com/czlonkowski/n8n-mcp",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "MCP sunucusu"
+    ],
+    "description": "Ajanların n8n iş akışlarını kurup düzenlemesi.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ticari entegrasyonlar",
+    "name": "MCP referans sunucuları",
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "license_type": "osi",
+    "license": "MIT / Apache-2.0",
+    "platforms": [
+      "MCP sunucusu"
+    ],
+    "description": "Dosya sistemi, git ve fetch gibi resmi örnek MCP sunucuları.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Adobe PDF Extract API",
+    "name": "MarkItDown",
+    "url": "https://github.com/microsoft/markitdown",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI",
+      "MCP sunucusu"
+    ],
+    "description": "PDF, Office ve görselleri LLM için Markdown'a çevirir.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Figma Dev Mode",
+    "name": "Figma Context MCP",
+    "url": "https://github.com/GLips/Figma-Context-MCP",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "MCP sunucusu"
+    ],
+    "description": "Figma tasarımlarını kodlama ajanlarına aktarır.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Claude Desktop (terminal)",
+    "name": "Desktop Commander",
+    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "MCP sunucusu"
+    ],
+    "description": "Ajana terminal ve dosya düzenleme yetkisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Atlassian Rovo",
+    "name": "MCP Atlassian",
+    "url": "https://github.com/sooperset/mcp-atlassian",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "MCP sunucusu"
+    ],
+    "description": "Jira ve Confluence için MCP sunucusu.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Amazon Q",
+    "name": "AWS MCP Servers",
+    "url": "https://github.com/awslabs/mcp",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "MCP sunucusu"
+    ],
+    "description": "AWS servisleri için resmi MCP sunucuları.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Lucidchart AI",
+    "name": "Next AI Draw.io",
+    "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Web",
+      "MCP sunucusu"
+    ],
+    "description": "Sohbet ederek draw.io diyagramı çizme.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan hafızası",
+    "name": "claude-mem",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Oturumlar arası kalıcı bağlam kaydı.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan hafızası",
+    "name": "MemPalace",
+    "url": "https://github.com/MemPalace/mempalace",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI",
+      "MCP sunucusu"
+    ],
+    "description": "Projeleri ve konuşmaları aranabilir hafızaya dönüştürür.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan hafızası",
+    "name": "cognee",
+    "url": "https://github.com/topoteretes/cognee",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Ajanlar için bilgi grafiği tabanlı uzun süreli hafıza.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan hafızası",
+    "name": "Mem0",
+    "url": "https://github.com/mem0ai/mem0",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "AI uygulamaları için hafıza katmanı.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan hafızası",
+    "name": "Letta",
+    "url": "https://github.com/letta-ai/letta",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Kalıcı hafızalı ajan platformu (eski MemGPT).",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Token maliyeti",
+    "name": "rtk",
+    "url": "https://github.com/rtk-ai/rtk",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Geliştirici komut çıktılarını sıkıştırıp token tasarrufu.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Token maliyeti",
+    "name": "Headroom",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Araç çıktıları ve logları LLM'e gitmeden sıkıştırır.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Token maliyeti",
+    "name": "context-mode",
+    "url": "https://github.com/mksglu/context-mode",
+    "license_type": "restricted",
+    "license": "Elastic License 2.0",
+    "platforms": [
+      "Repo"
+    ],
+    "description": "Araç çıktılarını ajan bağlamının dışında tutan eklenti.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ticari ajan yöneticileri",
+    "name": "Orca",
+    "url": "https://github.com/stablyai/orca",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Birden çok kodlama ajanını worktree'lerde yönetme.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan yapılandırma araçları",
+    "name": "CC Switch",
+    "url": "https://github.com/farion1231/cc-switch",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Claude Code, Codex ve OpenCode sağlayıcı ayarlarını tek yerden değiştirme.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajanlara uzaktan erişim",
+    "name": "T3 Code",
+    "url": "https://github.com/pingdotgg/t3code",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Masaüstü",
+      "Web"
+    ],
+    "description": "Claude Code ve Codex'i her cihazdan kontrol etme.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan terminalleri",
+    "name": "cmux",
+    "url": "https://github.com/manaflow-ai/cmux",
+    "license_type": "open-core",
+    "license": "GPL-3.0 + BSL (sunucu)",
+    "platforms": [
+      "macOS"
+    ],
+    "description": "Kodlama ajanları için dikey sekmeli terminal.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Claude Desktop",
+    "name": "AionUi",
+    "url": "https://github.com/iOfficeAI/AionUi",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Birçok CLI ajanı için ortak masaüstü arayüzü.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajan sağlayıcı yönlendirme",
+    "name": "Claude Code Router",
+    "url": "https://github.com/musistudio/claude-code-router",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Claude Code isteklerini farklı modellere yönlendirme.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ajanlara uzaktan erişim",
+    "name": "Paseo",
+    "url": "https://github.com/getpaseo/paseo",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Masaüstü",
+      "Mobil"
+    ],
+    "description": "Kodlama ajanlarını masaüstü ve telefondan yönetme.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "ChatGPT tarayıcı eklentisi",
+    "name": "Page Assist",
+    "url": "https://github.com/n4ze3m/page-assist",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Tarayıcı eklentisi"
+    ],
+    "description": "Yerel modellerle sayfa üzerinde sohbet.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Sider / Monica",
+    "name": "ChatGPTBox",
+    "url": "https://github.com/ChatGPTBox-dev/chatGPTBox",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Tarayıcı eklentisi"
+    ],
+    "description": "Her sayfada AI asistanı, birçok sağlayıcıyla.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Notion AI",
+    "name": "Copilot for Obsidian",
+    "url": "https://github.com/logancyang/obsidian-copilot",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Obsidian eklentisi"
+    ],
+    "description": "Notlarınla sohbet eden Obsidian eklentisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Notion AI",
+    "name": "Smart Connections",
+    "url": "https://github.com/brianpetro/obsidian-smart-connections",
+    "license_type": "restricted",
+    "license": "Smart Plugins License",
+    "platforms": [
+      "Obsidian eklentisi"
+    ],
+    "description": "Notlar arasında anlamsal bağlantı bulma.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Notion AI",
+    "name": "Text Generator",
+    "url": "https://github.com/nhaouari/obsidian-textgenerator-plugin",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Obsidian eklentisi"
+    ],
+    "description": "Obsidian'da şablonlu metin üretme.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "JetBrains AI Assistant",
+    "name": "ProxyAI",
+    "url": "https://github.com/carlrobertoh/ProxyAI",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "JetBrains"
+    ],
+    "description": "Yerel ve bulut modelleri destekleyen JetBrains eklentisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Gmail Gemini",
+    "name": "ThunderAI",
+    "url": "https://github.com/micz/ThunderAI",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Thunderbird eklentisi"
+    ],
+    "description": "Thunderbird'de e-posta özetleme ve yanıt yazma.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ticari makale asistanları",
+    "name": "Zotero GPT",
+    "url": "https://github.com/MuiseDestiny/zotero-gpt",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Zotero eklentisi"
+    ],
+    "description": "Zotero'daki makalelerle sohbet.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI Ajanları: Skill, MCP ve Eklentiler",
+    "category_slug": "ai-ajan-araclari",
+    "replaces": "Ticari Laravel AI araçları",
+    "name": "Laravel Boost",
+    "url": "https://github.com/laravel/boost",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Laravel paketi",
+      "MCP sunucusu"
+    ],
+    "description": "Ajanlara Laravel projesine özel MCP araçları ve kurallar.",
+    "laravel": true,
+    "trending": false
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Claude Code / Cursor",
+    "name": "Codex CLI",
+    "url": "https://github.com/openai/codex",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "OpenAI'ın terminal kodlama ajanı.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Claude Code / Cursor",
+    "name": "Gemini CLI",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Google'ın terminal kodlama ajanı.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "ChatGPT masaüstü",
+    "name": "Chatbox",
+    "url": "https://github.com/chatboxai/chatbox",
+    "license_type": "osi",
+    "license": "GPL-3.0",
+    "platforms": [
+      "Tümü"
+    ],
+    "description": "Birçok sağlayıcıyı destekleyen AI sohbet istemcisi.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "ChatGPT web",
+    "name": "NextChat",
+    "url": "https://github.com/ChatGPTNextWeb/NextChat",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Web",
+      "Masaüstü"
+    ],
+    "description": "Hafif, kendin barındırabileceğin sohbet arayüzü.",
+    "laravel": false,
+    "trending": false
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "Lovable / Bolt / v0",
+    "name": "Dyad",
+    "url": "https://github.com/dyad-sh/dyad",
+    "license_type": "open-core",
+    "license": "Apache-2.0 + Pro",
+    "platforms": [
+      "Masaüstü"
+    ],
+    "description": "Yerel çalışan AI uygulama oluşturucu.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "ChatGPT Deep Research",
+    "name": "GPT Researcher",
+    "url": "https://github.com/assafelovic/gpt-researcher",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Sunucu"
+    ],
+    "description": "Kaynaklı derin araştırma raporu üreten ajan.",
     "laravel": false,
     "trending": false
   }
