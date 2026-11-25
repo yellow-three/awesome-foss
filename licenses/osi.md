@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 267 araç.
+MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 266 araç.
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
@@ -20,7 +20,6 @@ MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. 267 araç.
 | [atuin](https://github.com/atuinsh/atuin) | Ctrl+R | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | Aranabilir ve senkronlanan shell geçmişi. |
 | [Audacity](https://github.com/audacity/audacity) | Adobe Audition | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Ses düzenleme. |
 | [Audiobookshelf](https://github.com/advplyr/audiobookshelf) | Audible | [Medya Sunucu](../categories/medya-sunucu.md) | OSI<br><sub>GPL-3.0</sub> | Sunucu, Mobil | Sesli kitap ve podcast sunucusu. |
-| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
 | [bat](https://github.com/sharkdp/bat) | cat / less | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT / Apache</sub> | CLI | Söz dizimi renklendirmeli cat. |
 | [Beekeeper Studio CE](https://github.com/beekeeper-studio/beekeeper-studio) | TablePlus | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Sade ve hızlı SQL istemcisi. |
 | [Beszel](https://github.com/henrygd/beszel) | Datadog (basit) | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Sunucu | Hafif sunucu ve Docker izleme. |

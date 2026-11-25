@@ -2,7 +2,7 @@
 
 > Ücretli veya kapalı kaynak uygulamaların yerine kullanılabilecek açık kaynak alternatifler; alana, işletim sistemine ve lisansa göre düzenlenmiş.
 
-**299 araç · 15 kategori · 267 OSI lisanslı**
+**299 araç · 15 kategori · 266 OSI lisanslı**
 
 **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025-2026'da hızla yükselen
 
@@ -53,9 +53,9 @@
 
 | Lisans türü | Araç sayısı | Açıklama |
 | --- | --- | --- |
-| [OSI onaylı açık kaynak](licenses/osi.md) | 267 | MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. |
+| [OSI onaylı açık kaynak](licenses/osi.md) | 266 | MIT, GPL, AGPL, Apache, MPL, BSD gibi OSI onaylı lisanslar. |
 | [Open-core](licenses/open-core.md) | 17 | Çekirdeği OSI onaylı lisanslı, bazı klasör veya dosyaları (enterprise/premium) ticari lisanslı projeler. Self-hosted topluluk sürümü serbestçe kullanılabilir. |
-| [Diğer açık lisanslar](licenses/other.md) | 3 | OSI listesinde olmayan ama serbest kullanıma izin veren lisanslar (Creative Commons, TrueCrypt License vb.). |
+| [Diğer açık lisanslar](licenses/other.md) | 4 | OSI listesinde olmayan ama serbest kullanıma izin veren lisanslar (CC0, Creative Commons, TrueCrypt License vb.). |
 | [Kısıtlı lisans](licenses/restricted.md) | 12 | Source-available veya fair-code (BSL, FSL, Sustainable Use, Elastic vb.). Kodu okuyabilir ve kendin barındırabilirsin ama ticari kullanım sınırlı olabilir. |
 
 ## Özel listeler

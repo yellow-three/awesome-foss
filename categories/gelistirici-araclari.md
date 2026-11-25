@@ -9,7 +9,7 @@
 | [act](https://github.com/nektos/act) | GitHub Actions (yerel test) | OSI<br><sub>MIT</sub> | CLI | Actions iş akışlarını yerelde çalıştırma. |
 | [Aider](https://github.com/Aider-AI/aider) | Copilot Chat | OSI<br><sub>Apache-2.0</sub> | CLI | Git ile entegre AI eşli programlama. |
 | [Appwrite](https://github.com/appwrite/appwrite) | Firebase | OSI<br><sub>BSD-3</sub> | Sunucu | Auth, veritabanı, fonksiyonlar. |
-| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | OSI · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
+| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | 📄 Diğer açık · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
 | [Beekeeper Studio CE](https://github.com/beekeeper-studio/beekeeper-studio) | TablePlus | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Sade ve hızlı SQL istemcisi. |
 | [Bruno](https://github.com/usebruno/bruno) | Postman | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Koleksiyonlar git'te düz dosya olarak duruyor. |
 | [ChartDB](https://github.com/chartdb/chartdb) | dbdiagram.io | OSI<br><sub>AGPL-3.0</sub> | Web | Var olan veritabanından tek sorguyla diyagram. |

@@ -9,7 +9,7 @@
 | [act](https://github.com/nektos/act) | GitHub Actions (yerel test) | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | CLI | Actions iş akışlarını yerelde çalıştırma. |
 | [Aider](https://github.com/Aider-AI/aider) | Copilot Chat | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | CLI | Git ile entegre AI eşli programlama. |
 | [atuin](https://github.com/atuinsh/atuin) | Ctrl+R | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | Aranabilir ve senkronlanan shell geçmişi. |
-| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
+| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | 📄 Diğer açık · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
 | [bat](https://github.com/sharkdp/bat) | cat / less | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT / Apache</sub> | CLI | Söz dizimi renklendirmeli cat. |
 | [BorgBackup](https://github.com/borgbackup/borg) | Time Machine | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>BSD-3</sub> | CLI | Sıkıştırmalı ve şifreli yedek. |
 | [btop](https://github.com/aristocratos/btop) | htop | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>Apache-2.0</sub> | CLI | Sistem kaynakları izleme. |

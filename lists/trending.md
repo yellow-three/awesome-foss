@@ -6,7 +6,7 @@ GitHub'da son dönemde hızla yıldız toplayan 19 proje. Hızlı yükselen baz�
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
-| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
+| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | 📄 Diğer açık · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
 | [Beszel](https://github.com/henrygd/beszel) | Datadog (basit) | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Sunucu | Hafif sunucu ve Docker izleme. |
 | [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Masaüstü otomasyonu | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | CLI | Uygulamaları ajanların kullanabileceği CLI'lara çeviriyor. |
 | [drawDB](https://github.com/drawdb-io/drawdb) | dbdiagram.io | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>AGPL-3.0</sub> | Web | Tarayıcıda ER diyagramı, SQL çıktı. |

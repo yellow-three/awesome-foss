@@ -12,7 +12,7 @@
 | [Appwrite](https://github.com/appwrite/appwrite) | Firebase | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>BSD-3</sub> | Sunucu | Auth, veritabanı, fonksiyonlar. |
 | [Audiobookshelf](https://github.com/advplyr/audiobookshelf) | Audible | [Medya Sunucu](../categories/medya-sunucu.md) | OSI<br><sub>GPL-3.0</sub> | Sunucu, Mobil | Sesli kitap ve podcast sunucusu. |
 | [Authentik](https://github.com/goauthentik/authentik) | Auth0 | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | 🧩 Open-core<br><sub>MIT</sub> | Sunucu | Self-hosted servisler için tek giriş. |
-| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
+| [AWS Emulator](https://github.com/aws/aws-emulator) | LocalStack | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | 📄 Diğer açık · 🔥 Trend<br><sub>CC0-1.0</sub> | CLI, Docker | AWS'nin resmi yerel API emülatörü. |
 | [Beszel](https://github.com/henrygd/beszel) | Datadog (basit) | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Sunucu | Hafif sunucu ve Docker izleme. |
 | [Cachet](https://github.com/cachethq/cachet) | Statuspage | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>BSD-3</sub> | Sunucu | Durum sayfası. |
 | [Caddy](https://github.com/caddyserver/caddy) | Cloudflare (proxy) | [Self-hosted ve Sunucu](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>Apache-2.0</sub> | Sunucu | Otomatik HTTPS'li web sunucusu. |
