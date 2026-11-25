@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-24 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
+26 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
 | Alternatif | Yerine geçtiği | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- |
@@ -22,8 +22,10 @@
 | [LibreSprite](https://github.com/LibreSprite/LibreSprite) | Aseprite | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Aseprite'ın eski açık kaynak fork'u. |
 | [miniPaint](https://github.com/viliusle/miniPaint) | Photopea | OSI<br><sub>MIT</sub> | Web | Tarayıcıda çalışan resim editörü. |
 | [MyPaint](https://github.com/mypaint/mypaint) | Procreate | OSI<br><sub>GPL-2.0</sub> | Linux, Windows | Sade arayüzlü dijital boyama. |
+| [Open Design](https://github.com/nexu-io/open-design) | Figma AI / Canva | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, Web | Yerel öncelikli, ortak çalışmalı AI tasarım ajanı çalışma alanı. |
 | [OpenSCAD](https://github.com/openscad/openscad) | Fusion 360 (parametrik) | OSI<br><sub>GPL-2.0</sub> | Masaüstü | Kodla 3D katı model tasarımı. |
 | [Penpot](https://github.com/penpot/penpot) | Figma | OSI<br><sub>MPL-2.0</sub> | Web | SVG tabanlı arayüz tasarımı, kendi sunucunda barındırılabiliyor. |
+| [PhotoCraft](https://github.com/storytold/photocraft) | Photoshop / Lightroom | OSI · 🔥 Trend<br><sub>MIT / Apache-2.0</sub> | Linux, Windows, macOS | Rust ile sıfırdan yazılmış, katmanlı fotoğraf editörü. |
 | [Pinta](https://github.com/PintaProject/Pinta) | Paint.NET | OSI<br><sub>MIT</sub> | Masaüstü | Basit ve hızlı resim düzenleyici. |
 | [Pixelorama](https://github.com/Orama-Interactive/Pixelorama) | Aseprite | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Piksel sanatı, perler bead desenleri için de uygun. |
 | [QGIS](https://github.com/qgis/QGIS) | ArcGIS | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Coğrafi bilgi sistemi. |

@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-215 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
+222 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
@@ -44,7 +44,7 @@
 | [digiKam](https://www.digikam.org) | Lightroom Classic (katalog) | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Büyük foto kütüphanesi yönetimi. |
 | [Ditto](https://github.com/sabrogden/Ditto) | ClipboardFusion | [Windows](../categories/windows.md) | OSI<br><sub>GPL-3.0</sub> | Windows | Pano geçmişi yöneticisi. |
 | [Dolphin](https://github.com/dolphin-emu/dolphin) | Nintendo GameCube / Wii | [Kişisel ve Ev](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-2.0</sub> | Masaüstü, Android | GameCube ve Wii emülatörü. |
-| [draw.io](https://github.com/jgraph/drawio-desktop) | Visio / Lucidchart | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, Web | Diyagram çizimi. |
+| [draw.io](https://github.com/jgraph/drawio-desktop) | Visio / Lucidchart | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS, Web | Diyagram çizimi. |
 | [dupeGuru](https://github.com/arsenetar/dupeguru) | Duplicate Cleaner | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>GPL-3.0</sub> | Masaüstü | Benzer adlı veya içerikli kopya dosyaları bulma. |
 | [Duplicati](https://github.com/duplicati/duplicati) | Acronis | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Web arayüzlü yedekleme. |
 | [Dyad](https://github.com/dyad-sh/dyad) | Lovable / Bolt / v0 | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | 🧩 Open-core · 🔥 Trend<br><sub>Apache-2.0 + Pro</sub> | Masaüstü | Yerel çalışan AI uygulama oluşturucu. |
@@ -81,9 +81,11 @@
 | [Handy](https://github.com/cjpais/Handy) | Wispr Flow | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Linux, Windows, macOS | Kısayolla yerel dikte, her uygulamada. |
 | [Headlamp](https://github.com/kubernetes-sigs/headlamp) | Lens / Rancher UI | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Masaüstü, Web | Eklentili Kubernetes arayüzü. |
 | [HeidiSQL](https://github.com/HeidiSQL/HeidiSQL) | Navicat | [Windows](../categories/windows.md) | OSI<br><sub>GPL-2.0</sub> | Windows | MySQL, PostgreSQL ve SQL Server istemcisi. |
+| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Ticari AI ajanları | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Linux, Windows, macOS, CLI | Deneyimden skill üreten ve kullandıkça gelişen, her modelle çalışan AI ajanı. |
 | [Heroic Games Launcher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) | Steam (diğer mağazalar) | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Epic, GOG ve Amazon oyunları için başlatıcı. |
 | [Hoppscotch](https://github.com/hoppscotch/hoppscotch) | Postman (web) | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Web, Masaüstü | REST, GraphQL, WebSocket. |
 | [Hydrogen](https://github.com/hydrogen-music/hydrogen) | Ticari davul makineleri | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-2.0</sub> | Masaüstü | Davul makinesi ve ritim programlama. |
+| [HyperFrames](https://github.com/heygen-com/hyperframes) | Descript | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, CLI | Kendi görüntülerinle ya da tarifle video üretip kare kare düzenlenebilen AI video editörü. |
 | [ImageGlass](https://github.com/d2phap/ImageGlass) | Windows Fotoğraflar | [Windows](../categories/windows.md) | OSI<br><sub>GPL-3.0</sub> | Windows | Hızlı görsel görüntüleyici. |
 | [ImHex](https://github.com/WerWolv/ImHex) | 010 Editor | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>GPL-2.0</sub> | Masaüstü | Desen dilli hex editörü. |
 | [Inkscape](https://inkscape.org) | Illustrator | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Vektör çizim. |
@@ -106,7 +108,7 @@
 | [LibreSprite](https://github.com/LibreSprite/LibreSprite) | Aseprite | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Aseprite'ın eski açık kaynak fork'u. |
 | [LibreWolf](https://librewolf.net) | Chrome | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>MPL-2.0</sub> | Linux, Windows, macOS | Telemetrisi kapatılmış, gizlilik ayarları sıkılaştırılmış Firefox derlemesi. |
 | [LMMS](https://github.com/LMMS/lmms) | FL Studio | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, macOS | Beat ve müzik üretimi. |
-| [LocalSend](https://github.com/localsend/localsend) | AirDrop | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>MIT</sub> | Tümü | Yerel ağda dosya gönderme. |
+| [LocalSend](https://github.com/localsend/localsend) | AirDrop | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>Apache-2.0</sub> | Tümü | Yerel ağda dosya gönderme. |
 | [Logseq](https://github.com/logseq/logseq) | Roam Research | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Mobil | Outliner yapısında, markdown dosyalarla çalışıyor. |
 | [LosslessCut](https://github.com/mifi/lossless-cut) | Video kesme araçları | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-2.0</sub> | Masaüstü | Yeniden kodlamadan video ve ses kesme. |
 | [LÖVE](https://github.com/love2d/love) | GameMaker | [Oyun Geliştirme](../categories/oyun-gelistirme.md) | OSI<br><sub>zlib</sub> | Linux, Windows, macOS | Lua ile 2D oyun. |
@@ -134,13 +136,17 @@
 | [Okular](https://okular.kde.org) | Adobe Reader | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>GPL-2.0</sub> | Linux, Windows | KDE'nin belge görüntüleyicisi. |
 | [Ollama](https://github.com/ollama/ollama) | OpenAI API (yerel) | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Yerel modelleri tek komutla çalıştırma. |
 | [ONLYOFFICE](https://github.com/ONLYOFFICE/DesktopEditors) | Microsoft 365 (tam uyum) | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Web | DOCX/XLSX uyumu LibreOffice'ten daha iyi. |
+| [Open Design](https://github.com/nexu-io/open-design) | Figma AI / Canva | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, Web | Yerel öncelikli, ortak çalışmalı AI tasarım ajanı çalışma alanı. |
 | [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu) | Start11 / StartIsBack | [Windows](../categories/windows.md) | OSI<br><sub>MIT</sub> | Windows | Klasik başlat menüsü. |
+| [OpenClaw](https://github.com/openclaw/openclaw) | Ticari kişisel AI asistanları | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Linux, Windows, macOS | Kendi bilgisayarında çalışıp WhatsApp, Telegram ve Slack gibi kanallardan iş yapan kişisel AI asistanı. |
+| [OpenCut](https://github.com/OpenCut-app/OpenCut) | CapCut | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Web, Linux, Windows, macOS | Tarayıcıda ve masaüstünde çalışan, zaman çizelgeli video düzenleyici. |
 | [OpenSCAD](https://github.com/openscad/openscad) | Fusion 360 (parametrik) | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>GPL-2.0</sub> | Masaüstü | Kodla 3D katı model tasarımı. |
 | [OpenShot](https://github.com/OpenShot/openshot-qt) | iMovie | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>GPL-3.0</sub> | Masaüstü | Kolay kullanımlı video düzenleyici. |
 | [OpenToonz](https://github.com/opentoonz/opentoonz) | Toon Boom | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>BSD-3</sub> | Linux, Windows, macOS | 2D animasyon (Studio Ghibli'nin kullandığı Toonz'un açık sürümü). |
 | [Orca](https://github.com/stablyai/orca) | Ticari ajan yöneticileri | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Masaüstü | Birden çok kodlama ajanını worktree'lerde yönetme. |
 | [Paseo](https://github.com/getpaseo/paseo) | Ajanlara uzaktan erişim | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Masaüstü, Mobil | Kodlama ajanlarını masaüstü ve telefondan yönetme. |
 | [pgAdmin](https://github.com/pgadmin-org/pgadmin4) | DataGrip (PostgreSQL) | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>PostgreSQL</sub> | Masaüstü, Web | PostgreSQL yönetim aracı. |
+| [PhotoCraft](https://github.com/storytold/photocraft) | Photoshop / Lightroom | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI · 🔥 Trend<br><sub>MIT / Apache-2.0</sub> | Linux, Windows, macOS | Rust ile sıfırdan yazılmış, katmanlı fotoğraf editörü. |
 | [Pinta](https://github.com/PintaProject/Pinta) | Paint.NET | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>MIT</sub> | Masaüstü | Basit ve hızlı resim düzenleyici. |
 | [Pixelorama](https://github.com/Orama-Interactive/Pixelorama) | Aseprite | [Tasarım ve Grafik](../categories/tasarim-ve-grafik.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Piksel sanatı, perler bead desenleri için de uygun. |
 | [Playnite](https://github.com/JosefNemec/Playnite) | Steam / GOG Galaxy kütüphanesi | [Windows](../categories/windows.md) | OSI<br><sub>MIT</sub> | Windows | Tüm oyun mağazalarını tek kütüphanede toplama. |
@@ -202,6 +208,7 @@
 | [VeraCrypt](https://github.com/veracrypt/VeraCrypt) | BitLocker (taşınabilir) | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | 📄 Diğer açık<br><sub>Apache-2.0 / TrueCrypt</sub> | Linux, Windows, macOS | Şifreli disk ve konteyner. |
 | [VLC](https://www.videolan.org/vlc/) | Kodi dışı oynatıcılar | [Medya Sunucu](../categories/medya-sunucu.md) | OSI<br><sub>GPL-2.0</sub> | Tümü | Neredeyse her formatı codec kurmadan oynatır. |
 | [Voicebox](https://github.com/jamiepine/voicebox) | ElevenLabs | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Linux, Windows, macOS | Yerel ses klonlama ve TTS stüdyosu. |
+| [VoiceStudio](https://github.com/debpalash/VoiceStudio) | ElevenLabs | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trend<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Docker | Yerel ses klonlama ve TTS stüdyosu; varsayılan model ağırlıkları ticari kullanıma kapalı (CC-BY-NC). |
 | [VSCodium](https://github.com/VSCodium/vscodium) | VS Code (telemetrili) | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Telemetrisi kaldırılmış VS Code. |
 | [Wails](https://github.com/wailsapp/wails) | Electron | [Oyun Geliştirme](../categories/oyun-gelistirme.md) | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Go + web arayüz ile masaüstü uygulama. |
 | [Warp](https://github.com/warpdotdev/warp) | Ticari AI terminalleri | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>AGPL-3.0</sub> | Masaüstü | Yapay zekâ destekli terminal. |

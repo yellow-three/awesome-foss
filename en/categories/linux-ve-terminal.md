@@ -2,7 +2,7 @@
 
 [← Home](../README.md)
 
-40 tools. **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
+39 tools. **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
 
 | Alternative | Replaces | License | Platform | Description |
 | --- | --- | --- | --- | --- |
@@ -26,7 +26,6 @@
 | [GitButler](https://github.com/gitbutlerapp/gitbutler) | GitKraken | ⚠️ Restricted<br><sub>Fair Source</sub> | Linux, Windows, macOS | Git client with virtual branches. |
 | [Glances](https://github.com/nicolargo/glances) | Commercial system monitors | OSI<br><sub>LGPL-3.0</sub> | CLI, Web | Monitor system resources in the terminal and on the web. |
 | [Heroic Games Launcher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) | Steam (other stores) | OSI<br><sub>GPL-3.0</sub> | Linux, Windows, macOS | Launcher for Epic, GOG and Amazon games. |
-| [HTTPie](https://github.com/httpie/cli) | curl (readable) | OSI<br><sub>BSD-3</sub> | CLI | Human-friendly HTTP client. |
 | [jless](https://github.com/PaulJuliusMartinez/jless) | JSON viewing | OSI<br><sub>MIT</sub> | CLI | Collapsible navigation for large JSON files. |
 | [jq](https://github.com/jqlang/jq) | JSON processing | OSI<br><sub>MIT</sub> | CLI | Filter and transform JSON on the command line. |
 | [KDE Connect](https://kdeconnect.kde.org) | Phone pairing | OSI<br><sub>GPL-2.0</sub> | Linux, Windows, Android | Share files, clipboard and notifications. |

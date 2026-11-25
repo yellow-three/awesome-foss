@@ -49,7 +49,7 @@
 | [Kvaesitso](https://github.com/MM2-0/Kvaesitso) | Niagara Launcher | [Android](../categories/android.md) | OSI<br><sub>GPL-3.0</sub> | Android | Arama odaklı başlatıcı. |
 | [Lawnchair](https://github.com/LawnchairLauncher/lawnchair) | Nova Launcher | [Android](../categories/android.md) | OSI<br><sub>Apache-2.0</sub> | Android | Pixel tarzı başlatıcı. |
 | [LibreTube](https://github.com/libre-tube/LibreTube) | YouTube | [Android](../categories/android.md) | OSI<br><sub>GPL-3.0</sub> | Android | Piped altyapılı YouTube istemcisi. |
-| [LocalSend](https://github.com/localsend/localsend) | AirDrop | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>MIT</sub> | Tümü | Yerel ağda dosya gönderme. |
+| [LocalSend](https://github.com/localsend/localsend) | AirDrop | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>Apache-2.0</sub> | Tümü | Yerel ağda dosya gönderme. |
 | [Logseq](https://github.com/logseq/logseq) | Roam Research | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Mobil | Outliner yapısında, markdown dosyalarla çalışıyor. |
 | [Markor](https://github.com/gsantner/markor) | Obsidian mobil | [Android](../categories/android.md) | OSI<br><sub>Apache-2.0</sub> | Android | Markdown not ve yapılacaklar editörü. |
 | [Material Files](https://github.com/zhanghai/MaterialFiles) | ES File Explorer | [Android](../categories/android.md) | OSI<br><sub>GPL-3.0</sub> | Android | Reklamsız dosya yöneticisi. |

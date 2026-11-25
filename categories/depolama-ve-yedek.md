@@ -17,7 +17,7 @@
 | [Duplicati](https://github.com/duplicati/duplicati) | Acronis | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Web arayüzlü yedekleme. |
 | [Garage](https://garagehq.deuxfleurs.fr) | AWS S3 | OSI<br><sub>AGPL-3.0</sub> | Sunucu | Hafif S3 uyumlu depolama. MinIO topluluk sürümü kısıtlandı. |
 | [Kopia](https://github.com/kopia/kopia) | Backblaze | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS | Restic'e benzer ama GUI'li. |
-| [LocalSend](https://github.com/localsend/localsend) | AirDrop | OSI<br><sub>MIT</sub> | Tümü | Yerel ağda dosya gönderme. |
+| [LocalSend](https://github.com/localsend/localsend) | AirDrop | OSI<br><sub>Apache-2.0</sub> | Tümü | Yerel ağda dosya gönderme. |
 | [Nextcloud](https://github.com/nextcloud/server) | Dropbox / Google Drive | OSI<br><sub>AGPL-3.0</sub> | Sunucu + istemciler | Dosya, takvim, kişiler ve ofis paketiyle tam bulut. |
 | [OpenCloud](https://github.com/opencloud-eu/opencloud) | Dropbox | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Sunucu | Go ile yazılmış, veritabanı gerektirmeyen bulut. |
 | [OpenList](https://github.com/OpenListTeam/OpenList) | Bulut sürücü birleştiriciler | OSI · 🔥 Trend<br><sub>AGPL-3.0</sub> | Sunucu | Farklı bulut depolamaları tek arayüzde listeleme. |

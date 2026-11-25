@@ -693,7 +693,7 @@
     "name": "draw.io",
     "url": "https://github.com/jgraph/drawio-desktop",
     "license_type": "osi",
-    "license": "Apache-2.0",
+    "license": "GPL-3.0",
     "platforms": [
       "Linux",
       "Windows",
@@ -1463,7 +1463,7 @@
     "name": "LocalSend",
     "url": "https://github.com/localsend/localsend",
     "license_type": "osi",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "platforms": [
       "Tümü"
     ],
@@ -3254,7 +3254,7 @@
     "category_slug": "gelistirici-araclari",
     "replaces": "Firebase",
     "name": "PocketBase",
-    "url": "https://github.com/pocketbase/pocketbase",
+    "url": "https://ganigeorgiev.com/pocketbase/pocketbase",
     "license_type": "osi",
     "license": "MIT",
     "platforms": [
@@ -4699,23 +4699,6 @@
     ],
     "description": "Komutların kısa örnekli özeti.",
     "description_en": "Short, example-based summaries of commands.",
-    "laravel": false,
-    "trending": false
-  },
-  {
-    "category": "Linux ve Terminal",
-    "category_slug": "linux-ve-terminal",
-    "replaces": "curl (okunaklı)",
-    "replaces_en": "curl (readable)",
-    "name": "HTTPie",
-    "url": "https://github.com/httpie/cli",
-    "license_type": "osi",
-    "license": "BSD-3",
-    "platforms": [
-      "CLI"
-    ],
-    "description": "İnsan dostu HTTP istemcisi.",
-    "description_en": "Human-friendly HTTP client.",
     "laravel": false,
     "trending": false
   },
@@ -10729,5 +10712,223 @@
     "description_en": "Agent that writes in-depth research reports with sources.",
     "laravel": false,
     "trending": false
+  },
+  {
+    "category": "Video, Ses ve 3D",
+    "category_slug": "video-ses-ve-3d",
+    "replaces": "CapCut",
+    "name": "OpenCut",
+    "url": "https://github.com/OpenCut-app/OpenCut",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Web",
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Tarayıcıda ve masaüstünde çalışan, zaman çizelgeli video düzenleyici.",
+    "description_en": "Timeline-based video editor that runs in the browser and on desktop.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "Video, Ses ve 3D",
+    "category_slug": "video-ses-ve-3d",
+    "replaces": "ElevenLabs",
+    "name": "VoiceStudio",
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "Docker"
+    ],
+    "description": "Yerel ses klonlama ve TTS stüdyosu; varsayılan model ağırlıkları ticari kullanıma kapalı (CC-BY-NC).",
+    "description_en": "Local voice cloning and TTS studio; the default model weights are non-commercial (CC-BY-NC).",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "Video, Ses ve 3D",
+    "category_slug": "video-ses-ve-3d",
+    "replaces": "Descript",
+    "name": "HyperFrames",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "CLI"
+    ],
+    "description": "Kendi görüntülerinle ya da tarifle video üretip kare kare düzenlenebilen AI video editörü.",
+    "description_en": "AI video editor that builds videos from your footage or a prompt and lets you edit them frame by frame.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "Tasarım ve Grafik",
+    "category_slug": "tasarim-ve-grafik",
+    "replaces": "Photoshop / Lightroom",
+    "name": "PhotoCraft",
+    "url": "https://github.com/storytold/photocraft",
+    "license_type": "osi",
+    "license": "MIT / Apache-2.0",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Rust ile sıfırdan yazılmış, katmanlı fotoğraf editörü.",
+    "description_en": "Layer-based photo editor written from scratch in Rust.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "Tasarım ve Grafik",
+    "category_slug": "tasarim-ve-grafik",
+    "replaces": "Figma AI / Canva",
+    "name": "Open Design",
+    "url": "https://github.com/nexu-io/open-design",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "Web"
+    ],
+    "description": "Yerel öncelikli, ortak çalışmalı AI tasarım ajanı çalışma alanı.",
+    "description_en": "Local-first, collaborative AI design agent workspace.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "ChatGPT Team",
+    "name": "Odysseus",
+    "url": "https://github.com/odysseus-dev/odysseus",
+    "license_type": "osi",
+    "license": "AGPL-3.0",
+    "platforms": [
+      "Sunucu",
+      "Docker"
+    ],
+    "description": "Kendi sunucunda çalışan, ekipler için AI çalışma alanı.",
+    "description_en": "Self-hosted AI workspace for teams.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "Ticari kişisel AI asistanları",
+    "replaces_en": "Commercial personal AI assistants",
+    "name": "OpenClaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Kendi bilgisayarında çalışıp WhatsApp, Telegram ve Slack gibi kanallardan iş yapan kişisel AI asistanı.",
+    "description_en": "Personal AI assistant that runs on your own computer and works through channels like WhatsApp, Telegram and Slack.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "Ticari AI ajanları",
+    "replaces_en": "Commercial AI agents",
+    "name": "Hermes Agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "CLI"
+    ],
+    "description": "Deneyimden skill üreten ve kullandıkça gelişen, her modelle çalışan AI ajanı.",
+    "description_en": "AI agent that creates skills from experience and improves with use, working with any model.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "ChatGPT Deep Research",
+    "name": "DeerFlow",
+    "url": "https://github.com/bytedance/deer-flow",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Sunucu",
+      "Docker"
+    ],
+    "description": "Araştırma, kod yazma ve içerik üretimi için uzun soluklu ajan sistemi.",
+    "description_en": "Long-horizon agent harness for research, coding and content creation.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "AI ve Yerel Modeller",
+    "category_slug": "ai-ve-yerel-modeller",
+    "replaces": "ElevenLabs / Whisper API",
+    "name": "VibeVoice",
+    "url": "https://github.com/microsoft/VibeVoice",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "Linux",
+      "CLI"
+    ],
+    "description": "Microsoft'un açık ses modelleri: 50+ dilde konuşma tanıma ve gerçek zamanlı TTS.",
+    "description_en": "Microsoft's open voice models: speech recognition in 50+ languages and real-time TTS.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "Geliştirici Araçları",
+    "category_slug": "gelistirici-araclari",
+    "replaces": "Claude Code / Cursor",
+    "name": "pi",
+    "url": "https://github.com/earendil-works/pi",
+    "license_type": "osi",
+    "license": "MIT",
+    "platforms": [
+      "CLI"
+    ],
+    "description": "Eklentilerle genişletilen minimal terminal kodlama ajanı ve LLM araç seti.",
+    "description_en": "Minimal, extensible terminal coding agent and LLM toolkit.",
+    "laravel": false,
+    "trending": true
+  },
+  {
+    "category": "Güvenlik ve Gizlilik",
+    "category_slug": "guvenlik-ve-gizlilik",
+    "replaces": "Ticari pentest servisleri",
+    "replaces_en": "Commercial pentest services",
+    "name": "Strix",
+    "url": "https://github.com/usestrix/strix",
+    "license_type": "osi",
+    "license": "Apache-2.0",
+    "platforms": [
+      "CLI",
+      "Docker"
+    ],
+    "description": "Uygulamandaki açıkları bulup doğrulayan AI sızma testi aracı.",
+    "description_en": "AI penetration testing tool that finds and validates vulnerabilities in your app.",
+    "laravel": false,
+    "trending": true
   }
 ]

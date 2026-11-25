@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-73 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
+77 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
 | Alternatif | Yerine geçtiği | Kategori | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- | --- |
@@ -39,8 +39,9 @@
 | [graphify](https://github.com/Graphify-Labs/graphify) | Ticari kod arama / bilgi grafiği araçları | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Repo, CLI | Kod, doküman ve görselleri sorgulanabilir bilgi grafiğine çeviren skill. |
 | [Headroom](https://github.com/headroomlabs-ai/headroom) | Token maliyeti | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | CLI | Araç çıktıları ve logları LLM'e gitmeden sıkıştırır. |
 | [Helix](https://github.com/helix-editor/helix) | PhpStorm (terminal) | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MPL-2.0</sub> | CLI | LSP ve tree-sitter hazır gelen, ayarsız çalışan modal editör. |
-| [HTTPie](https://github.com/httpie/cli) | curl (okunaklı) | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>BSD-3</sub> | CLI | İnsan dostu HTTP istemcisi. |
+| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Ticari AI ajanları | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Linux, Windows, macOS, CLI | Deneyimden skill üreten ve kullandıkça gelişen, her modelle çalışan AI ajanı. |
 | [Hurl](https://github.com/Orange-OpenSource/hurl) | Postman testleri | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | CLI | Düz metin dosyalarla HTTP isteği ve test. |
+| [HyperFrames](https://github.com/heygen-com/hyperframes) | Descript | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | Linux, Windows, macOS, CLI | Kendi görüntülerinle ya da tarifle video üretip kare kare düzenlenebilen AI video editörü. |
 | [jless](https://github.com/PaulJuliusMartinez/jless) | JSON görüntüleme | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | Büyük JSON dosyalarında katlanabilir gezinme. |
 | [jq](https://github.com/jqlang/jq) | JSON işleme | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | Komut satırında JSON filtreleme ve dönüştürme. |
 | [k6](https://github.com/grafana/k6) | LoadRunner / BlazeMeter | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>AGPL-3.0</sub> | CLI | JavaScript ile yük testi. |
@@ -60,6 +61,7 @@
 | [OpenSpec](https://github.com/Fission-AI/OpenSpec) | Ajan iş akışları | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | CLI | Ajanlarla kod yazmadan önce şartname üzerinde anlaşma. |
 | [OpenTofu](https://github.com/opentofu/opentofu) | Terraform | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>MPL-2.0</sub> | CLI | Terraform'un açık fork'u. |
 | [ouch](https://github.com/ouch-org/ouch) | tar/unzip bayrakları | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | Tek komutla arşiv açma ve sıkıştırma. |
+| [pi](https://github.com/earendil-works/pi) | Claude Code / Cursor | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | CLI | Eklentilerle genişletilen minimal terminal kodlama ajanı ve LLM araç seti. |
 | [Rclone](https://github.com/rclone/rclone) | MultCloud | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>MIT</sub> | CLI | 70'ten fazla bulut sağlayıcıyı tek araçla yönetme. |
 | [Renovate](https://github.com/renovatebot/renovate) | Dependabot | [Geliştirici Araçları](../categories/gelistirici-araclari.md) | OSI<br><sub>AGPL-3.0</sub> | CLI, Sunucu | Composer/npm bağımlılık güncelleme PR'ları. |
 | [Restic](https://github.com/restic/restic) | Backblaze / Time Machine | [Depolama ve Yedek](../categories/depolama-ve-yedek.md) | OSI<br><sub>BSD-2</sub> | CLI | Şifreli ve tekrarlayan veriyi bir kez saklayan yedekleme. |
@@ -68,10 +70,12 @@
 | [SkillSpector](https://github.com/NVIDIA/SkillSpector) | Ticari güvenlik tarayıcıları | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | CLI | Ajan skill'lerinde zararlı desen ve güvenlik açığı tarama. |
 | [Spec Kit](https://github.com/github/spec-kit) | Ajan iş akışları | [AI Ajanları: Skill, MCP ve Eklentiler](../categories/ai-ajan-araclari.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | CLI | Şartname odaklı geliştirme için ajan iş akışı. |
 | [Starship](https://github.com/starship/starship) | Oh My Zsh teması | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>ISC</sub> | CLI | Her shell'de çalışan hızlı ve ayarlanabilir prompt. |
+| [Strix](https://github.com/usestrix/strix) | Ticari pentest servisleri | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | CLI, Docker | Uygulamandaki açıkları bulup doğrulayan AI sızma testi aracı. |
 | [tldr](https://github.com/tldr-pages/tldr) | man | [Linux ve Terminal](../categories/linux-ve-terminal.md) | 📄 Diğer açık<br><sub>CC-BY-4.0</sub> | CLI | Komutların kısa örnekli özeti. |
 | [topgrade](https://github.com/topgrade-rs/topgrade) | Paket yöneticisi GUI'leri | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>GPL-3.0</sub> | CLI | Tüm paket yöneticilerini tek komutla güncelleme. |
 | [Trivy](https://github.com/aquasecurity/trivy) | Snyk | [Güvenlik ve Gizlilik](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>Apache-2.0</sub> | CLI | Konteyner ve bağımlılık açığı taraması. |
 | [Typst](https://github.com/typst/typst) | LaTeX / Word | [Ofis ve Üretkenlik](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>Apache-2.0</sub> | CLI | Hızlı derlenen, öğrenmesi kolay dizgi sistemi. |
+| [VibeVoice](https://github.com/microsoft/VibeVoice) | ElevenLabs / Whisper API | [AI ve Yerel Modeller](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trend<br><sub>MIT</sub> | Linux, CLI | Microsoft'un açık ses modelleri: 50+ dilde konuşma tanıma ve gerçek zamanlı TTS. |
 | [Whisper (faster-whisper)](https://github.com/SYSTRAN/faster-whisper) | Otter.ai / Rev | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>MIT</sub> | CLI | Yerel konuşmayı yazıya çevirme ve altyazı. |
 | [whisper.cpp](https://github.com/ggml-org/whisper.cpp) | OpenAI Whisper API | [Video, Ses ve 3D](../categories/video-ses-ve-3d.md) | OSI<br><sub>MIT</sub> | CLI | Whisper modelinin CPU'da hızlı çalışan C++ portu. |
 | [yazi](https://github.com/sxyazi/yazi) | Dolphin (terminal) | [Linux ve Terminal](../categories/linux-ve-terminal.md) | OSI<br><sub>MIT</sub> | CLI | Önizlemeli hızlı dosya yöneticisi. |

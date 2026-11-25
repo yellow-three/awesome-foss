@@ -2,7 +2,7 @@
 
 [← Ana sayfa](../README.md)
 
-41 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
+42 araç. **Etiketler:** OSI = OSI onaylı açık kaynak · 🧩 Open-core = OSI çekirdek + ticari lisanslı kısımlar · 📄 Diğer açık = OSI dışı serbest lisans · ⚠️ Kısıtlı = source-available/fair-code · 🟥 Laravel = Laravel ile yazılmış · 🔥 Trend = 2025 sonrası açılmış, 5000+ yıldızlı
 
 | Alternatif | Yerine geçtiği | Lisans | Platform | Açıklama |
 | --- | --- | --- | --- | --- |
@@ -35,6 +35,7 @@
 | [Privacy Badger](https://github.com/EFForg/privacybadger) | Ghostery | OSI<br><sub>GPL-3.0</sub> | Tarayıcı eklentisi | İzleyicileri davranışlarından öğrenip engelleyen eklenti. |
 | [SearXNG](https://github.com/searxng/searxng) | Google arama | OSI<br><sub>AGPL-3.0</sub> | Web | İzlemesiz meta arama motoru. |
 | [Sniffnet](https://github.com/GyulyVGC/sniffnet) | GlassWire | OSI<br><sub>Apache-2.0</sub> | Masaüstü | Ağ trafiğini grafiklerle izleme. |
+| [Strix](https://github.com/usestrix/strix) | Ticari pentest servisleri | OSI · 🔥 Trend<br><sub>Apache-2.0</sub> | CLI, Docker | Uygulamandaki açıkları bulup doğrulayan AI sızma testi aracı. |
 | [Technitium DNS](https://github.com/TechnitiumSoftware/DnsServer) | NextDNS / Cloudflare Gateway | OSI<br><sub>GPL-3.0</sub> | Sunucu, Windows | Engelleme listeli, DoH destekli DNS sunucusu. |
 | [Trivy](https://github.com/aquasecurity/trivy) | Snyk | OSI<br><sub>Apache-2.0</sub> | CLI | Konteyner ve bağımlılık açığı taraması. |
 | [uBlock Origin](https://github.com/gorhill/uBlock) | AdBlock Plus | OSI<br><sub>GPL-3.0</sub> | Tarayıcı eklentisi | Reklam ve izleyici engelleme. |

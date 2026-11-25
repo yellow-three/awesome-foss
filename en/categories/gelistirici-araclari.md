@@ -2,7 +2,7 @@
 
 [← Home](../README.md)
 
-74 tools. **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
+75 tools. **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
 
 | Alternative | Replaces | License | Platform | Description |
 | --- | --- | --- | --- | --- |
@@ -58,7 +58,8 @@
 | [OpenHands](https://github.com/OpenHands/OpenHands) | Devin | OSI<br><sub>MIT</sub> | Server, CLI | Autonomous software development agent. |
 | [OpenTofu](https://github.com/opentofu/opentofu) | Terraform | OSI<br><sub>MPL-2.0</sub> | CLI | The open fork of Terraform. |
 | [pgAdmin](https://github.com/pgadmin-org/pgadmin4) | DataGrip (PostgreSQL) | OSI<br><sub>PostgreSQL</sub> | Desktop, Web | PostgreSQL administration tool. |
-| [PocketBase](https://github.com/pocketbase/pocketbase) | Firebase | OSI<br><sub>MIT</sub> | Server | Backend in a single file (SQLite). |
+| [pi](https://github.com/earendil-works/pi) | Claude Code / Cursor | OSI · 🔥 Trending<br><sub>MIT</sub> | CLI | Minimal, extensible terminal coding agent and LLM toolkit. |
+| [PocketBase](https://ganigeorgiev.com/pocketbase/pocketbase) | Firebase | OSI<br><sub>MIT</sub> | Server | Backend in a single file (SQLite). |
 | [Podman Desktop](https://github.com/podman-desktop/podman-desktop) | Docker Desktop | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS | Same Podman base as Lerd. |
 | [Pulsar](https://github.com/pulsar-edit/pulsar) | Sublime Text | OSI<br><sub>MIT</sub> | Desktop | Community continuation of the Atom editor. |
 | [Rancher Desktop](https://github.com/rancher-sandbox/rancher-desktop) | Docker Desktop | OSI<br><sub>Apache-2.0</sub> | Desktop | Containers and local Kubernetes. |

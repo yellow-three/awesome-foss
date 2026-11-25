@@ -4,7 +4,7 @@
 
 > Open source alternatives to paid or closed source apps, organized by field, operating system and license.
 
-**642 tools · 17 categories · 595 OSI-licensed**
+**653 tools · 17 categories · 606 OSI-licensed**
 
 **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
 
@@ -23,18 +23,18 @@
 | --- | --- |
 | [Office and Productivity](categories/ofis-ve-uretkenlik.md) | 64 |
 | [Communication](categories/iletisim.md) | 28 |
-| [Security and Privacy](categories/guvenlik-ve-gizlilik.md) | 41 |
+| [Security and Privacy](categories/guvenlik-ve-gizlilik.md) | 42 |
 | [Storage and Backup](categories/depolama-ve-yedek.md) | 24 |
 | [Media Servers](categories/medya-sunucu.md) | 26 |
-| [Design and Graphics](categories/tasarim-ve-grafik.md) | 24 |
-| [Video, Audio and 3D](categories/video-ses-ve-3d.md) | 31 |
+| [Design and Graphics](categories/tasarim-ve-grafik.md) | 26 |
+| [Video, Audio and 3D](categories/video-ses-ve-3d.md) | 34 |
 | [Game Development](categories/oyun-gelistirme.md) | 19 |
-| [Developer Tools](categories/gelistirici-araclari.md) | 74 |
+| [Developer Tools](categories/gelistirici-araclari.md) | 75 |
 | [AI Agents: Skills, MCP and Plugins](categories/ai-ajan-araclari.md) | 71 |
-| [AI and Local Models](categories/ai-ve-yerel-modeller.md) | 25 |
+| [AI and Local Models](categories/ai-ve-yerel-modeller.md) | 30 |
 | [Self-hosted and Servers](categories/self-hosted-ve-sunucu.md) | 69 |
 | [Personal and Home](categories/kisisel-ve-ev.md) | 34 |
-| [Linux and Terminal](categories/linux-ve-terminal.md) | 40 |
+| [Linux and Terminal](categories/linux-ve-terminal.md) | 39 |
 | [Windows](categories/windows.md) | 30 |
 | [Android](categories/android.md) | 29 |
 | [macOS](categories/macos.md) | 13 |
@@ -43,21 +43,21 @@
 
 | Platform | Tools |
 | --- | --- |
-| [Linux](platforms/linux.md) | 198 |
-| [Windows](platforms/windows.md) | 215 |
-| [macOS](platforms/macos.md) | 191 |
+| [Linux](platforms/linux.md) | 206 |
+| [Windows](platforms/windows.md) | 222 |
+| [macOS](platforms/macos.md) | 198 |
 | [Android](platforms/android.md) | 82 |
 | [iOS](platforms/ios.md) | 44 |
-| [Web](platforms/web.md) | 76 |
-| [Self-hosted (server)](platforms/selfhosted.md) | 198 |
-| [Command line (CLI)](platforms/cli.md) | 73 |
+| [Web](platforms/web.md) | 78 |
+| [Self-hosted (server)](platforms/selfhosted.md) | 202 |
+| [Command line (CLI)](platforms/cli.md) | 77 |
 | [Extensions, packages and repos](platforms/extensions.md) | 61 |
 
 ## By license
 
 | License type | Tools | Description |
 | --- | --- | --- |
-| [OSI-approved open source](licenses/osi.md) | 595 | OSI-approved licenses such as MIT, GPL, AGPL, Apache, MPL and BSD. |
+| [OSI-approved open source](licenses/osi.md) | 606 | OSI-approved licenses such as MIT, GPL, AGPL, Apache, MPL and BSD. |
 | [Open-core](licenses/open-core.md) | 26 | Projects with an OSI-licensed core and some folders or files (enterprise/premium) under a commercial license. The self-hosted community edition is free to use. |
 | [Other open licenses](licenses/other.md) | 4 | Licenses that permit free use but are not on the OSI list (CC0, Creative Commons, TrueCrypt License, etc.). |
 | [Restricted license](licenses/restricted.md) | 17 | Source-available or fair-code (BSL, FSL, Sustainable Use, Elastic, etc.). You can read and self-host the code, but commercial use may be limited. |
@@ -65,7 +65,7 @@
 ## Special lists
 
 - [🟥 Apps built with Laravel](lists/laravel.md) (27)
-- [🔥 Trending and new projects](lists/trending.md) (71)
+- [🔥 Trending and new projects](lists/trending.md) (83)
 
 ## Similar lists
 

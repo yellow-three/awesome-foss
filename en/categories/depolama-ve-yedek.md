@@ -17,7 +17,7 @@
 | [Duplicati](https://github.com/duplicati/duplicati) | Acronis | OSI<br><sub>MIT</sub> | Linux, Windows, macOS | Backups with a web interface. |
 | [Garage](https://garagehq.deuxfleurs.fr) | AWS S3 | OSI<br><sub>AGPL-3.0</sub> | Server | Lightweight S3-compatible storage. The MinIO community edition was restricted. |
 | [Kopia](https://github.com/kopia/kopia) | Backblaze | OSI<br><sub>Apache-2.0</sub> | Linux, Windows, macOS | Similar to Restic but with a GUI. |
-| [LocalSend](https://github.com/localsend/localsend) | AirDrop | OSI<br><sub>MIT</sub> | All | Send files over the local network. |
+| [LocalSend](https://github.com/localsend/localsend) | AirDrop | OSI<br><sub>Apache-2.0</sub> | All | Send files over the local network. |
 | [Nextcloud](https://github.com/nextcloud/server) | Dropbox / Google Drive | OSI<br><sub>AGPL-3.0</sub> | Server + clients | Full cloud with files, calendar, contacts and an office suite. |
 | [OpenCloud](https://github.com/opencloud-eu/opencloud) | Dropbox | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | Server | Cloud written in Go that needs no database. |
 | [OpenList](https://github.com/OpenListTeam/OpenList) | Cloud drive aggregators | OSI · 🔥 Trending<br><sub>AGPL-3.0</sub> | Server | List different cloud storages in one interface. |

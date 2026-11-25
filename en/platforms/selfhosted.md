@@ -2,7 +2,7 @@
 
 [← Home](../README.md)
 
-198 tools. **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
+202 tools. **Labels:** OSI = OSI-approved open source · 🧩 Open-core = OSI core + commercially licensed parts · 📄 Other open = free license outside OSI · ⚠️ Restricted = source-available/fair-code · 🟥 Laravel = built with Laravel · 🔥 Trending = created 2025 or later, 5000+ stars
 
 | Alternative | Replaces | Category | License | Platform | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -42,6 +42,7 @@
 | [CryptPad](https://github.com/cryptpad/cryptpad) | Google Workspace | [Office and Productivity](../categories/ofis-ve-uretkenlik.md) | OSI<br><sub>AGPL-3.0</sub> | Server, Web | Encrypted office suite whose server cannot see your content. |
 | [Dashy](https://github.com/lissy93/dashy) | Start.me | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>MIT</sub> | Server | Personal dashboard with status checks. |
 | [Dawarich](https://github.com/Freika/dawarich) | Google Timeline | [Personal and Home](../categories/kisisel-ve-ev.md) | OSI<br><sub>AGPL-3.0</sub> | Server | Record your location history and show it on a map. |
+| [DeerFlow](https://github.com/bytedance/deer-flow) | ChatGPT Deep Research | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trending<br><sub>MIT</sub> | Server, Docker | Long-horizon agent harness for research, coding and content creation. |
 | [Dify](https://github.com/langgenius/dify) | Zapier AI / Voiceflow | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | ⚠️ Restricted<br><sub>Dify Open Source (Apache + extra terms)</sub> | Server | Visual AI agents and RAG pipelines. |
 | [Directus](https://github.com/directus/directus) | Contentful | [Developer Tools](../categories/gelistirici-araclari.md) | ⚠️ Restricted<br><sub>BSL-1.1</sub> | Server | Instant API and admin panel on top of an existing SQL database. |
 | [Discourse](https://github.com/discourse/discourse) | Forum software / Discord communities | [Communication](../categories/iletisim.md) | OSI<br><sub>GPL-2.0</sub> | Server | Modern discussion forum. |
@@ -129,6 +130,7 @@
 | [Node-RED](https://github.com/node-red/node-red) | IFTTT | [Personal and Home](../categories/kisisel-ve-ev.md) | OSI<br><sub>Apache-2.0</sub> | Server | Flow-based automation and IoT. |
 | [ntfy](https://github.com/binwiederhier/ntfy) | Pushover | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>Apache-2.0</sub> | Server | Send notifications to your phone over HTTP. |
 | [Odoo Community](https://github.com/odoo/odoo) | SAP / NetSuite | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>LGPL-3.0</sub> | Server | ERP: accounting, inventory and sales. |
+| [Odysseus](https://github.com/odysseus-dev/odysseus) | ChatGPT Team | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI · 🔥 Trending<br><sub>AGPL-3.0</sub> | Server, Docker | Self-hosted AI workspace for teams. |
 | [Open Notebook](https://github.com/lfnovo/open-notebook) | NotebookLM | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>MIT</sub> | Server | Chat with your sources and generate podcasts. |
 | [OpenBao](https://github.com/openbao/openbao) | HashiCorp Vault | [Security and Privacy](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>MPL-2.0</sub> | Server | Open source fork of Vault for secret management. |
 | [OpenCloud](https://github.com/opencloud-eu/opencloud) | Dropbox | [Storage and Backup](../categories/depolama-ve-yedek.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | Server | Cloud written in Go that needs no database. |
@@ -149,7 +151,7 @@
 | [Pinchflat](https://github.com/kieraneglin/pinchflat) | YouTube Premium (downloads) | [Media Servers](../categories/medya-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Server | Automatically download channels into your media server. |
 | [Plausible CE](https://github.com/plausible/analytics) | Google Analytics | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Server | Lightweight analytics. |
 | [Pocket ID](https://github.com/pocket-id/pocket-id) | Auth0 (simple) | [Security and Privacy](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>BSD-2</sub> | Server | Simple OIDC provider with passkey login. |
-| [PocketBase](https://github.com/pocketbase/pocketbase) | Firebase | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Server | Backend in a single file (SQLite). |
+| [PocketBase](https://ganigeorgiev.com/pocketbase/pocketbase) | Firebase | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>MIT</sub> | Server | Backend in a single file (SQLite). |
 | [Portainer CE](https://github.com/portainer/portainer) | Docker Desktop (server) | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>zlib</sub> | Server | Web interface for managing containers. |
 | [Postal](https://github.com/postalserver/postal) | SendGrid / Mailgun | [Communication](../categories/iletisim.md) | OSI<br><sub>MIT</sub> | Server | Bulk and transactional email delivery server. |
 | [PostHog](https://github.com/PostHog/posthog) | Mixpanel / Hotjar | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | 🧩 Open-core<br><sub>MIT</sub> | Server | Product analytics, session recording and A/B testing. |
@@ -172,6 +174,7 @@
 | [Speedtest Tracker](https://github.com/alexjustesen/speedtest-tracker) | Speedtest.net history | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>MIT</sub> | Docker | Measures and records your internet speed regularly. |
 | [Stalwart](https://github.com/stalwartlabs/stalwart) | Google Workspace Mail | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | OSI<br><sub>AGPL-3.0</sub> | Server | All-in-one mail server written in Rust. |
 | [Strapi](https://github.com/strapi/strapi) | Contentful | [Developer Tools](../categories/gelistirici-araclari.md) | 🧩 Open-core<br><sub>MIT</sub> | Server | Headless CMS. |
+| [Strix](https://github.com/usestrix/strix) | Commercial pentest services | [Security and Privacy](../categories/guvenlik-ve-gizlilik.md) | OSI · 🔥 Trending<br><sub>Apache-2.0</sub> | CLI, Docker | AI penetration testing tool that finds and validates vulnerabilities in your app. |
 | [Supabase](https://github.com/supabase/supabase) | Firebase | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Server | Postgres + auth + storage + realtime. |
 | [Synapse](https://github.com/element-hq/synapse) | Discord / WhatsApp | [Communication](../categories/iletisim.md) | OSI<br><sub>AGPL-3.0</sub> | Server | Reference server for running your own Matrix homeserver. |
 | [Tabby (TabbyML)](https://github.com/TabbyML/tabby) | GitHub Copilot (server) | [Developer Tools](../categories/gelistirici-araclari.md) | OSI<br><sub>Apache-2.0</sub> | Server | Self-hosted code completion. |
@@ -191,6 +194,7 @@
 | [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Bitwarden server | [Security and Privacy](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>AGPL-3.0</sub> | Server | Lightweight Bitwarden-compatible server. |
 | [Vito](https://github.com/vitodeploy/vito) | Laravel Forge / Ploi | [Self-hosted and Servers](../categories/self-hosted-ve-sunucu.md) | OSI · 🟥 Laravel<br><sub>AGPL-3.0</sub> | Server | Provision PHP servers and deploy sites. |
 | [vLLM](https://github.com/vllm-project/vllm) | Hosted LLM APIs | [AI and Local Models](../categories/ai-ve-yerel-modeller.md) | OSI<br><sub>Apache-2.0</sub> | Server | High-throughput LLM serving engine. |
+| [VoiceStudio](https://github.com/debpalash/VoiceStudio) | ElevenLabs | [Video, Audio and 3D](../categories/video-ses-ve-3d.md) | OSI · 🔥 Trending<br><sub>AGPL-3.0</sub> | Linux, Windows, macOS, Docker | Local voice cloning and TTS studio; the default model weights are non-commercial (CC-BY-NC). |
 | [wallabag](https://github.com/wallabag/wallabag) | Pocket / Instapaper | [Personal and Home](../categories/kisisel-ve-ev.md) | OSI<br><sub>MIT</sub> | Server | Save articles to read later. |
 | [Wallos](https://github.com/ellite/Wallos) | Bobby / Rocket Money | [Personal and Home](../categories/kisisel-ve-ev.md) | OSI<br><sub>GPL-3.0</sub> | Server | Subscription and recurring payment tracking. |
 | [Wazuh](https://github.com/wazuh/wazuh) | Splunk / CrowdStrike | [Security and Privacy](../categories/guvenlik-ve-gizlilik.md) | OSI<br><sub>GPL-2.0 / AGPL-3.0</sub> | Server | SIEM and endpoint security monitoring. |
